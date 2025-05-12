@@ -1,8 +1,8 @@
 # Bricks QuickNav – for Bricks Builder
 
-![Bricks QuickNav plugin in action](https://raw.githubusercontent.com/deckerweb/bricks-quicknav/master/assets-github/bricks-quicknav-screenshot.png)
+![Bricks QuickNav plugin banner](https://repository-images.githubusercontent.com/981974040/34ef63be-6f83-4a99-9004-1e5b11e16b9b)
 
-The **Bricks QuickNav** plugin adds a quick-access navigator to the WordPress Admin Bar (Toolbar). It allows easy access to Bricks Builder Templates, Headers, Footers, and (regular WordPress) Pages edited with Bricks, along with lots of other essential settings and stuff.
+The **Bricks QuickNav** plugin adds a quick-access navigator to the WordPress Admin Bar (Toolbar). It allows easy access to Bricks Builder Templates, Headers, Footers, and (regular WordPress) Pages edited with Bricks, along with lots of other essential settings and stuff like plugin integrations and so on.
 
 * Contributors: [David Decker](https://github.com/deckerweb), [contributors](https://github.com/deckerweb/bricks-quicknav/graphs/contributors)
 * Tags: bricks, bricks builder, quicknav, admin bar, toolbar, site builder, administrators
