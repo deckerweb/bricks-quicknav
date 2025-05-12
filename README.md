@@ -49,7 +49,7 @@ Enjoying the plugin? Feel free to treat me to a cup of coffee ☕🙂 through th
 ➔ just use their elegant script import features 
 ➔ in _Scripts Organizer_ use the "Code Snippets Import" 
 
-For all other snippet manager plugins just use our plugin's main .php file [`bricks-quicknav.php`](https://github.com/deckerweb/bricks-quicknav/blob/master/bricks-quicknav.php) and use its content as snippet (bevor saving your snippet: please check for your plugin if the opening php tag needs to be removed or not!).
+For all other snippet manager plugins just use our plugin's main .php file [`bricks-quicknav.php`](https://github.com/deckerweb/bricks-quicknav/blob/master/bricks-quicknav.php) and use its content as snippet (bevor saving your snippet: please check for your plugin if the opening `<?php` tag needs to be removed or not!).
 
 ➔ Please decide for one of both alternatives!
 
