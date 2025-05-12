@@ -1747,6 +1747,24 @@ class DDW_Bricks_QuickNav {
 			] );
 		}  // end if
 		
+		/** Plugin: Flex Addons (free??) - currently only free alpha/dev version supported */
+		if ( function_exists( 'bfa_add_menu_pages' ) ) {
+			$wp_admin_bar->add_node( [
+				'id'     => 'bxqn-flexaddons',
+				'title'  => $this->get_icon( 'plugin' ) . 'Flex Addons',
+				'href'   => esc_url( admin_url( 'admin.php?page=flex-addons' ) ),
+				'parent' => 'bxqn-group-plugins',
+				'meta'   => [ 'class' => 'has-icon' ],
+			] );
+			
+			$wp_admin_bar->add_node( [
+				'id'     => 'bxqn-flexaddons-settings',
+				'title'  => esc_html__( 'Settings', 'bricks-quicknav' ),
+				'href'   => esc_url( admin_url( 'admin.php?page=flex-addons-settings' ) ),
+				'parent' => 'bxqn-group-plugins',
+			] );
+		}  // end if
+		
 		/** Plugin: Bricks Element Manager (free) */
 		if ( defined( 'BELM_VERSION' ) ) {
 			$wp_admin_bar->add_node( [
