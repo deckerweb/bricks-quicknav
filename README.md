@@ -96,6 +96,47 @@ Just manually: Download the latest Snippet version (see above) and import it in 
 8. Optionally show **Admin Bar** also **within Bricks Builder** itself (Builder context)
 9. Show **Admin Bar** also **in Block Editor** full screen mode. (Not there in WP default but this plugin here changes that!)
 
+
+### List of Integrations 
+* Child Themes:
+	- Bricks Child Themes in general
+	- [SNN BRX Child Theme (by Sinan Isler)](https://github.com/sinanisler/snn-brx-child-theme) (free)
+
+* Plugins:
+	- Bricksforge (Premium)
+	- BricksExtras (Premium)
+	- BricksUltimate (Premium)
+	- Bricksable (free)
+	- EasyDash (free)
+	- Bricks Admin Dashboard (Premium)
+	- Swiss Knife Bricks (Premium)
+	- Bricks Element Manager (free)
+	- Yabe Webfonts (free + Premium)
+	- [Builder List Pages](https://github.com/deckerweb/builder-list-pages) (free)
+	- Max Addons (free Version only, currently)
+
+* Code Snippets:
+	- [MA Custom Fonts](https://www.altmann.de/en/blog-en/code-snippet-custom-fonts/) (free)
+
+* Frameworks:
+	- Automatic.CSS (Premium)
+	- Add-On: Frames (Premium)
+	- Add-On: ACSS Purger (free Plugin)
+	- Core Framework (free & Premium)
+	- Add-On: Brixies.co (Premium library)
+	- WindPress (free & Premium)
+
+* Other Plugins:
+	- System Dashboard (free)
+
+* Snippets Manager Plugins:
+	- Code Snippets (free & Premium)
+	- Advanced Scripts (Premium)
+	- Scripts Organizer (Premium)
+	- WPCodeBox (Premium)
+	- FluentSnippets (free)
+	- WPCode Lite (free)
+
 ---
 
 ## Frequently Asked Questions 
@@ -211,6 +252,8 @@ define( 'BXQN_ADMINBAR_IN_BUILDER', 'yes' );
 * Includes support for 11 Bricks specific plugins/ Add-Ons, plus 1 general plugin, plus 1 "plugin-like" Code Snippet
 * Includes support for 3 Frameworks, plus 3 "Add-Ons" (Libraries)
 * Includes support for Bricks Child Themes; specifically also for "SNN BRX Bricks Child Theme" (third-party)
+* Installable and updateable via [Git Updater plugin](https://git-updater.com/)
+* Includes `.pot` file, plus packaged German translations, including new `l10n.php` files!
 
 
 ---
