@@ -482,6 +482,7 @@ class DDW_Bricks_QuickNav {
 
 		/** Add submenus (all group nodes!) */
 		$this->add_templates_group( $wp_admin_bar );
+		$this->add_tfqn_hookplace_group( $wp_admin_bar );
 		$this->add_customcode_group( $wp_admin_bar );
 		$this->add_framework_group( $wp_admin_bar );
 		$this->add_settings_group( $wp_admin_bar );
@@ -718,6 +719,18 @@ class DDW_Bricks_QuickNav {
 		}  // end if
 	}
 
+	/**
+	 * Add group node as a 'hook place' for "Types & Fields QuickNav" plugin.
+	 *
+	 * @since 1.0.0
+	 */
+	private function add_tfqn_hookplace_group( $wp_admin_bar ) {
+		$wp_admin_bar->add_group( [
+			'id'     => 'tfqn-group-hookplace',
+			'parent' => 'ddw-bricks-quicknav',
+		] );
+	}
+	
 	/**
 	 * Filterable array of supported code snippets manager plugins.
 	 *
@@ -1543,19 +1556,22 @@ class DDW_Bricks_QuickNav {
 			] );
 			
 			$gutenbricks_tabs = [
-				'bundles'            => __( 'Blocks', 'bricks-quicknav' ),
-				'gutenberg-settings' => __( 'Gutenberg Settings', 'bricks-quicknav' ),
-				'client-experience'  => __( 'Client Experience', 'bricks-quicknav' ),
-				'integration'        => __( 'Integrations', 'bricks-quicknav' ),
-				'license'            => __( 'License', 'bricks-quicknav' ),
+				'bundles'            => [ 'title' => __( 'Blocks', 'bricks-quicknav' ), 'url' => esc_url( admin_url( 'admin.php?page=gutenbricks&tab=bundles' ) ) ],
+				'gutenberg-settings' => [ 'title' => __( 'Gutenberg Settings', 'bricks-quicknav' ), 'url' => esc_url( admin_url( 'admin.php?page=gutenbricks&tab=gutenberg-settings' ) ) ],
+				'client-experience'  => [ 'title' => __( 'Client Experience', 'bricks-quicknav' ), 'url' => esc_url( admin_url( 'admin.php?page=gutenbricks&tab=client-experience' ) ) ],
+				'integration'        => [ 'title' => __( 'Integrations', 'bricks-quicknav' ), 'url' => esc_url( admin_url( 'admin.php?page=gutenbricks&tab=integration' ) ) ],
+				'license'            => [ 'title' => __( 'License', 'bricks-quicknav' ), 'url' => esc_url( admin_url( 'admin.php?page=gutenbricks&tab=license' ) ) ],
+				'docs'               => [ 'title' => __( 'Documentation', 'bricks-quicknav' ), 'url' => 'https://docs.gutenbricks.com/' ],
+				'fbgroup'            => [ 'title' => __( 'Facebook Group', 'bricks-quicknav' ), 'url' => 'https://www.facebook.com/groups/wiredwp' ],
 			];
 			
-			foreach ( $gutenbricks_tabs as $gb_tab => $gb_tab_label ) {
+			foreach ( $gutenbricks_tabs as $gb_id => $gb_info ) {
 				$wp_admin_bar->add_node( [
-					'id'     => 'bxqn-gutenbricks-' . $gb_tab,
-					'title'  => esc_html( $gb_tab_label ),
-					'href'   => esc_url( admin_url( 'admin.php?page=gutenbricks&tab=' . $gb_tab ) ),
+					'id'     => 'bxqn-gutenbricks-' . $gb_id,
+					'title'  => $this->get_node_data( $gb_info[ 'url' ], $gb_info[ 'title' ] )[ 'title' ],
+					'href'   => $gb_info[ 'url' ],
 					'parent' => 'bxqn-gutenbricks',
+					'meta'   => $this->get_node_data( $gb_info[ 'url' ] )[ 'meta' ],
 				] );
 			}  // end foreach
 		}  // end if
@@ -1598,6 +1614,7 @@ class DDW_Bricks_QuickNav {
 			if ( $brf_features ) {
 				if ( in_array( 4, $brf_features ) ) $bricksforge_features[ 'maintenance' ] = __( 'Maintenance', 'bricks-quicknav' );
 				if ( in_array( 9, $brf_features ) ) $bricksforge_features[ 'backendDesigner' ] = __( 'Backend Designer', 'bricks-quicknav' );
+				if ( in_array( 11, $brf_features ) ) $bricksforge_features[ 'formSubmissions' ] = __( 'Form Submissions', 'bricks-quicknav' );
 				if ( in_array( 13, $brf_features ) ) $bricksforge_features[ 'emailDesigner' ] = __( 'Email Designer', 'bricks-quicknav' );
 				if ( in_array( 18, $brf_features ) ) $bricksforge_features[ 'apiQueryBuilder' ] = __( 'API Query Builder', 'bricks-quicknav' );
 				if ( in_array( 16, $brf_features ) ) $bricksforge_features[ 'pageTransitions' ] = __( 'Page Transitions', 'bricks-quicknav' );
@@ -1605,10 +1622,12 @@ class DDW_Bricks_QuickNav {
 			}  // end if
 			
 			foreach ( $bricksforge_features as $brfeat_tab => $brfeat_tab_label ) {
+				$brfeat_url = ( 'formSubmissions' === $brfeat_tab ) ? esc_url( admin_url( 'admin.php?page=brf-form-submissions#/' ) ) : esc_url( admin_url( 'admin.php?page=bricksforge#' . $brfeat_tab ) );
+				
 				$wp_admin_bar->add_node( [
 					'id'     => 'bxqn-bricksforge-extensions-' . $brfeat_tab,
 					'title'  => esc_html( $brfeat_tab_label ),
-					'href'   => esc_url( admin_url( 'admin.php?page=bricksforge#' . $brfeat_tab ) ),
+					'href'   => $brfeat_url,	// esc_url( admin_url( 'admin.php?page=bricksforge#' . $brfeat_tab ) ),
 					'parent' => 'bxqn-bricksforge-extensions',
 				] );
 			}  // end foreach
