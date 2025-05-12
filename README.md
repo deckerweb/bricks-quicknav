@@ -251,7 +251,7 @@ define( 'BXQN_ADMINBAR_IN_BUILDER', 'yes' );
 ### 🎉 v1.0.0 – 2025-05-12
 * Initial release
 * Includes support for Bricks Builder 1.12.x as well as Bricks 2.0-alpha
-* Includes support for 12 Bricks specific plugins/ Add-Ons, plus 1 general plugin, plus 1 "plugin-like" Code Snippet
+* Includes support for 13 Bricks specific plugins/ Add-Ons, plus 1 general plugin, plus 1 "plugin-like" Code Snippet
 * Includes support for 3 Frameworks, plus 3 "Add-Ons" (Libraries)
 * Includes support for Bricks Child Themes; specifically also for "SNN BRX Bricks Child Theme" (third-party)
 * Installable and updateable via [Git Updater plugin](https://git-updater.com/)
