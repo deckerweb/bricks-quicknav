@@ -1761,7 +1761,7 @@ class DDW_Bricks_QuickNav {
 				'id'     => 'bxqn-flexaddons-settings',
 				'title'  => esc_html__( 'Settings', 'bricks-quicknav' ),
 				'href'   => esc_url( admin_url( 'admin.php?page=flex-addons-settings' ) ),
-				'parent' => 'bxqn-group-plugins',
+				'parent' => 'bxqn-flexaddons',
 			] );
 		}  // end if
 		
