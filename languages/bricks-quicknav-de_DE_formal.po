@@ -1,0 +1,788 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bricks QuickNav\n"
+"POT-Creation-Date: 2025-05-10 16:37+0200\n"
+"PO-Revision-Date: 2025-05-10 16:39+0200\n"
+"Last-Translator: David Decker DECKERWEB.de <David Decker DECKERWEB.de>\n"
+"Language-Team: David Decker DECKERWEB.de <David Decker DECKERWEB.de>\n"
+"Language: de_DE@formal\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: bricks-quicknav.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: bricks-quicknav.php:471
+msgid "Bricks"
+msgstr "Bricks"
+
+#: bricks-quicknav.php:512 bricks-quicknav.php:1486
+msgid "Add New"
+msgstr "Neu hinzufügen"
+
+#: bricks-quicknav.php:544
+msgid "Pages (Bricks)"
+msgstr "Seiten (Bricks)"
+
+#: bricks-quicknav.php:572
+msgid "Filter Bricks Pages"
+msgstr "Bricks-Seiten filtern"
+
+#: bricks-quicknav.php:588 bricks-quicknav.php:1324
+msgid "Templates"
+msgstr "Templates"
+
+#: bricks-quicknav.php:613
+msgid "Template (Bricks)"
+msgstr "Template (Bricks)"
+
+#: bricks-quicknav.php:627
+msgid "All Template Types"
+msgstr "Alle Template-Arten"
+
+#: bricks-quicknav.php:679
+msgid "Template Bundles"
+msgstr "Template-Pakete"
+
+#: bricks-quicknav.php:701
+msgid "Template Tags"
+msgstr "Template-Tags"
+
+#: bricks-quicknav.php:860
+msgid "Edit Child Theme"
+msgstr "Child Theme bearbeiten"
+
+#: bricks-quicknav.php:868
+msgid "functions.php Code"
+msgstr "functions.php Code"
+
+#: bricks-quicknav.php:891
+msgid "All Snippets"
+msgstr "Alle Snippets"
+
+#: bricks-quicknav.php:899
+msgid "New Snippet"
+msgstr "Neues Snippet"
+
+#: bricks-quicknav.php:917
+msgid "Bricks: Custom Code"
+msgstr "Bricks: Eigener Code"
+
+#: bricks-quicknav.php:924
+msgid "Code Review"
+msgstr "Code-Überprüfung"
+
+#: bricks-quicknav.php:931
+msgid "Code Signatures"
+msgstr "Code-Signaturen"
+
+#: bricks-quicknav.php:964 bricks-quicknav.php:1935
+msgid "Core Framework"
+msgstr "Core Framework"
+
+#: bricks-quicknav.php:972 bricks-quicknav.php:1306 bricks-quicknav.php:1488
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: bricks-quicknav.php:979
+msgid "Web App"
+msgstr "Web-App"
+
+#: bricks-quicknav.php:987 bricks-quicknav.php:1013 bricks-quicknav.php:1042
+#: bricks-quicknav.php:1074 bricks-quicknav.php:1441 bricks-quicknav.php:1490
+#: bricks-quicknav.php:1548 bricks-quicknav.php:1603 bricks-quicknav.php:1639
+#: bricks-quicknav.php:1669 bricks-quicknav.php:1871
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: bricks-quicknav.php:1005 bricks-quicknav.php:1038
+msgid "Getting Started"
+msgstr "Erste Schritte"
+
+#: bricks-quicknav.php:1006 bricks-quicknav.php:1633
+msgid "Import/ Export"
+msgstr "Import/ Export"
+
+#: bricks-quicknav.php:1007 bricks-quicknav.php:1039 bricks-quicknav.php:1347
+#: bricks-quicknav.php:1520 bricks-quicknav.php:1547 bricks-quicknav.php:1602
+#: bricks-quicknav.php:1634 bricks-quicknav.php:1697
+msgid "License"
+msgstr "Lizenz"
+
+#: bricks-quicknav.php:1010
+msgid "ACSS Purger"
+msgstr "ACSS Purger"
+
+#: bricks-quicknav.php:1012
+msgid "Cheat Sheet"
+msgstr "Spickzettel"
+
+#: bricks-quicknav.php:1014 bricks-quicknav.php:1043 bricks-quicknav.php:1873
+msgid "Circle Community"
+msgstr "Circle Gemeinschaft"
+
+#: bricks-quicknav.php:1040
+msgid "Layouts"
+msgstr "Layouts"
+
+#: bricks-quicknav.php:1041
+msgid "Components"
+msgstr "Komponenten"
+
+#: bricks-quicknav.php:1068
+msgid "Files"
+msgstr "Dateien"
+
+#: bricks-quicknav.php:1069
+msgid "Logs"
+msgstr "Protokolle"
+
+#: bricks-quicknav.php:1070 bricks-quicknav.php:1322 bricks-quicknav.php:1664
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: bricks-quicknav.php:1071 bricks-quicknav.php:1326
+msgid "Performance"
+msgstr "Leistung"
+
+#: bricks-quicknav.php:1072 bricks-quicknav.php:1519
+msgid "Integrations"
+msgstr "Integrationen"
+
+#: bricks-quicknav.php:1075 bricks-quicknav.php:1442 bricks-quicknav.php:1874
+msgid "GitHub Discussions"
+msgstr "GitHub-Diskussionen"
+
+#: bricks-quicknav.php:1104
+msgid "Get Layouts"
+msgstr "Layouts finden"
+
+#: bricks-quicknav.php:1105
+msgid "Get Components"
+msgstr "Komponenten finden"
+
+#: bricks-quicknav.php:1106
+msgid "Resources"
+msgstr "Ressourcen"
+
+#: bricks-quicknav.php:1107 bricks-quicknav.php:1601 bricks-quicknav.php:1820
+msgid "Changelog"
+msgstr "Änderungsprotokoll"
+
+#: bricks-quicknav.php:1108 bricks-quicknav.php:1491 bricks-quicknav.php:1550
+#: bricks-quicknav.php:1604 bricks-quicknav.php:1640 bricks-quicknav.php:1670
+#: bricks-quicknav.php:1872
+msgid "Facebook Group"
+msgstr "Facebook Gruppe"
+
+#: bricks-quicknav.php:1150
+msgid "Coming Soon Mode"
+msgstr "Erscheint-in-Kürze-Modus"
+
+#: bricks-quicknav.php:1150
+msgid "Maintenance Mode"
+msgstr "Wartungsmodus"
+
+#: bricks-quicknav.php:1168
+msgid "Tweak Mode"
+msgstr "Modus-Tweaks"
+
+#: bricks-quicknav.php:1175
+msgid "Edit Template"
+msgstr "Template bearbeiten"
+
+#: bricks-quicknav.php:1187
+msgid "Form Submissions"
+msgstr "Formulareinträge"
+
+#: bricks-quicknav.php:1199
+msgid "Custom Fonts"
+msgstr "Eigene Schriftart"
+
+#: bricks-quicknav.php:1207 bricks-quicknav.php:1485
+msgid "All Fonts"
+msgstr "Alle Schriftarten"
+
+#: bricks-quicknav.php:1214
+msgid "New Font"
+msgstr "Neue Schriftart"
+
+#: bricks-quicknav.php:1223
+msgid "Custom Font (Bricks)"
+msgstr "Eigene Schriftart (Bricks)"
+
+#: bricks-quicknav.php:1252
+msgid "MA Custom Fonts"
+msgstr "MA Eigene Schriftarten"
+
+#: bricks-quicknav.php:1260
+msgid "Fonts Preview"
+msgstr "Schriften-Vorschau"
+
+#: bricks-quicknav.php:1269
+msgid "Snippet Documentation"
+msgstr "Snippet-Dokumentation"
+
+#: bricks-quicknav.php:1279
+msgid "Web Font Loader"
+msgstr "Web-Fonts laden"
+
+#: bricks-quicknav.php:1289
+msgid "Sidebars"
+msgstr "Seitenleisten"
+
+#: bricks-quicknav.php:1315
+msgid "Elements Manager"
+msgstr "Elemente verwalten"
+
+#: bricks-quicknav.php:1323
+msgid "Builder Access"
+msgstr "Builder-Zugriff"
+
+#: bricks-quicknav.php:1325
+msgid "Builder"
+msgstr "Builder"
+
+#: bricks-quicknav.php:1327 bricks-quicknav.php:1569
+msgid "Maintenance"
+msgstr "Wartung"
+
+#: bricks-quicknav.php:1328
+msgid "API Keys"
+msgstr "API-Schlüssel"
+
+#: bricks-quicknav.php:1329
+msgid "Custom Code"
+msgstr "Eigener Code"
+
+#: bricks-quicknav.php:1357
+msgid "System Information"
+msgstr "Systeminformationen"
+
+#: bricks-quicknav.php:1365
+msgid "by Bricks"
+msgstr "via Bricks"
+
+#: bricks-quicknav.php:1372
+msgid "by Site Health"
+msgstr "via Website-Zustand"
+
+#: bricks-quicknav.php:1380
+msgid "by System Dashboard"
+msgstr "via System-Dashboard"
+
+#: bricks-quicknav.php:1422
+msgid "Other Settings"
+msgstr "Sonstige Einstellungen"
+
+#: bricks-quicknav.php:1423
+msgid "Editor Settings"
+msgstr "Editor-Einstellungen"
+
+#: bricks-quicknav.php:1424
+msgid "Security Settings"
+msgstr "Sicherheitseinstellungen"
+
+#: bricks-quicknav.php:1425
+msgid "Post Types"
+msgstr "Beitragstypen"
+
+#: bricks-quicknav.php:1426
+msgid "Custom Fields"
+msgstr "Individuelle Felder"
+
+#: bricks-quicknav.php:1427
+msgid "Taxonomies"
+msgstr "Taxonomien"
+
+#: bricks-quicknav.php:1428
+msgid "Login Settings"
+msgstr "Login-Einstellungen"
+
+#: bricks-quicknav.php:1429
+msgid "404 Logs"
+msgstr "404-Protokolle"
+
+#: bricks-quicknav.php:1430
+msgid "Search Logs"
+msgstr "Such-Protokolle"
+
+#: bricks-quicknav.php:1431
+msgid "301 Redirects"
+msgstr "301-Weiterleitungen"
+
+#: bricks-quicknav.php:1432
+msgid "Mail SMTP Settings"
+msgstr "E-Mail-SMTP-Einstellungen"
+
+#: bricks-quicknav.php:1433
+msgid "Mail Logs"
+msgstr "E-Mail-Protokolle"
+
+#: bricks-quicknav.php:1434
+msgid "Media Settings"
+msgstr "Medieneinstellungen"
+
+#: bricks-quicknav.php:1435
+msgid "Cookie Settings"
+msgstr "Cookie-Einstellungen"
+
+#: bricks-quicknav.php:1436
+msgid "Role Management"
+msgstr "Rollenverwaltung"
+
+#: bricks-quicknav.php:1437
+msgid "AI Settings"
+msgstr "AI-Einstellungen"
+
+#: bricks-quicknav.php:1438
+msgid "Accessibility Settings"
+msgstr "Barrierefreiheit-Einstellungen"
+
+#: bricks-quicknav.php:1439
+msgid "Code Snippets"
+msgstr "Code-Snippets"
+
+#: bricks-quicknav.php:1440
+msgid "Block Editor Settings"
+msgstr "Block-Editor-Einstellungen"
+
+#: bricks-quicknav.php:1456
+msgid "Frontend Head PHP/HTML"
+msgstr "Frontend Head PHP/HTML"
+
+#: bricks-quicknav.php:1457
+msgid "Frontend Footer PHP/HTML"
+msgstr "Frontend Footer PHP/HTML"
+
+#: bricks-quicknav.php:1458
+msgid "Admin Head PHP/HTML"
+msgstr "Admin Head PHP/HTML"
+
+#: bricks-quicknav.php:1459
+msgid "Direct PHP (functions.php style)"
+msgstr "Direktes PHP (wie functions.php)"
+
+#: bricks-quicknav.php:1460
+msgid "Error Logs"
+msgstr "Fehlerprotokolle"
+
+#: bricks-quicknav.php:1478
+msgid "Yabe Webfont"
+msgstr "Yabe Webfont"
+
+#: bricks-quicknav.php:1487
+msgid "Import Google Fonts"
+msgstr "Google-Schriftarten importieren"
+
+#: bricks-quicknav.php:1489
+msgid "Migrations"
+msgstr "Migration"
+
+#: bricks-quicknav.php:1516
+msgid "Blocks"
+msgstr "Blöcke"
+
+#: bricks-quicknav.php:1517
+msgid "Gutenberg Settings"
+msgstr "Gutenberg-Einstellungen"
+
+#: bricks-quicknav.php:1518
+msgid "Client Experience"
+msgstr "Kundenerfahrung"
+
+#: bricks-quicknav.php:1544
+msgid "General"
+msgstr "Allgemein"
+
+#: bricks-quicknav.php:1545
+msgid "Elements"
+msgstr "Elemente"
+
+#: bricks-quicknav.php:1546
+msgid "Extensions"
+msgstr "Erweiterungen"
+
+#: bricks-quicknav.php:1549
+msgid "Forum"
+msgstr "Forum"
+
+#: bricks-quicknav.php:1563 bricks-quicknav.php:1637
+msgid "White Label"
+msgstr "White-Label"
+
+#: bricks-quicknav.php:1564
+msgid "Builder Customizer"
+msgstr "Builder anpassen"
+
+#: bricks-quicknav.php:1565
+msgid "Global Classes"
+msgstr "Globale Klassen"
+
+#: bricks-quicknav.php:1570
+msgid "Backend Designer"
+msgstr "WP-Admin-Designer"
+
+#: bricks-quicknav.php:1571
+msgid "Email Designer"
+msgstr "E-Mail-Designer"
+
+#: bricks-quicknav.php:1572
+msgid "API Query Builder"
+msgstr "API-Abfragen erstellen"
+
+#: bricks-quicknav.php:1573
+msgid "Page Transitions"
+msgstr "Seitenübergänge"
+
+#: bricks-quicknav.php:1574
+msgid "Admin Pages"
+msgstr "Admin-Seiten"
+
+#: bricks-quicknav.php:1598
+msgid "Elements & Features"
+msgstr "Elemente & Features"
+
+#: bricks-quicknav.php:1599
+msgid "Conditions"
+msgstr "Bedingungen"
+
+#: bricks-quicknav.php:1600
+msgid "Misc"
+msgstr "Sonstiges"
+
+#: bricks-quicknav.php:1631
+msgid "General Elements"
+msgstr "Allgemeine Elemente"
+
+#: bricks-quicknav.php:1632 bricks-quicknav.php:1668
+msgid "Misc Settings"
+msgstr "Sonstige Einstellungen"
+
+#: bricks-quicknav.php:1665
+msgid "Bricksable Elements"
+msgstr "Bricksable Elemente"
+
+#: bricks-quicknav.php:1666
+msgid "Bricks Builder Elements"
+msgstr "Bricks Builder Elemente"
+
+#: bricks-quicknav.php:1667
+msgid "Save Messages"
+msgstr "Speichern-Nachrichten"
+
+#: bricks-quicknav.php:1688
+msgid "Swiss Knife Bricks"
+msgstr "Swiss Knife Bricks"
+
+#: bricks-quicknav.php:1694
+msgid "Scripts Manager"
+msgstr "Skript-Manager"
+
+#: bricks-quicknav.php:1695
+msgid "Features"
+msgstr "Features"
+
+#: bricks-quicknav.php:1696
+msgid "Manage Settings"
+msgstr "Einstellungen verwalten"
+
+#: bricks-quicknav.php:1724
+msgid "Element Manager"
+msgstr "Elemente verwalten"
+
+#: bricks-quicknav.php:1746
+msgid "Bricks Admin Dashboard"
+msgstr "Bricks Admin Dashboard"
+
+#: bricks-quicknav.php:1783
+msgid "Links"
+msgstr "Links"
+
+#: bricks-quicknav.php:1791
+msgid "Bricks HQ"
+msgstr "Bricks Zentrale"
+
+#: bricks-quicknav.php:1795
+msgid "Bricks Product Resources"
+msgstr "Bricks Produkt-Ressourcen"
+
+#: bricks-quicknav.php:1799
+msgid "Bricks Academy (Docs)"
+msgstr "Bricks-Akademie (Doku)"
+
+#: bricks-quicknav.php:1803
+msgid "Bricks YouTube Channel"
+msgstr "Bricks YouTube Kanal"
+
+#: bricks-quicknav.php:1807
+msgid "Bricks Forum"
+msgstr "Bricks Forum"
+
+#: bricks-quicknav.php:1811
+msgid "Bricks FB Group"
+msgstr "Bricks FB Gruppe"
+
+#: bricks-quicknav.php:1824
+msgid "Roadmap"
+msgstr "Straßenkarte"
+
+#: bricks-quicknav.php:1828
+msgid "Idea Board"
+msgstr "Ideenbrett"
+
+#: bricks-quicknav.php:1832
+msgid "Experts"
+msgstr "Experten"
+
+#: bricks-quicknav.php:1836
+msgid "Showcase"
+msgstr "Showcase"
+
+#: bricks-quicknav.php:1875
+msgid "YouTube Tutorials"
+msgstr "YouTube-Tutorials"
+
+#: bricks-quicknav.php:1879
+msgid "Community"
+msgstr "Community"
+
+#: bricks-quicknav.php:1888
+msgctxt "Section label for Bricks community links collection"
+msgid "Add-On Plugins"
+msgstr "Addon-Plugins"
+
+#: bricks-quicknav.php:1925
+msgctxt "Section label for Bricks community links collection"
+msgid "Frameworks"
+msgstr "Frameworks"
+
+#: bricks-quicknav.php:1941
+msgid "Fancy Framework"
+msgstr "Fancy Framework"
+
+#: bricks-quicknav.php:1950
+msgctxt "Section label for Bricks community links collection"
+msgid "Layouts, Sections etc."
+msgstr "Layouts, Sections etc."
+
+#: bricks-quicknav.php:1954
+msgid "Brixies Library"
+msgstr "Brixies Bibliothek"
+
+#: bricks-quicknav.php:1964
+msgid "Frames Layouts & Components"
+msgstr "Frames Layouts & Komponenten"
+
+#: bricks-quicknav.php:1970
+msgid "Bricks Sections"
+msgstr "Bricks Sections"
+
+#: bricks-quicknav.php:1978
+msgctxt "Section label for Bricks community links collection"
+msgid "Tutorials"
+msgstr "Tutorials"
+
+#: bricks-quicknav.php:1982
+msgid "BricksLabs Tutorials"
+msgstr "BricksLabs Anleitungen"
+
+#: bricks-quicknav.php:1987
+msgid "Learn Bricks Builder"
+msgstr "Bricks Builder lernen"
+
+#: bricks-quicknav.php:1992
+msgid "Page Building 101 by Kevin Geary"
+msgstr "Page Building Schritt für Schritt (K. Geary)"
+
+#: bricks-quicknav.php:2000
+msgctxt "Section label for Bricks community links collection"
+msgid "Collections"
+msgstr "Sammlungen"
+
+#: bricks-quicknav.php:2004
+msgid "Bricks Directory"
+msgstr "Bricks-Verzeichnis"
+
+#: bricks-quicknav.php:2008
+msgid "Bricks Links"
+msgstr "Bricks-LInks"
+
+#: bricks-quicknav.php:2012
+msgid "Bricks Bible"
+msgstr "Bricks-Bibel"
+
+#: bricks-quicknav.php:2020
+msgctxt "Section label for Bricks community links collection"
+msgid "More stuff"
+msgstr "Mehr Ressourcen"
+
+#: bricks-quicknav.php:2024
+msgid "BricksBee Components & Templates"
+msgstr "BricksBee Komponenten & Templates"
+
+#: bricks-quicknav.php:2028
+msgid "Bricks Code Snippets"
+msgstr "Bricks Code-Snippets"
+
+#: bricks-quicknav.php:2032
+msgid "Built with Bricks"
+msgstr "Mit Bricks gebaut"
+
+#: bricks-quicknav.php:2036
+msgid "SNN BRX Child Theme"
+msgstr "SNN BRX Child Theme"
+
+#: bricks-quicknav.php:2134
+msgid "About"
+msgstr "Über"
+
+#: bricks-quicknav.php:2142
+msgid "Author: David Decker"
+msgstr "Autor: David Decker"
+
+#: bricks-quicknav.php:2150
+msgid "Plugin on GitHub"
+msgstr "Plugin auf GitHub"
+
+#: bricks-quicknav.php:2154
+msgid "Buy Me a Coffee"
+msgstr "Kaufen Sie mir einen Kaffee"
+
+#: bricks-quicknav.php:2344
+msgctxt "Site Health Debug info"
+msgid "Undefined"
+msgstr "Nicht definiert"
+
+#: bricks-quicknav.php:2345
+msgctxt "Site Health Debug info"
+msgid "Enabled"
+msgstr "Aktiviert"
+
+#: bricks-quicknav.php:2346
+msgctxt "Site Health Debug info"
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: bricks-quicknav.php:2347
+msgctxt "Site Health Debug info"
+msgid "value"
+msgstr "Wert"
+
+#: bricks-quicknav.php:2352
+msgid "Plugin"
+msgstr "Plugin"
+
+#: bricks-quicknav.php:2357
+msgid "Plugin version"
+msgstr "Pluginversion"
+
+#: bricks-quicknav.php:2361
+msgid "WordPress Install Type"
+msgstr "WordPress Installationstyp"
+
+#: bricks-quicknav.php:2362
+msgid "Multisite install"
+msgstr "Multisite-Installation"
+
+#: bricks-quicknav.php:2362
+msgid "Single Site install"
+msgstr "Single-Site-Installation"
+
+#: bricks-quicknav.php:2403
+msgid "Bricks Builder Version"
+msgstr "Bricks Builder Version"
+
+#: bricks-quicknav.php:2404
+msgid "Bricks Theme not installed"
+msgstr "Bricks Theme nicht installiert"
+
+#: bricks-quicknav.php:2411
+msgid "Bricks with active Child Theme"
+msgstr "Bricks mit aktivem Child Theme"
+
+#: bricks-quicknav.php:2412
+msgid "Name"
+msgstr "Name"
+
+#: bricks-quicknav.php:2412
+msgid "Version"
+msgstr "Version"
+
+#: bricks-quicknav.php:2412
+msgid "Author"
+msgstr "Autor"
+
+#: bricks-quicknav.php:2455
+msgctxt "Plugins page listing"
+msgid "Donate"
+msgstr "Spenden"
+
+#: bricks-quicknav.php:2461
+msgctxt "Plugins page listing"
+msgid "Join our Newsletter"
+msgstr "Jetzt Newsletter"
+
+#. Plugin Name of the plugin/theme
+msgid "Bricks QuickNav"
+msgstr "Bricks QuickNav"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/deckerweb/bricks-quicknav"
+msgstr "https://github.com/deckerweb/bricks-quicknav"
+
+#. Description of the plugin/theme
+msgid ""
+"Adds a quick-access navigator (aka QuickNav) to the WordPress Admin Bar "
+"(Toolbar). It allows easy access to Bricks Templates and Pages edited with "
+"Bricks, along with some other essential settings."
+msgstr ""
+"Fügt der WordPress Admin Bar (Symbolleiste) einen Schnellzugriffsnavigator "
+"(auch QuickNav genannt) hinzu. Dies ermöglicht den einfachen Zugriff auf "
+"Bricks-Templates und Seiten, die mit Bricks bearbeitet werden, sowie auf "
+"viele andere wichtige Einstellungen."
+
+#. Author of the plugin/theme
+msgid "David Decker – DECKERWEB"
+msgstr "David Decker - DECKERWEB"
+
+#. Author URI of the plugin/theme
+msgid "https://deckerweb.de/"
+msgstr "https://deckerweb.de/"
+
+#~ msgid "BricksExtras Add-On"
+#~ msgstr "BricksExtras Zusatzmodul"
+
+#~ msgid "Bricksforge Add-On"
+#~ msgstr "Bricksforge Zusatzmodul"
+
+#~ msgid "Advanced Themer"
+#~ msgstr "Advanced Themer"
+
+#~ msgid "Bricks Maven"
+#~ msgstr "Bricks Maven"
+
+#~ msgid "Automatic.CSS Framework"
+#~ msgstr "Automatic.CSS Framework"
+
+#~ msgid "All Types"
+#~ msgstr "Alle Arten"
+
+#~ msgid "Automatic.CSS"
+#~ msgstr "Automatic.CSS"
+
+#~ msgid "Frames"
+#~ msgstr "Frames"
+
+#~ msgid "Import Export"
+#~ msgstr "Import Export"
+
+#~ msgid "GutenBricks"
+#~ msgstr "GutenBricks"
