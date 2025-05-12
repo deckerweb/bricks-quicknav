@@ -41,7 +41,7 @@ Enjoying the plugin? Feel free to treat me to a cup of coffee ☕🙂 through th
 3. Once activated, you’ll see the **Bricks** menu item in the Admin Bar.
 
 #### **Alternative: Use as Code Snippet**
-[![Download Code Snippet](https://raw.githubusercontent.com/deckerweb/bricks-quicknav/refs/heads/main/assets/button-download-snippet.png)](https://github.com/deckerweb/bricks-quicknav/releases/latest/download/ddw-bricks-quicknav.code-bricks.json)  
+[![Download Code Snippet](https://raw.githubusercontent.com/deckerweb/bricks-quicknav/refs/heads/main/assets/button-download-snippet.png)](https://github.com/deckerweb/bricks-quicknav/releases/latest/download/ddw-bricks-quicknav.code-snippets.json)  
 1. Below, download the appropriate snippet version
 2. Activate or deactivate in your snippets plugin
 
