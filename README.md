@@ -115,6 +115,7 @@ Just manually: Download the latest Snippet version (see above) and import it in 
 	- [Builder List Pages](https://github.com/deckerweb/builder-list-pages) (free)
 	- Max Addons (free Version only, currently)
 	- [Bricks Remote Template Sync](https://github.com/tweschke/bricks-remote-template-sync) (free)
+	- [Flex Addons](https://github.com/TimpCreative/bricks-flex-addons) (free currently; dev/alpha)
 
 * Code Snippets:
 	- [MA Custom Fonts](https://www.altmann.de/en/blog-en/code-snippet-custom-fonts/) (free)
