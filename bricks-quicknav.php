@@ -1779,6 +1779,17 @@ class DDW_Bricks_QuickNav {
 				'meta'   => [ 'class' => 'has-icon' ],
 			] );
 		}  // end if
+		
+		/** Plugin: Bricks Remote Template Sync (free) */
+		if ( defined( 'BRICKS_REMOTE_SYNC_VERSION' ) ) {
+			$wp_admin_bar->add_node( [
+				'id'     => 'bxqn-btemplatesync',
+				'title'  => $this->get_icon( 'plugin' ) . esc_html__( 'Remote Template Sync', 'bricks-quicknav' ),
+				'href'   => esc_url( admin_url( 'admin.php?page=bricks-remote-template-sync' ) ),
+				'parent' => 'bxqn-group-plugins',
+				'meta'   => [ 'class' => 'has-icon' ],
+			] );
+		}  // end if
 	}
 	
 	/**
