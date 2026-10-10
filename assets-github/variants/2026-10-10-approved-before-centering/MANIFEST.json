@@ -1,0 +1,90 @@
+{
+  "banner-en.svg": {
+    "bytes": 138471,
+    "sha256": "c100a3a0ab411f0f7e2ab23d92a5260444f3a5b3a143ff3847085b83be66ba7d"
+  },
+  "icon-256.png": {
+    "bytes": 5187,
+    "sha256": "52d7c8a12084e14e6b375a5f33fca386127b8d4ca700afe95df273898be75dc6"
+  },
+  "wp-banner-de.svg": {
+    "bytes": 140085,
+    "sha256": "17482ebdb9f26a01a385c44c5d12b055cc33d9a93e72ccfbef8424c2002296d1"
+  },
+  "icon-1024.svg": {
+    "bytes": 898,
+    "sha256": "a7ac7dea19eb096a6f21f5ae5e63849e1fa164e760393e4b61cfc2e2e6855577"
+  },
+  "SOURCE.json": {
+    "bytes": 599,
+    "sha256": "2e92ff5d7f165ef13aa470912b722f9e3a3580463b298ff4dd34c84ec6bd5542"
+  },
+  "icon-256.svg": {
+    "bytes": 896,
+    "sha256": "6dfd5c8b7ce9e1384f43c85e833e8cdb5312cd51d22e4d6168991822c20370d8"
+  },
+  "icon-1024.png": {
+    "bytes": 42401,
+    "sha256": "1bf771af04c2c1589a6203ecb7b21f226397044c79b52c45aa28f28dc0b81644"
+  },
+  "icon.svg": {
+    "bytes": 896,
+    "sha256": "6dfd5c8b7ce9e1384f43c85e833e8cdb5312cd51d22e4d6168991822c20370d8"
+  },
+  "banner-en.png": {
+    "bytes": 61344,
+    "sha256": "3a489c6067f2a0d88c2daaf0c5ee81b559355a41a520f9982c683be4effd5f46"
+  },
+  "INTER-LICENSE.txt": {
+    "bytes": 4376,
+    "sha256": "6e6410f2892d61813f54654098dc9654d0a3af2e92172999bee07eec13b0a75a"
+  },
+  "wp-banner-de-772x250.png": {
+    "bytes": 28397,
+    "sha256": "bbf99ef2216c024823af725d4293aed1e929ffa3e294768e4bc4bb3845583d52"
+  },
+  "wp-banner-en-1544x500.png": {
+    "bytes": 72280,
+    "sha256": "7e2e9c38a56726b2d08e494bd0b70c9d3fe67e51f2c9b3eb18aad08b4cfc8eb5"
+  },
+  "wp-banner-en-772x250.png": {
+    "bytes": 27762,
+    "sha256": "d083b3b3d5bbd520963caae7eab1a6617659ee3e2c977eb8644eee6e2eb77bc6"
+  },
+  "icon-512.svg": {
+    "bytes": 896,
+    "sha256": "b6c34ce37a6828d1408016f3232535ab33c99ef18bd52a2bea2d251bb9d8c3c5"
+  },
+  "LIESMICH.md": {
+    "bytes": 501,
+    "sha256": "b084c8af6e60f85aa81874c1232c8727d34a2c72c161808d36dee83ef85e7952"
+  },
+  "banner-de.png": {
+    "bytes": 62233,
+    "sha256": "b64f3623e83ce97d0a6034c5c8f632aee5011c82e4d31d78823724fc64ccc1bf"
+  },
+  "icon-128.svg": {
+    "bytes": 896,
+    "sha256": "b1d0e8898cfceea76608d84ba86d2384b8078649b04798ac05c93a5ad05fbb08"
+  },
+  "wp-banner-de-1544x500.png": {
+    "bytes": 73373,
+    "sha256": "f099fbef431e1e8a274e13682f6dc67016e79abc2593c6003420eb391e79e08e"
+  },
+  "wp-banner-en.svg": {
+    "bytes": 138478,
+    "sha256": "a6593b021c3c8a5007ba7311dbd47b11c5b7af5d5bf64c42894b0fa2917a9cc4"
+  },
+  "icon-128.png": {
+    "bytes": 2209,
+    "sha256": "0acffe74c555efa8409efc3c3f871675eabdee2dccb77b4ff55367f63e96dee2"
+  },
+  "banner-de.svg": {
+    "bytes": 140078,
+    "sha256": "890c2f5aabab9d1dc3cb929a5b76438e5287a3607d36f82a6913ac2c37c1f372"
+  },
+  "icon-512.png": {
+    "bytes": 14360,
+    "sha256": "aa72da477f549bd9ca1743f3aed9b9cf33056d7fb7ce7b62d13f4bc037b39f4f"
+  }
+}

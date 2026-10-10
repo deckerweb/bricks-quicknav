@@ -1,760 +1,1388 @@
-#, fuzzy
 msgid ""
-msgstr ""
-"Project-Id-Version: Bricks QuickNav\n"
-"POT-Creation-Date: 2025-05-12 15:41+0200\n"
-"PO-Revision-Date: 2025-05-05 14:02+0200\n"
-"Last-Translator: David Decker DECKERWEB.de <David Decker DECKERWEB.de>\n"
-"Language-Team: David Decker DECKERWEB.de <David Decker DECKERWEB.de>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"X-Generator: Poedit 3.6\n"
-"X-Poedit-Basepath: ..\n"
-"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
-"X-Poedit-WPHeader: bricks-quicknav.php\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: "
-"__;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
-"X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPathExcluded-0: *.min.js\n"
-
-#: bricks-quicknav.php:471
-msgid "Bricks"
-msgstr ""
-
-#: bricks-quicknav.php:513 bricks-quicknav.php:1529
-msgid "Add New"
-msgstr ""
-
-#: bricks-quicknav.php:545
-msgid "Pages (Bricks)"
-msgstr ""
-
-#: bricks-quicknav.php:573
-msgid "Filter Bricks Pages"
-msgstr ""
-
-#: bricks-quicknav.php:589 bricks-quicknav.php:1359
-msgid "Templates"
-msgstr ""
-
-#: bricks-quicknav.php:614
-msgid "Template (Bricks)"
-msgstr ""
-
-#: bricks-quicknav.php:628
-msgid "All Template Types"
-msgstr ""
-
-#: bricks-quicknav.php:680
-msgid "Template Bundles"
-msgstr ""
-
-#: bricks-quicknav.php:702
-msgid "Template Tags"
-msgstr ""
-
-#: bricks-quicknav.php:888
-msgid "Edit Child Theme"
-msgstr ""
-
-#: bricks-quicknav.php:897
-msgid "functions.php Code"
-msgstr ""
-
-#: bricks-quicknav.php:926
-msgid "All Snippets"
-msgstr ""
-
-#: bricks-quicknav.php:934
-msgid "New Snippet"
-msgstr ""
-
-#: bricks-quicknav.php:952
-msgid "Bricks: Custom Code"
-msgstr ""
-
-#: bricks-quicknav.php:959
-msgid "Code Review"
-msgstr ""
-
-#: bricks-quicknav.php:966
-msgid "Code Signatures"
-msgstr ""
-
-#: bricks-quicknav.php:999 bricks-quicknav.php:2013
-msgid "Core Framework"
-msgstr ""
-
-#: bricks-quicknav.php:1007 bricks-quicknav.php:1341 bricks-quicknav.php:1531
-#: bricks-quicknav.php:1781
-msgid "Settings"
-msgstr ""
-
-#: bricks-quicknav.php:1014
-msgid "Web App"
-msgstr ""
-
-#: bricks-quicknav.php:1022 bricks-quicknav.php:1048 bricks-quicknav.php:1077
-#: bricks-quicknav.php:1109 bricks-quicknav.php:1476 bricks-quicknav.php:1533
-#: bricks-quicknav.php:1564 bricks-quicknav.php:1594 bricks-quicknav.php:1652
-#: bricks-quicknav.php:1688 bricks-quicknav.php:1718 bricks-quicknav.php:1949
-msgid "Documentation"
-msgstr ""
-
-#: bricks-quicknav.php:1040 bricks-quicknav.php:1073
-msgid "Getting Started"
-msgstr ""
-
-#: bricks-quicknav.php:1041 bricks-quicknav.php:1682
-msgid "Import/ Export"
-msgstr ""
-
-#: bricks-quicknav.php:1042 bricks-quicknav.php:1074 bricks-quicknav.php:1382
-#: bricks-quicknav.php:1563 bricks-quicknav.php:1593 bricks-quicknav.php:1651
-#: bricks-quicknav.php:1683 bricks-quicknav.php:1746
-msgid "License"
-msgstr ""
-
-#: bricks-quicknav.php:1045
-msgid "ACSS Purger"
-msgstr ""
-
-#: bricks-quicknav.php:1047
-msgid "Cheat Sheet"
-msgstr ""
-
-#: bricks-quicknav.php:1049 bricks-quicknav.php:1078 bricks-quicknav.php:1951
-msgid "Circle Community"
-msgstr ""
-
-#: bricks-quicknav.php:1075
-msgid "Layouts"
-msgstr ""
-
-#: bricks-quicknav.php:1076
-msgid "Components"
-msgstr ""
-
-#: bricks-quicknav.php:1103
-msgid "Files"
-msgstr ""
-
-#: bricks-quicknav.php:1104
-msgid "Logs"
-msgstr ""
-
-#: bricks-quicknav.php:1105 bricks-quicknav.php:1357 bricks-quicknav.php:1713
-msgid "General Settings"
-msgstr ""
-
-#: bricks-quicknav.php:1106 bricks-quicknav.php:1361
-msgid "Performance"
-msgstr ""
-
-#: bricks-quicknav.php:1107 bricks-quicknav.php:1562
-msgid "Integrations"
-msgstr ""
-
-#: bricks-quicknav.php:1110 bricks-quicknav.php:1477 bricks-quicknav.php:1952
-msgid "GitHub Discussions"
-msgstr ""
-
-#: bricks-quicknav.php:1139
-msgid "Get Layouts"
-msgstr ""
-
-#: bricks-quicknav.php:1140
-msgid "Get Components"
-msgstr ""
-
-#: bricks-quicknav.php:1141
-msgid "Resources"
-msgstr ""
-
-#: bricks-quicknav.php:1142 bricks-quicknav.php:1650 bricks-quicknav.php:1898
-msgid "Changelog"
-msgstr ""
-
-#: bricks-quicknav.php:1143 bricks-quicknav.php:1534 bricks-quicknav.php:1565
-#: bricks-quicknav.php:1596 bricks-quicknav.php:1653 bricks-quicknav.php:1689
-#: bricks-quicknav.php:1719 bricks-quicknav.php:1950
-msgid "Facebook Group"
-msgstr ""
-
-#: bricks-quicknav.php:1185
-msgid "Coming Soon Mode"
-msgstr ""
-
-#: bricks-quicknav.php:1185
-msgid "Maintenance Mode"
-msgstr ""
-
-#: bricks-quicknav.php:1203
-msgid "Tweak Mode"
-msgstr ""
-
-#: bricks-quicknav.php:1210
-msgid "Edit Template"
-msgstr ""
-
-#: bricks-quicknav.php:1222 bricks-quicknav.php:1617
-msgid "Form Submissions"
-msgstr ""
-
-#: bricks-quicknav.php:1234
-msgid "Custom Fonts"
-msgstr ""
-
-#: bricks-quicknav.php:1242 bricks-quicknav.php:1528
-msgid "All Fonts"
-msgstr ""
-
-#: bricks-quicknav.php:1249
-msgid "New Font"
-msgstr ""
-
-#: bricks-quicknav.php:1258
-msgid "Custom Font (Bricks)"
-msgstr ""
-
-#: bricks-quicknav.php:1287
-msgid "MA Custom Fonts"
-msgstr ""
-
-#: bricks-quicknav.php:1295
-msgid "Fonts Preview"
-msgstr ""
-
-#: bricks-quicknav.php:1304
-msgid "Snippet Documentation"
-msgstr ""
-
-#: bricks-quicknav.php:1314
-msgid "Web Font Loader"
-msgstr ""
-
-#: bricks-quicknav.php:1324
-msgid "Sidebars"
-msgstr ""
-
-#: bricks-quicknav.php:1350
-msgid "Elements Manager"
-msgstr ""
-
-#: bricks-quicknav.php:1358
-msgid "Builder Access"
-msgstr ""
-
-#: bricks-quicknav.php:1360
-msgid "Builder"
-msgstr ""
-
-#: bricks-quicknav.php:1362 bricks-quicknav.php:1615
-msgid "Maintenance"
-msgstr ""
-
-#: bricks-quicknav.php:1363
-msgid "API Keys"
-msgstr ""
-
-#: bricks-quicknav.php:1364
-msgid "Custom Code"
-msgstr ""
-
-#: bricks-quicknav.php:1392
-msgid "System Information"
-msgstr ""
-
-#: bricks-quicknav.php:1400
-msgid "by Bricks"
-msgstr ""
-
-#: bricks-quicknav.php:1407
-msgid "by Site Health"
-msgstr ""
-
-#: bricks-quicknav.php:1415
-msgid "by System Dashboard"
-msgstr ""
-
-#: bricks-quicknav.php:1457
-msgid "Code Snippets"
-msgstr ""
-
-#: bricks-quicknav.php:1458
-msgid "Other Settings"
-msgstr ""
-
-#: bricks-quicknav.php:1459
-msgid "Editor Settings"
-msgstr ""
-
-#: bricks-quicknav.php:1460
-msgid "Security Settings"
-msgstr ""
+msgstr "Project-Id-Version: Bricks QuickNav 2.0.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nMIME-Version: 1.0\nLanguage: de_DE_formal\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: bricks-quicknav.php:1461
-msgid "Post Types"
+msgid "%s is installed but inactive. Activate it first."
 msgstr ""
 
-#: bricks-quicknav.php:1462
-msgid "Custom Fields"
+msgid "%s is missing. Install and activate it first."
 msgstr ""
 
-#: bricks-quicknav.php:1463
-msgid "Taxonomies"
+msgid "%s must be network activated first."
 msgstr ""
 
-#: bricks-quicknav.php:1464
-msgid "Login Settings"
+msgid "%s supports activation per site only."
 msgstr ""
 
-#: bricks-quicknav.php:1465
-msgid "404 Logs"
+msgid "(no title)"
 msgstr ""
 
-#: bricks-quicknav.php:1466
-msgid "Search Logs"
+msgid "0 uses the website default."
 msgstr ""
 
-#: bricks-quicknav.php:1467
 msgid "301 Redirects"
 msgstr ""
 
-#: bricks-quicknav.php:1468
-msgid "Mail SMTP Settings"
+msgid "404 Logs"
 msgstr ""
 
-#: bricks-quicknav.php:1469
-msgid "Mail Logs"
+msgid "ACSS Purger"
 msgstr ""
 
-#: bricks-quicknav.php:1470
-msgid "Media Settings"
+msgid "AI Skills"
 msgstr ""
 
-#: bricks-quicknav.php:1471
-msgid "Cookie Settings"
+msgid "API Keys"
 msgstr ""
 
-#: bricks-quicknav.php:1472
-msgid "Role Management"
-msgstr ""
-
-#: bricks-quicknav.php:1473
-msgid "AI Settings"
-msgstr ""
-
-#: bricks-quicknav.php:1474
-msgid "Accessibility Settings"
-msgstr ""
-
-#: bricks-quicknav.php:1475
-msgid "Block Editor Settings"
-msgstr ""
-
-#: bricks-quicknav.php:1491
-msgid "Frontend Head PHP/HTML"
-msgstr ""
-
-#: bricks-quicknav.php:1492
-msgid "Frontend Footer PHP/HTML"
-msgstr ""
-
-#: bricks-quicknav.php:1493
-msgid "Admin Head PHP/HTML"
-msgstr ""
-
-#: bricks-quicknav.php:1494
-msgid "Direct PHP (functions.php style)"
-msgstr ""
-
-#: bricks-quicknav.php:1495
-msgid "Error Logs"
-msgstr ""
-
-#: bricks-quicknav.php:1521
-msgid "Yabe Webfont"
-msgstr ""
-
-#: bricks-quicknav.php:1530
-msgid "Import Google Fonts"
-msgstr ""
-
-#: bricks-quicknav.php:1532
-msgid "Migrations"
-msgstr ""
-
-#: bricks-quicknav.php:1559
-msgid "Blocks"
-msgstr ""
-
-#: bricks-quicknav.php:1560
-msgid "Gutenberg Settings"
-msgstr ""
-
-#: bricks-quicknav.php:1561
-msgid "Client Experience"
-msgstr ""
-
-#: bricks-quicknav.php:1590
-msgid "General"
-msgstr ""
-
-#: bricks-quicknav.php:1591
-msgid "Elements"
-msgstr ""
-
-#: bricks-quicknav.php:1592
-msgid "Extensions"
-msgstr ""
-
-#: bricks-quicknav.php:1595
-msgid "Forum"
-msgstr ""
-
-#: bricks-quicknav.php:1609 bricks-quicknav.php:1686
-msgid "White Label"
-msgstr ""
-
-#: bricks-quicknav.php:1610
-msgid "Builder Customizer"
-msgstr ""
-
-#: bricks-quicknav.php:1611
-msgid "Global Classes"
-msgstr ""
-
-#: bricks-quicknav.php:1616
-msgid "Backend Designer"
-msgstr ""
-
-#: bricks-quicknav.php:1618
-msgid "Email Designer"
-msgstr ""
-
-#: bricks-quicknav.php:1619
 msgid "API Query Builder"
 msgstr ""
 
-#: bricks-quicknav.php:1620
-msgid "Page Transitions"
+msgid "API keys"
 msgstr ""
 
-#: bricks-quicknav.php:1621
+msgid "About"
+msgstr ""
+
+msgid "Access"
+msgstr ""
+
+msgid "Access & Data"
+msgstr ""
+
+msgid "Accessibility Settings"
+msgstr ""
+
+msgid "Action cancelled."
+msgstr ""
+
+msgid "Activate"
+msgstr ""
+
+msgid "Activate Bricks QuickNav per site after selecting the Bricks parent or child theme."
+msgstr ""
+
+msgid "Activating…"
+msgstr ""
+
+msgid "Active"
+msgstr ""
+
+msgid "Add New"
+msgstr ""
+
+msgid "Add-ons"
+msgstr ""
+
+msgid "Admin"
+msgstr ""
+
+msgid "Admin Dashboard toolbar"
+msgstr ""
+
+msgid "Admin Head PHP/HTML"
+msgstr ""
+
 msgid "Admin Pages"
 msgstr ""
 
-#: bricks-quicknav.php:1647
-msgid "Elements & Features"
+msgid "Affected features remain paused until their requirements are met."
 msgstr ""
 
-#: bricks-quicknav.php:1648
-msgid "Conditions"
+msgid "All"
 msgstr ""
 
-#: bricks-quicknav.php:1649
-msgid "Misc"
+msgid "All Fonts"
 msgstr ""
 
-#: bricks-quicknav.php:1680
-msgid "General Elements"
+msgid "All Snippets"
 msgstr ""
 
-#: bricks-quicknav.php:1681 bricks-quicknav.php:1717
-msgid "Misc Settings"
+msgid "All Template Types"
 msgstr ""
 
-#: bricks-quicknav.php:1714
-msgid "Bricksable Elements"
+msgid "All changes saved"
 msgstr ""
 
-#: bricks-quicknav.php:1715
-msgid "Bricks Builder Elements"
+msgid "Already active"
 msgstr ""
 
-#: bricks-quicknav.php:1716
-msgid "Save Messages"
+msgid "Already up to date."
 msgstr ""
 
-#: bricks-quicknav.php:1737
-msgid "Swiss Knife Bricks"
+msgid "Another action for this plugin is running. Please wait."
 msgstr ""
 
-#: bricks-quicknav.php:1743
-msgid "Scripts Manager"
+msgid "Another updater provides a different release. Refresh updates before continuing."
 msgstr ""
 
-#: bricks-quicknav.php:1744
-msgid "Features"
+msgid "Apr"
 msgstr ""
 
-#: bricks-quicknav.php:1745
-msgid "Manage Settings"
+msgid "April"
 msgstr ""
 
-#: bricks-quicknav.php:1791
-msgid "Element Manager"
+msgid "Archive contains too many files."
 msgstr ""
 
-#: bricks-quicknav.php:1813
-msgid "Bricks Admin Dashboard"
+msgid "Archive symlinks are not permitted."
 msgstr ""
 
-#: bricks-quicknav.php:1824
-msgid "Remote Template Sync"
+msgid "As of "
 msgstr ""
 
-#: bricks-quicknav.php:1861
-msgid "Links"
+msgid "Aug"
 msgstr ""
 
-#: bricks-quicknav.php:1869
-msgid "Bricks HQ"
+msgid "August"
 msgstr ""
 
-#: bricks-quicknav.php:1873
-msgid "Bricks Product Resources"
+msgid "Author: David Decker"
 msgstr ""
 
-#: bricks-quicknav.php:1877
+msgid "Back to deckerweb"
+msgstr ""
+
+msgid "Backend Designer"
+msgstr ""
+
+msgid "Block Editor Settings"
+msgstr ""
+
+msgid "Blocks"
+msgstr ""
+
+msgid "Brick icon"
+msgstr ""
+
+msgid "Bricks AI"
+msgstr ""
+
 msgid "Bricks Academy (Docs)"
 msgstr ""
 
-#: bricks-quicknav.php:1881
-msgid "Bricks YouTube Channel"
+msgid "Bricks Admin Dashboard"
 msgstr ""
 
-#: bricks-quicknav.php:1885
-msgid "Bricks Forum"
+msgid "Bricks Bible"
 msgstr ""
 
-#: bricks-quicknav.php:1889
+msgid "Bricks Builder Elements"
+msgstr ""
+
+msgid "Bricks Code Snippets"
+msgstr ""
+
+msgid "Bricks Directory"
+msgstr ""
+
 msgid "Bricks FB Group"
 msgstr ""
 
-#: bricks-quicknav.php:1902
-msgid "Roadmap"
+msgid "Bricks Forum"
 msgstr ""
 
-#: bricks-quicknav.php:1906
-msgid "Idea Board"
+msgid "Bricks HQ"
 msgstr ""
 
-#: bricks-quicknav.php:1910
-msgid "Experts"
+msgid "Bricks Links"
 msgstr ""
 
-#: bricks-quicknav.php:1914
-msgid "Showcase"
+msgid "Bricks Product Resources"
 msgstr ""
 
-#: bricks-quicknav.php:1953
-msgid "YouTube Tutorials"
+msgid "Bricks Sections"
 msgstr ""
 
-#: bricks-quicknav.php:1957
+msgid "Bricks Settings"
+msgstr ""
+
+msgid "Bricks YouTube Channel"
+msgstr ""
+
+msgid "Bricks icon"
+msgstr ""
+
+msgid "Bricks is not active. QuickNav settings remain available; toolbar navigation resumes when a supported builder is active."
+msgstr ""
+
+msgid "Bricks: Custom Code"
+msgstr ""
+
+msgid "BricksBee Components & Templates"
+msgstr ""
+
+msgid "BricksLabs Tutorials"
+msgstr ""
+
+msgid "Bricksable Elements"
+msgstr ""
+
+msgid "Brixies Library"
+msgstr ""
+
+msgid "Builder"
+msgstr ""
+
+msgid "Builder Access"
+msgstr ""
+
+msgid "Builder Customizer"
+msgstr ""
+
+msgid "Built with Bricks"
+msgstr ""
+
+msgid "Bundled Library"
+msgstr ""
+
+msgid "Buy Me a Coffee"
+msgstr ""
+
+msgid "Cannot create temporary file."
+msgstr ""
+
+msgid "Cannot create verified archive."
+msgstr ""
+
+msgid "Cannot finalize archive."
+msgstr ""
+
+msgid "Cannot normalize archive."
+msgstr ""
+
+msgid "Cannot read archive entry."
+msgstr ""
+
+msgid "Catalog URL"
+msgstr ""
+
+msgid "Catalog refreshed."
+msgstr ""
+
+msgid "Changelog"
+msgstr ""
+
+msgid "Cheat Sheet"
+msgstr ""
+
+msgid "Check status"
+msgstr ""
+
+msgid "Checking status…"
+msgstr ""
+
+msgid "Child Theme"
+msgstr ""
+
+msgid "Choose which addon shortcuts QuickNav displays on this website. These switches do not activate, deactivate or configure the addons themselves. Missing addons never produce toolbar links."
+msgstr ""
+
+msgid "Circle Community"
+msgstr ""
+
+msgid "Client Experience"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Code"
+msgstr ""
+
+msgid "Code Review"
+msgstr ""
+
+msgid "Code Signatures"
+msgstr ""
+
+msgid "Code Snippets"
+msgstr ""
+
+msgid "Coming Soon Mode"
+msgstr ""
+
+msgid "Commerce"
+msgstr ""
+
 msgid "Community"
 msgstr ""
 
-#: bricks-quicknav.php:1966
+msgid "Compact menu"
+msgstr ""
+
+msgid "Compatible additions only"
+msgstr ""
+
+msgid "Components"
+msgstr ""
+
+msgid "Conditions"
+msgstr ""
+
+msgid "Configuration overrides"
+msgstr ""
+
+msgid "Content"
+msgstr ""
+
+msgid "Content lists"
+msgstr ""
+
+msgid "Content types"
+msgstr ""
+
+msgid "Cookie Settings"
+msgstr ""
+
+msgid "Core Framework"
+msgstr ""
+
+msgid "Could not access the update filesystem."
+msgstr ""
+
+msgid "Could not create the update download file."
+msgstr ""
+
+msgid "Could not prepare the GitHub release package."
+msgstr ""
+
+msgid "Custom Code"
+msgstr ""
+
+msgid "Custom Fields"
+msgstr ""
+
+msgid "Custom Font (Bricks)"
+msgstr ""
+
+msgid "Custom Fonts"
+msgstr ""
+
+msgid "Data"
+msgstr ""
+
+msgid "Dec"
+msgstr ""
+
+msgid "December"
+msgstr ""
+
+msgid "Delete Library settings when removing the last host plugin"
+msgstr ""
+
+msgid "Delete QuickNav settings when uninstalling"
+msgstr ""
+
+msgid "Details & requirements"
+msgstr ""
+
+msgid "Detected components"
+msgstr ""
+
+msgid "Direct PHP (functions.php style)"
+msgstr ""
+
+msgid "Disabled by default. When enabled, uninstall removes this website’s QuickNav settings and personal QuickNav preferences. Bricks content and other plugins’ data are always retained. Network uninstall applies each website’s own choice."
+msgstr ""
+
+msgid "Discover more plugins by deckerweb"
+msgstr ""
+
+msgid "Dismiss permanently"
+msgstr ""
+
+msgid "Display & Content"
+msgstr ""
+
+msgid "Documentation"
+msgstr ""
+
+msgid "Done. The plugin is active."
+msgstr ""
+
+msgid "Edit Template"
+msgstr ""
+
+msgid "Editor Settings"
+msgstr ""
+
+msgid "Element Manager"
+msgstr ""
+
+msgid "Elements"
+msgstr ""
+
+msgid "Elements & Features"
+msgstr ""
+
+msgid "Elements Manager"
+msgstr ""
+
+msgid "Email Designer"
+msgstr ""
+
+msgid "Enter a catalog URL first."
+msgstr ""
+
+msgid "Error Logs"
+msgstr ""
+
+msgid "Existing integration retained"
+msgstr ""
+
+msgid "Expanded archive is too large."
+msgstr ""
+
+msgid "Experts"
+msgstr ""
+
+msgid "Extensions"
+msgstr ""
+
+msgid "F j, Y"
+msgstr ""
+
+msgid "Facebook Group"
+msgstr ""
+
+msgid "Fancy Framework"
+msgstr ""
+
+msgid "Features"
+msgstr ""
+
+msgid "Feb"
+msgstr ""
+
+msgid "February"
+msgstr ""
+
+msgid "Fewer clicks. More Bricks."
+msgstr ""
+
+msgid "Files"
+msgstr ""
+
+msgid "Filesystem credentials are required."
+msgstr ""
+
+msgid "Filesystem credentials are required. Use the catalog with JavaScript enabled or the native Plugins screen."
+msgstr ""
+
+msgid "Filter"
+msgstr ""
+
+msgid "Filter Bricks Pages"
+msgstr ""
+
+msgid "Fits my installation"
+msgstr ""
+
+msgid "Fixed"
+msgstr ""
+
+msgid "Fonts Preview"
+msgstr ""
+
+msgid "Form Submissions"
+msgstr ""
+
+msgid "Forum"
+msgstr ""
+
+msgid "Frames Layouts & Components"
+msgstr ""
+
+msgid "Frameworks"
+msgstr ""
+
+msgid "Fri"
+msgstr ""
+
+msgid "Friday"
+msgstr ""
+
+msgid "Frontend Footer PHP/HTML"
+msgstr ""
+
+msgid "Frontend Head PHP/HTML"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "General Elements"
+msgstr ""
+
+msgid "General Settings"
+msgstr ""
+
+msgid "Get Components"
+msgstr ""
+
+msgid "Get Layouts"
+msgstr ""
+
+msgid "Getting Started"
+msgstr ""
+
+msgid "GitHub Discussions"
+msgstr ""
+
+msgid "GitHub Stars"
+msgstr ""
+
+msgid "GitHub release does not contain the plugin main file."
+msgstr ""
+
+msgid "Global Classes"
+msgstr ""
+
+msgid "Gutenberg Settings"
+msgstr ""
+
+msgid "Hide catalog"
+msgstr ""
+
+msgid "Hide for me"
+msgstr ""
+
+msgid "Icon"
+msgstr ""
+
+msgid "Idea Board"
+msgstr ""
+
+msgid "Image optimization"
+msgstr ""
+
+msgid "Import Google Fonts"
+msgstr ""
+
+msgid "Import/ Export"
+msgstr ""
+
+msgid "Improved"
+msgstr ""
+
+msgid "Include unpublished content you can edit"
+msgstr ""
+
+msgid "Install and activate this plugin in the network admin."
+msgstr ""
+
+msgid "Install deckerweb plugin"
+msgstr ""
+
+msgid "Install now"
+msgstr ""
+
+msgid "Installation cancelled."
+msgstr ""
+
+msgid "Installation failed."
+msgstr ""
+
+msgid "Installed"
+msgstr ""
+
+msgid "Installed add-ons"
+msgstr ""
+
+msgid "Installed but inactive"
+msgstr ""
+
+msgid "Installed: "
+msgstr ""
+
+msgid "Installing…"
+msgstr ""
+
+msgid "Integrations"
+msgstr ""
+
+msgid "Invalid GitHub repository URL."
+msgstr ""
+
+msgid "Invalid ZIP archive."
+msgstr ""
+
+msgid "Invalid approval flag."
+msgstr ""
+
+msgid "Invalid authentication provider."
+msgstr ""
+
+msgid "Invalid catalog field: "
+msgstr ""
+
+msgid "Invalid catalog revision."
+msgstr ""
+
+msgid "Invalid catalog schema."
+msgstr ""
+
+msgid "Invalid catalog timestamp."
+msgstr ""
+
+msgid "Invalid dependencies."
+msgstr ""
+
+msgid "Invalid dependency URL."
+msgstr ""
+
+msgid "Invalid dependency metadata."
+msgstr ""
+
+msgid "Invalid display field."
+msgstr ""
+
+msgid "Invalid icon color."
+msgstr ""
+
+msgid "Invalid icon label."
+msgstr ""
+
+msgid "Invalid identity or release metadata."
+msgstr ""
+
+msgid "Invalid local icon."
+msgstr ""
+
+msgid "Invalid network policy."
+msgstr ""
+
+msgid "Invalid network requirement."
+msgstr ""
+
+msgid "Invalid platform version."
+msgstr ""
+
+msgid "Invalid plugin series."
+msgstr ""
+
+msgid "Invalid star count."
+msgstr ""
+
+msgid "Invalid stars date."
+msgstr ""
+
+msgid "Items per group"
+msgstr ""
+
+msgid "Jan"
+msgstr ""
+
+msgid "January"
+msgstr ""
+
+msgid "Jul"
+msgstr ""
+
+msgid "July"
+msgstr ""
+
+msgid "Jun"
+msgstr ""
+
+msgid "June"
+msgstr ""
+
+msgid "Layouts"
+msgstr ""
+
+msgid "Learn Bricks Builder"
+msgstr ""
+
+msgid "Leave user IDs empty to allow all eligible users. Separate IDs with commas. WordPress and Bricks permissions always apply to each destination."
+msgstr ""
+
+msgid "Library"
+msgstr ""
+
+msgid "Library changelog"
+msgstr ""
+
+msgid "Library settings"
+msgstr ""
+
+msgid "Library settings saved."
+msgstr ""
+
+msgid "License"
+msgstr ""
+
+msgid "Links"
+msgstr ""
+
+msgid "Login Settings"
+msgstr ""
+
+msgid "Logs"
+msgstr ""
+
+msgid "MA Custom Fonts"
+msgstr ""
+
+msgid "Mail Logs"
+msgstr ""
+
+msgid "Mail SMTP Settings"
+msgstr ""
+
+msgid "Maintenance"
+msgstr ""
+
+msgid "Maintenance Mode"
+msgstr ""
+
+msgid "Manage Content"
+msgstr ""
+
+msgid "Manage Settings"
+msgstr ""
+
+msgid "Manage installed plugins"
+msgstr ""
+
+msgid "Mar"
+msgstr ""
+
+msgid "March"
+msgstr ""
+
+msgid "May"
+msgstr ""
+
+msgid "Media Settings"
+msgstr ""
+
+msgid "Menu groups"
+msgstr ""
+
+msgid "Migrations"
+msgstr ""
+
+msgid "Misc"
+msgstr ""
+
+msgid "Misc Settings"
+msgstr ""
+
+msgid "Missing display text."
+msgstr ""
+
+msgid "Missing plugin header."
+msgstr ""
+
+msgid "Mon"
+msgstr ""
+
+msgid "Monday"
+msgstr ""
+
+msgid "More by deckerweb"
+msgstr ""
+
+msgid "Multisite"
+msgstr ""
+
+msgid "Navigation groups"
+msgstr ""
+
+msgid "Navigation remains available. The bundled Library needs PHP 8.0; the updater integration needs PHP 8.1 and a compatible deckerweb Updater. Update manually while a component is unavailable."
+msgstr ""
+
+msgid "Network activate"
+msgstr ""
+
+msgid "Network permission denied."
+msgstr ""
+
+msgid "New"
+msgstr ""
+
+msgid "New Font"
+msgstr ""
+
+msgid "New Snippet"
+msgstr ""
+
+msgid "Newsletter"
+msgstr ""
+
+msgid "No approved plugins match this selection."
+msgstr ""
+
+msgid "No icon"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Normal child themes open functions.php when the file editor is permitted. SNN-BRX opens its active Code Snippets feature, otherwise its settings. Each destination requires its own permissions."
+msgstr ""
+
+msgid "Not active"
+msgstr ""
+
+msgid "Not installed"
+msgstr ""
+
+msgid "Not installed. You can try again."
+msgstr ""
+
+msgid "Not loaded"
+msgstr ""
+
+msgid "Nov"
+msgstr ""
+
+msgid "November"
+msgstr ""
+
+msgid "Oct"
+msgstr ""
+
+msgid "October"
+msgstr ""
+
+msgid "Off by default. Applies only when no other host is installed, including inactive hosts. Removes Library settings, installation records and introduction status. Installed plugins, their content and other plugin settings remain unchanged. Network data is shared across sites."
+msgstr ""
+
+msgid "Online catalog"
+msgstr ""
+
+msgid "Only HTTPS on raw.githubusercontent.com/deckerweb. The server receives the requesting IP address. GitHub is contacted when installing a release."
+msgstr ""
+
+msgid "Only approved releases"
+msgstr ""
+
+msgid "Only groups available in the active builder are displayed."
+msgstr ""
+
+msgid "Open addon admin page"
+msgstr ""
+
+msgid "Open catalog"
+msgstr ""
+
+msgid "Optional. The bundled catalog works immediately. Catalog requests are cached for 24 hours. No site URL, plugin list or usage data is sent."
+msgstr ""
+
+msgid "Original yellow icon"
+msgstr ""
+
+msgid "Other Settings"
+msgstr ""
+
+msgid "PHP ZIP support is required."
+msgstr ""
+
+msgid "POST required."
+msgstr ""
+
+msgid "Package verification pending"
+msgstr ""
+
+msgid "Page Building 101 by Kevin Geary"
+msgstr ""
+
+msgid "Page Transitions"
+msgstr ""
+
+msgid "Pages (Bricks)"
+msgstr ""
+
+msgid "Performance"
+msgstr ""
+
+msgid "Permission denied."
+msgstr ""
+
+msgid "Personal preferences for this website. Website permissions and configuration overrides still apply."
+msgstr ""
+
+msgid "Planned: "
+msgstr ""
+
+msgid "Plugin Website"
+msgstr ""
+
+msgid "Plugin identity or version does not match the catalog."
+msgstr ""
+
+msgid "Plugin information"
+msgstr ""
+
+msgid "Plugin is not installed."
+msgstr ""
+
+msgid "Plugin on GitHub"
+msgstr ""
+
+msgid "Plugin series"
+msgstr ""
+
+msgid "Plugin website"
+msgstr ""
+
+msgid "Popups"
+msgstr ""
+
+msgid "Post Types"
+msgstr ""
+
+msgid "Private mode must be boolean."
+msgstr ""
+
+msgid "Product website"
+msgstr ""
+
+msgid "Published"
+msgstr ""
+
+msgid "Quick access to Bricks content, templates, settings, add-ons, and resources from the WordPress toolbar."
+msgstr ""
+
+msgid "QuickNav Settings"
+msgstr ""
+
+msgid "Recently modified"
+msgstr ""
+
+msgid "Refresh catalog"
+msgstr ""
+
+msgid "Release 1.0.0 is being prepared. Installation will be available after package verification."
+msgstr ""
+
+msgid "Release checksum is verified before installation. Activation is a separate step."
+msgstr ""
+
+msgid "Release in preparation"
+msgstr ""
+
+msgid "Release must contain exactly the approved plugin directory."
+msgstr ""
+
+msgid "Remote Template Sync"
+msgstr ""
+
+msgid "Repository & documentation"
+msgstr ""
+
+msgid "Required toolbar capability"
+msgstr ""
+
+msgid "Requirements shown are preliminary until the stable release is verified."
+msgstr ""
+
+msgid "Requires PHP %s or newer."
+msgstr ""
+
+msgid "Requires WordPress %s or newer."
+msgstr ""
+
+msgid "Requires a WordPress Multisite network."
+msgstr ""
+
+msgid "Reset filters"
+msgstr ""
+
+msgid "Resources"
+msgstr ""
+
+msgid "Restrict to user IDs"
+msgstr ""
+
+msgid "Retrieve approved catalog updates online"
+msgstr ""
+
+msgid "Roadmap"
+msgstr ""
+
+msgid "SNN BRX Child Theme"
+msgstr ""
+
+msgid "Sat"
+msgstr ""
+
+msgid "Saturday"
+msgstr ""
+
+msgid "Save Changes"
+msgstr ""
+
+msgid "Save Messages"
+msgstr ""
+
+msgid "Save changes to apply your settings."
+msgstr ""
+
+msgid "Save settings"
+msgstr ""
+
+msgid "Scripts"
+msgstr ""
+
+msgid "Scripts Manager"
+msgstr ""
+
+msgid "Search Logs"
+msgstr ""
+
+msgid "Search this catalog"
+msgstr ""
+
 msgctxt "Section label for Bricks community links collection"
 msgid "Add-On Plugins"
 msgstr ""
 
-#: bricks-quicknav.php:2003
-msgctxt "Section label for Bricks community links collection"
-msgid "Frameworks"
-msgstr ""
-
-#: bricks-quicknav.php:2019
-msgid "Fancy Framework"
-msgstr ""
-
-#: bricks-quicknav.php:2028
-msgctxt "Section label for Bricks community links collection"
-msgid "Layouts, Sections etc."
-msgstr ""
-
-#: bricks-quicknav.php:2032
-msgid "Brixies Library"
-msgstr ""
-
-#: bricks-quicknav.php:2042
-msgid "Frames Layouts & Components"
-msgstr ""
-
-#: bricks-quicknav.php:2048
-msgid "Bricks Sections"
-msgstr ""
-
-#: bricks-quicknav.php:2056
-msgctxt "Section label for Bricks community links collection"
-msgid "Tutorials"
-msgstr ""
-
-#: bricks-quicknav.php:2060
-msgid "BricksLabs Tutorials"
-msgstr ""
-
-#: bricks-quicknav.php:2065
-msgid "Learn Bricks Builder"
-msgstr ""
-
-#: bricks-quicknav.php:2070
-msgid "Page Building 101 by Kevin Geary"
-msgstr ""
-
-#: bricks-quicknav.php:2078
 msgctxt "Section label for Bricks community links collection"
 msgid "Collections"
 msgstr ""
 
-#: bricks-quicknav.php:2082
-msgid "Bricks Directory"
+msgctxt "Section label for Bricks community links collection"
+msgid "Frameworks"
 msgstr ""
 
-#: bricks-quicknav.php:2086
-msgid "Bricks Links"
+msgctxt "Section label for Bricks community links collection"
+msgid "Layouts, Sections etc."
 msgstr ""
 
-#: bricks-quicknav.php:2090
-msgid "Bricks Bible"
-msgstr ""
-
-#: bricks-quicknav.php:2098
 msgctxt "Section label for Bricks community links collection"
 msgid "More stuff"
 msgstr ""
 
-#: bricks-quicknav.php:2102
-msgid "BricksBee Components & Templates"
+msgctxt "Section label for Bricks community links collection"
+msgid "Tutorials"
 msgstr ""
 
-#: bricks-quicknav.php:2106
-msgid "Bricks Code Snippets"
+msgid "Security Settings"
 msgstr ""
 
-#: bricks-quicknav.php:2110
-msgid "Built with Bricks"
+msgid "See the release on GitHub."
 msgstr ""
 
-#: bricks-quicknav.php:2114
-msgid "SNN BRX Child Theme"
+msgid "Selected by deckerweb · Installed from GitHub releases"
 msgstr ""
 
-#: bricks-quicknav.php:2212
-msgid "About"
+msgid "Sep"
 msgstr ""
 
-#: bricks-quicknav.php:2220
-msgid "Author: David Decker"
+msgid "September"
 msgstr ""
 
-#: bricks-quicknav.php:2228
-msgid "Plugin on GitHub"
+msgid "Set by configuration:"
 msgstr ""
 
-#: bricks-quicknav.php:2232
-msgid "Buy Me a Coffee"
+msgid "Settings"
 msgstr ""
 
-#: bricks-quicknav.php:2422
-msgctxt "Site Health Debug info"
-msgid "Undefined"
+msgid "Settings saved."
 msgstr ""
 
-#: bricks-quicknav.php:2423
-msgctxt "Site Health Debug info"
-msgid "Enabled"
+msgid "Settings sections"
 msgstr ""
 
-#: bricks-quicknav.php:2424
-msgctxt "Site Health Debug info"
-msgid "Disabled"
+msgid "Shop"
 msgstr ""
 
-#: bricks-quicknav.php:2425
-msgctxt "Site Health Debug info"
-msgid "value"
+msgid "Show Links & About"
 msgstr ""
 
-#: bricks-quicknav.php:2430
-msgid "Plugin"
+msgid "Show QuickNav links for this addon"
 msgstr ""
 
-#: bricks-quicknav.php:2435
-msgid "Plugin version"
+msgid "Show addon submenus"
 msgstr ""
 
-#: bricks-quicknav.php:2439
-msgid "WordPress Install Type"
+msgid "Show child theme navigation"
 msgstr ""
 
-#: bricks-quicknav.php:2440
-msgid "Multisite install"
+msgid "Show deckerweb under Add Plugins"
 msgstr ""
 
-#: bricks-quicknav.php:2440
-msgid "Single Site install"
+msgid "Show directly in the main QuickNav menu"
 msgstr ""
 
-#: bricks-quicknav.php:2481
-msgid "Bricks Builder Version"
+msgid "Show in the Admin Dashboard"
 msgstr ""
 
-#: bricks-quicknav.php:2482
-msgid "Bricks Theme not installed"
+msgid "Show on the website"
 msgstr ""
 
-#: bricks-quicknav.php:2489
-msgid "Bricks with active Child Theme"
+msgid "Showcase"
 msgstr ""
 
-#: bricks-quicknav.php:2490
-msgid "Name"
+msgid "Shows plugins whose platform and dependency requirements are met in this site or network. Without this filter, plugins with missing requirements remain visible."
 msgstr ""
 
-#: bricks-quicknav.php:2490
+msgid "Sidebars"
+msgstr ""
+
+msgid "Small plugins. Practical improvements."
+msgstr ""
+
+msgid "Snippet Documentation"
+msgstr ""
+
+msgid "Sort by"
+msgstr ""
+
+msgid "Source: GitHub"
+msgstr ""
+
+msgid "Sun"
+msgstr ""
+
+msgid "Sunday"
+msgstr ""
+
+msgid "Support"
+msgstr ""
+
+msgid "Support this plugin"
+msgstr ""
+
+msgid "Swiss Knife Bricks"
+msgstr ""
+
+msgid "System Information"
+msgstr ""
+
+msgid "System information"
+msgstr ""
+
+msgid "Taxonomies"
+msgstr ""
+
+msgid "Template (Bricks)"
+msgstr ""
+
+msgid "Template Bundles"
+msgstr ""
+
+msgid "Template Tags"
+msgstr ""
+
+msgid "Template bundles and tags"
+msgstr ""
+
+msgid "Template types"
+msgstr ""
+
+msgid "Template-type lists use the same bounded template selection as the main template list. Increase the item limit to include more templates."
+msgstr ""
+
+msgid "Templates"
+msgstr ""
+
+msgid "The GitHub release could not be downloaded."
+msgstr ""
+
+msgid "The action is still running. Check its status again."
+msgstr ""
+
+msgid "The approved package could not be verified."
+msgstr ""
+
+msgid "The approved release changed. Refresh updates first."
+msgstr ""
+
+msgid "The approved release could not be verified."
+msgstr ""
+
+msgid "The catalog URL is not an allowed first-party HTTPS endpoint."
+msgstr ""
+
+msgid "The catalog could not be verified. Please try again later."
+msgstr ""
+
+msgid "The catalog is disabled."
+msgstr ""
+
+msgid "The catalog is hidden."
+msgstr ""
+
+msgid "The deckerweb catalog could not load. Check platform requirements and the complete Library integration in the host plugin."
+msgstr ""
+
+msgid "The installed plugin identity could not be verified for this catalog update."
+msgstr ""
+
+msgid "The online catalog is unavailable. Showing cached or bundled entries; online approval is checked again before installation."
+msgstr ""
+
+msgid "The online catalog source is not trusted."
+msgstr ""
+
+msgid "The plugin must be installed in a stable slug directory."
+msgstr ""
+
+msgid "The private update could not be authorized. Check the repository credentials and refresh updates."
+msgstr ""
+
+msgid "The private update download failed. Check credentials and try again."
+msgstr ""
+
+msgid "The release checksum does not match. Installation stopped."
+msgstr ""
+
+msgid "The request could not be completed. Check the plugin status before trying again."
+msgstr ""
+
+msgid "The requirements below describe the offered release."
+msgstr ""
+
+msgid "The update has not been confirmed. You can try again."
+msgstr ""
+
+msgid "The update package does not match the offered newer version."
+msgstr ""
+
+msgid "The update package is missing required plugin files."
+msgstr ""
+
+msgid "The update package is not Bricks QuickNav."
+msgstr ""
+
+msgid "The update package requires a newer ClassicPress version."
+msgstr ""
+
+msgid "The update package requires a newer WordPress or PHP version."
+msgstr ""
+
+msgid "These defaults apply to this website. Personal toolbar preferences are available in your user profile."
+msgstr ""
+
+msgid "Third-party integrations"
+msgstr ""
+
+msgid "This catalog requires a newer Library."
+msgstr ""
+
+msgid "This plugin directory already exists. Use the installed plugin; it will not be overwritten."
+msgstr ""
+
+msgid "This release is no longer approved."
+msgstr ""
+
+msgid "This release is not approved."
+msgstr ""
+
+msgid "Thu"
+msgstr ""
+
+msgid "Thursday"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Toolbar & Content"
+msgstr ""
+
+msgid "Toolbar label"
+msgstr ""
+
+msgid "Toolbar position"
+msgstr ""
+
+msgid "Tools"
+msgstr ""
+
+msgid "Tue"
+msgstr ""
+
+msgid "Tuesday"
+msgstr ""
+
+msgid "Tweak Mode"
+msgstr ""
+
+msgid "Unpublished"
+msgstr ""
+
+msgid "Unsafe archive path."
+msgstr ""
+
+msgid "Unsaved changes"
+msgstr ""
+
+msgid "Untrusted release URL."
+msgstr ""
+
+msgid "Update %1$s to version %2$s or newer."
+msgstr ""
+
+msgid "Update failed."
+msgstr ""
+
+msgid "Update to %s"
+msgstr ""
+
+msgid "Updated"
+msgstr ""
+
+msgid "Updating…"
+msgstr ""
+
+msgid "Use website default"
+msgstr ""
+
 msgid "Version"
 msgstr ""
 
-#: bricks-quicknav.php:2490
-msgid "Author"
+msgid "Version not verified"
 msgstr ""
 
-#: bricks-quicknav.php:2533
-msgctxt "Plugins page listing"
-msgid "Donate"
+msgid "View plugins"
 msgstr ""
 
-#: bricks-quicknav.php:2539
-msgctxt "Plugins page listing"
-msgid "Join our Newsletter"
+msgid "Visibility"
 msgstr ""
 
-#. Plugin Name of the plugin/theme
-msgid "Bricks QuickNav"
+msgid "Web App"
 msgstr ""
 
-#. Plugin URI of the plugin/theme
-msgid "https://github.com/deckerweb/bricks-quicknav"
+msgid "Web Font Loader"
 msgstr ""
 
-#. Description of the plugin/theme
-msgid ""
-"Adds a quick-access navigator (aka QuickNav) to the WordPress Admin Bar "
-"(Toolbar). It allows easy access to Bricks Templates and Pages edited with "
-"Bricks, along with some other essential settings."
+msgid "Website toolbar"
 msgstr ""
 
-#. Author of the plugin/theme
-msgid "David Decker – DECKERWEB"
+msgid "Wed"
 msgstr ""
 
-#. Author URI of the plugin/theme
-msgid "https://deckerweb.de/"
+msgid "Wednesday"
+msgstr ""
+
+msgid "White Label"
+msgstr ""
+
+msgid "WordPress"
+msgstr ""
+
+msgid "Yabe Webfont"
+msgstr ""
+
+msgid "You already use one of my plugins. Find selected additions in the deckerweb tab."
+msgstr ""
+
+msgid "You do not have permission to manage these settings."
+msgstr ""
+
+msgid "YouTube Tutorials"
+msgstr ""
+
+msgid "by Bricks"
+msgstr ""
+
+msgid "by Site Health"
+msgstr ""
+
+msgid "by System Dashboard"
 msgstr ""

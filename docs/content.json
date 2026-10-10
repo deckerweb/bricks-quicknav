@@ -1,0 +1,168 @@
+{
+  "en": {
+    "about": "Quick access to Bricks content, templates, settings, add-ons, and resources from the WordPress toolbar. Bricks QuickNav is an independent plugin.",
+    "requirements": "Version **2.0.0** · WordPress **6.7+** · PHP **7.4+**. Bricks must be the active parent theme for navigation. Library 0.9.0 needs PHP 8.0; Updater 2.1.0 needs PHP 8.1. On older PHP versions those components pause; navigation and settings remain available. Bricks itself has its own requirements.",
+    "titles": [
+      "About",
+      "At a Glance",
+      "Installation & first steps",
+      "Features",
+      "FAQ",
+      "Changelog",
+      "Project & support"
+    ],
+    "features": [
+      [
+        "Website and personal settings",
+        "Open Bricks → QuickNav. Without active Bricks, open Settings → Bricks QuickNav. Set the toolbar label, icon, position, visibility, compact mode, list length, sorting, and navigation groups. Personal visibility and list-length preferences are in Users → Profile and apply to the current website."
+      ],
+      [
+        "Bricks content",
+        "Choose public post types enabled in Bricks. Only Bricks-edited content and posts you can edit are listed. Unpublished content is optional and off by default. WordPress permissions and Bricks permissions both apply. Template-type lists share the bounded template selection; increase Items per group to include more templates."
+      ],
+      [
+        "Add-on shortcuts",
+        "Existing framework, snippet manager, and Bricks addon integrations remain available. Enable each integration, place it directly in the main menu, and show or hide addon submenus. These controls change only QuickNav navigation. They do not install, activate, deactivate, or configure third-party plugins. Inactive integrations create no links. Registered admin-menu capabilities are checked; the frontend uses conservative management permissions. Active Bricks addons are grouped under a visible Add-ons menu, even when only one is available. An explicit direct-link choice moves that addon to the first menu level. Third-party adapters use the shared ddw/quicknav/bricks_integrations filter; see the addon registration guide. [Registration guide](docs/addon-registration.md)."
+      ],
+      [
+        "Premium addon versions",
+        "GutenBricks 1.x and 2.x use their own settings and license destinations. BricksUltimate white-label menu names and slugs are respected. Bricksforge 4 navigation includes current tool routes and logs. Swiss Knife shortcuts respect license-dependent page availability. BricksExtras retains its native settings navigation."
+      ],
+      [
+        "SNN-BRX child theme",
+        "The original SNN-BRX shortcuts support its current theme name and renamed folders. Enabled native admin pages, the media image optimization screen, legacy snippet tabs, error logs, and modern snippet edit links are available. Disabled SNN modules produce no dead shortcuts. QuickNav never enables or executes snippets. SNN-BRX is a child theme and appears separately before Add-ons, using its configured native name or SNN-BRX. Its main target is Code Snippets when enabled, otherwise SNN settings. Other child themes link to their functions.php only when the file editor and user permissions allow it. Child-theme visibility is under Toolbar & Content. Developers can use ddw/quicknav/bricks_child_theme; see the [registration guide](docs/child-theme-registration.md)."
+      ],
+      [
+        "Native editors and resources",
+        "QuickNav respects native toolbar visibility in Bricks, Gutenberg, and the Site Editor. It no longer forces toolbars or changes editor layout, and leaves the WordPress logo visible. Existing documentation, community, product-resource, and author links remain available by default. First-level navigation uses consistent bundled Lucide line icons; deeper submenus use text. Bricks AI setup is under Settings."
+      ],
+      [
+        "Updates and plugin discovery",
+        "The bundled deckerweb Updater checks this public GitHub repository through the WordPress update workflow. No GitHub token is required. The deckerweb Library uses a bundled offline catalog. Its optional online catalog is off by default. External requests transfer the requested repository/package and standard HTTP connection information; there is no telemetry."
+      ],
+      [
+        "Multisite and data",
+        "Network activation applies navigation to individual websites; there is no QuickNav toolbar or settings page in Network Admin. Website settings and personal preferences remain separate. Deactivation keeps data. Uninstall keeps settings by default; an explicit website-scoped deletion choice removes only that website’s QuickNav option and user preferences. The shared Library cleans temporary data only when the last installed host is removed. Other plugins and all Bricks content remain untouched."
+      ]
+    ],
+    "faq": [
+      [
+        "Where are the settings?",
+        "Bricks → QuickNav, or Settings → Bricks QuickNav when Bricks is inactive. Personal preferences are in Users → Profile."
+      ],
+      [
+        "Why is the toolbar missing?",
+        "Enable the native toolbar in WordPress or Bricks and check QuickNav visibility, the capability, the user-ID restriction, and personal preferences. QuickNav does not force the toolbar."
+      ],
+      [
+        "Can editors use QuickNav?",
+        "An administrator can choose a suitable toolbar capability. Each destination still requires its own WordPress and Bricks permissions. Allowing the toolbar does not grant administrative privileges."
+      ],
+      [
+        "What happens without Bricks?",
+        "Navigation pauses safely while settings remain available. Activate Bricks or a Bricks child theme to resume navigation."
+      ],
+      [
+        "Are resources and addon links removed?",
+        "No. Existing resource collections and integrations remain. Addon links appear only for detected active integrations and can be configured individually."
+      ],
+      [
+        "Do configuration constants still work?",
+        "BXQN_NAME_IN_ADMINBAR, BXQN_ICON, BXQN_MENU_POSITION, BXQN_NUMBER_TEMPLATES, BXQN_COMPACT_MODE, BXQN_VIEW_CAPABILITY, BXQN_ENABLED_USERS, and BXQN_DISABLE_FOOTER override settings. Locked fields show the constant. BXQN_ADMINBAR_IN_BUILDER has no effect because toolbar forcing was removed."
+      ],
+      [
+        "Which data is deleted?",
+        "By default, uninstall preserves website settings and personal preferences. If that website opts in, those QuickNav values are deleted. Bricks content, user accounts, other plugins, and Library-installed plugins are retained."
+      ],
+      [
+        "How can addon and child-theme developers connect?",
+        "Use ddw/quicknav/bricks_integrations for addon definitions, and ddw/quicknav/bricks_child_theme for the active child theme. Labels, native destinations and optional child pages are configurable. QuickNav still checks page registration and user permissions. See the [addon example](docs/addon-registration.md) and [child-theme example](docs/child-theme-registration.md)."
+      ]
+    ],
+    "support": "Developed and published by David Decker – DECKERWEB. QuickNav provides shortcuts to existing Bricks and WordPress functions. It does not replace the builder. Report ordinary problems through [Issues](https://github.com/deckerweb/bricks-quicknav/issues). Report vulnerabilities privately through [GitHub](https://github.com/deckerweb/bricks-quicknav/security/advisories/new). [Support development](https://ko-fi.com/deckerweb).",
+    "credits": "GPL v2 or later. Settings presentation and lifecycle adapted from David Decker’s [Breakdance QuickNav 2.0.0](https://github.com/deckerweb/breakdance-quicknav/tree/v2.0.0) and its Oxygen QuickNav reference, GPL-2.0-or-later. Series artwork: original vector graphics by deckerweb. Inter typography is outlined; its SIL OFL 1.1 license is bundled in assets/INTER-LICENSE.txt. No fonts are loaded by this plugin. Bricks and addon trademarks belong to their respective owners. Toolbar icons: Lucide (ISC/MIT); bundled license and pinned source information are in assets/lucide."
+  },
+  "de": {
+    "about": "Schneller Zugriff auf Bricks-Inhalte, Templates, Einstellungen, Addons und Ressourcen über die WordPress-Toolbar. Bricks QuickNav ist ein eigenständiges Plugin.",
+    "requirements": "Version **2.0.0** · WordPress **6.7+** · PHP **7.4+**. Für die Navigation muss Bricks als übergeordnetes Theme aktiv sein. Library 0.9.0 benötigt PHP 8.0; Updater 2.1.0 benötigt PHP 8.1. Auf älteren PHP-Versionen pausieren diese Komponenten; Navigation und Einstellungen bleiben verfügbar. Bricks hat eigene Mindestanforderungen.",
+    "titles": [
+      "Über das Plugin",
+      "Auf einen Blick",
+      "Installation und erste Schritte",
+      "Funktionen",
+      "FAQ",
+      "Änderungsverlauf",
+      "Projekt und Unterstützung"
+    ],
+    "features": [
+      [
+        "Website-Einstellungen und persönliche Vorlieben",
+        "Öffne Bricks → QuickNav. Ohne aktives Bricks findest du die Seite unter Einstellungen → Bricks QuickNav. Wähle Toolbar-Name, Icon, Position, Sichtbarkeit, kompaktes Menü, Anzahl, Sortierung und Menübereiche. Persönliche Sichtbarkeit und Anzahl findest du unter Benutzer → Profil; sie gelten für die aktuelle Website."
+      ],
+      [
+        "Bricks-Inhalte",
+        "Wähle öffentliche Inhaltstypen, die in Bricks aktiviert sind. Angezeigt werden mit Bricks bearbeitete Inhalte, die du bearbeiten darfst. Unveröffentlichte Inhalte sind optional und standardmäßig ausgeschaltet. WordPress- und Bricks-Berechtigungen gelten gemeinsam. Die Template-Typen verwenden dieselbe begrenzte Template-Auswahl; erhöhe Einträge je Gruppe für weitere Templates."
+      ],
+      [
+        "Addon-Verknüpfungen",
+        "Bestehende Framework-, Snippet-Manager- und Bricks-Addon-Integrationen bleiben verfügbar. Schalte jede Integration einzeln ein, zeige sie direkt im Hauptmenü und wähle, ob Untereinträge erscheinen. Die Schalter ändern ausschließlich die QuickNav-Navigation. Sie installieren, aktivieren, deaktivieren oder konfigurieren keine anderen Plugins. Inaktive Integrationen erzeugen keine Links. Registrierte Menüberechtigungen werden geprüft; im Frontend gelten konservative Verwaltungsrechte. Aktive Bricks-Addons erscheinen unter einem sichtbaren Add-ons-Menü, auch wenn nur eines verfügbar ist. Ein ausdrücklich gewählter Direktlink verschiebt das Addon auf die erste Menüebene. Drittanbieter-Adapter verwenden den gemeinsamen Filter ddw/quicknav/bricks_integrations; siehe Anleitung zur Addon-Registrierung. [Registrierungsanleitung](docs/addon-registration-de.md)."
+      ],
+      [
+        "Premium-Addon-Versionen",
+        "GutenBricks 1.x und 2.x verwenden ihre jeweiligen Einstellungs- und Lizenzziele. BricksUltimate berücksichtigt White-Label-Menünamen und Slugs. Bricksforge 4 verwendet aktuelle Werkzeugziele und Protokolle. Swiss-Knife-Verknüpfungen berücksichtigen lizenzabhängig verfügbare Seiten. BricksExtras behält seine native Einstellungsnavigation."
+      ],
+      [
+        "SNN-BRX Child Theme",
+        "Die bisherigen SNN-BRX-Verknüpfungen unterstützen den aktuellen Theme-Namen und umbenannte Ordner. Aktivierte native Admin-Seiten, die Bildoptimierung unter Medien, bestehende Snippet-Tabs, Fehlerprotokolle und Bearbeitungslinks für moderne Snippets sind erreichbar. Ausgeschaltete SNN-Module erzeugen keine toten Links. QuickNav aktiviert oder führt keine Snippets aus. SNN-BRX ist ein Child Theme und erscheint separat vor Add-ons, mit seinem angepassten nativen Namen oder SNN-BRX. Hauptziel sind die Code-Snippets, wenn aktiv, sonst die SNN-Einstellungen. Andere Child Themes verlinken auf ihre functions.php, sofern Datei-Editor und Benutzerrechte dies erlauben. Die Child-Theme-Sichtbarkeit liegt unter Toolbar & Inhalte. Entwickler verwenden ddw/quicknav/bricks_child_theme; siehe [Registrierungsanleitung](docs/child-theme-registration-de.md)."
+      ],
+      [
+        "Native Editoren und Ressourcen",
+        "QuickNav berücksichtigt die native Toolbar-Sichtbarkeit in Bricks, Gutenberg und Site Editor. Das Plugin erzwingt keine Toolbar mehr, verschiebt keine Editor-Bereiche und lässt das WordPress-Logo sichtbar. Bestehende Dokumentations-, Community-, Produkt- und Autorenlinks bleiben standardmäßig verfügbar. Die erste Menüebene verwendet einheitliche lokale Lucide-Linien-Icons; tiefere Untermenüs verwenden Text. Die KI Einrichtung (Bricks AI) liegt unter Einstellungen."
+      ],
+      [
+        "Updates und Plugin-Auswahl",
+        "Der enthaltene deckerweb Updater prüft dieses öffentliche GitHub-Repository über den WordPress-Updateablauf. Ein GitHub-Token ist nicht nötig. Die deckerweb Library verwendet einen lokalen Katalog; der optionale Online-Katalog ist standardmäßig ausgeschaltet. Externe Abfragen übertragen das angefragte Repository/Paket sowie übliche HTTP-Verbindungsdaten. Es gibt keine Telemetrie."
+      ],
+      [
+        "Multisite und Daten",
+        "Die Netzwerkaktivierung stellt die Navigation auf den einzelnen Websites bereit; im Netzwerk-Admin gibt es keine QuickNav-Toolbar oder Einstellungsseite. Website-Einstellungen und persönliche Vorlieben bleiben getrennt. Deaktivierung erhält Daten. Deinstallation erhält Einstellungen standardmäßig; die ausdrücklich gewählte Löschoption entfernt nur die QuickNav-Option und Benutzerpräferenzen der jeweiligen Website. Die gemeinsame Library bereinigt temporäre Daten erst beim letzten installierten Host. Andere Plugins und sämtliche Bricks-Inhalte bleiben erhalten."
+      ]
+    ],
+    "faq": [
+      [
+        "Wo sind die Einstellungen?",
+        "Unter Bricks → QuickNav oder ohne aktives Bricks unter Einstellungen → Bricks QuickNav. Persönliche Vorlieben findest du unter Benutzer → Profil."
+      ],
+      [
+        "Warum fehlt die Toolbar?",
+        "Aktiviere die native Toolbar in WordPress oder Bricks und prüfe QuickNav-Sichtbarkeit, Berechtigung, Benutzer-ID-Beschränkung und persönliche Vorlieben. QuickNav erzwingt keine Toolbar."
+      ],
+      [
+        "Können Redakteure QuickNav verwenden?",
+        "Ein Administrator kann eine passende Toolbar-Berechtigung wählen. Jedes Ziel verlangt weiterhin die eigenen WordPress- und Bricks-Rechte. Die Toolbar-Freigabe vergibt keine Verwaltungsrechte."
+      ],
+      [
+        "Was passiert ohne Bricks?",
+        "Die Navigation pausiert sicher, während die Einstellungen erreichbar bleiben. Aktiviere Bricks oder ein Bricks-Child-Theme, um die Navigation wieder zu verwenden."
+      ],
+      [
+        "Entfallen Ressourcen und Addon-Links?",
+        "Nein. Bestehende Ressourcensammlungen und Integrationen bleiben erhalten. Addon-Links erscheinen nur bei erkannten aktiven Integrationen und sind einzeln konfigurierbar."
+      ],
+      [
+        "Funktionieren Konfigurationskonstanten weiterhin?",
+        "BXQN_NAME_IN_ADMINBAR, BXQN_ICON, BXQN_MENU_POSITION, BXQN_NUMBER_TEMPLATES, BXQN_COMPACT_MODE, BXQN_VIEW_CAPABILITY, BXQN_ENABLED_USERS und BXQN_DISABLE_FOOTER überschreiben Einstellungen. Gesperrte Felder zeigen die Konstante. BXQN_ADMINBAR_IN_BUILDER hat keine Wirkung mehr, da die Toolbar-Erzwingung entfernt wurde."
+      ],
+      [
+        "Welche Daten werden gelöscht?",
+        "Standardmäßig bleiben Website-Einstellungen und persönliche Vorlieben bei der Deinstallation erhalten. Wenn die Website ausdrücklich zustimmt, werden diese QuickNav-Werte gelöscht. Bricks-Inhalte, Benutzerkonten, andere Plugins und über die Library installierte Plugins bleiben erhalten."
+      ],
+      [
+        "Wie können Addon- und Child-Theme-Entwickler ihre Navigation ergänzen?",
+        "Addon-Definitionen verwenden ddw/quicknav/bricks_integrations, das aktive Child Theme verwendet ddw/quicknav/bricks_child_theme. Bezeichnungen, native Ziele und optionale Unterseiten lassen sich angeben. QuickNav prüft weiterhin die Seitenregistrierung und Benutzerrechte. Siehe [Addon-Beispiel](docs/addon-registration-de.md) und [Child-Theme-Beispiel](docs/child-theme-registration-de.md)."
+      ]
+    ],
+    "support": "Entwickelt und herausgegeben von David Decker – DECKERWEB. QuickNav bietet Verknüpfungen zu bestehenden Bricks- und WordPress-Funktionen. Das Plugin ersetzt den Builder nicht. Normale Probleme über [Issues](https://github.com/deckerweb/bricks-quicknav/issues) melden. Sicherheitslücken privat über [GitHub](https://github.com/deckerweb/bricks-quicknav/security/advisories/new) melden. [Entwicklung unterstützen](https://ko-fi.com/deckerweb).",
+    "credits": "GPL v2 oder höher. Einstellungsdarstellung und Lebenszyklus aus David Deckers [Breakdance QuickNav 2.0.0](https://github.com/deckerweb/breakdance-quicknav/tree/v2.0.0) und dessen Oxygen-QuickNav-Referenz übernommen, GPL-2.0-or-later. Seriengrafiken: eigene Vektorgrafiken von deckerweb. Inter-Schrift ist in Pfade umgewandelt; die SIL-OFL-1.1-Lizenz liegt unter assets/INTER-LICENSE.txt bei. Dieses Plugin lädt keine Schriften. Bricks- und Addon-Marken gehören ihren jeweiligen Eigentümern. Toolbar-Icons: Lucide (ISC/MIT); mitgelieferte Lizenz und festgehaltener Quellstand unter assets/lucide."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "project": "Lucide",
+  "repository": "https://github.com/lucide-icons/lucide",
+  "commit": "70562c1ee1c4fdcf736fe97bc893fb8511927934",
+  "icons": [
+    "file-text",
+    "panels-top-left",
+    "layout-list",
+    "package",
+    "tags",
+    "type",
+    "panel-left",
+    "settings",
+    "info",
+    "code",
+    "layers",
+    "puzzle",
+    "external-link",
+    "users",
+    "circle-user-round",
+    "triangle-alert",
+    "inbox",
+    "folder",
+    "sparkles",
+    "git-branch"
+  ]
+}

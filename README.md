@@ -1,287 +1,153 @@
-# Bricks QuickNav – for Bricks Builder
+# Bricks QuickNav
 
-![Bricks QuickNav plugin banner](https://repository-images.githubusercontent.com/981974040/34ef63be-6f83-4a99-9004-1e5b11e16b9b)
+![Bricks QuickNav](assets/banner-en-1280x640.png)
 
-The **Bricks QuickNav** plugin adds a quick-access navigator to the WordPress Admin Bar (Toolbar). It allows easy access to Bricks Builder Templates, Headers, Footers, and (regular WordPress) Pages edited with Bricks, along with lots of other essential settings and stuff like plugin integrations and so on.
+[Deutsch](README-de.md)
 
-* Contributors: [David Decker](https://github.com/deckerweb), [contributors](https://github.com/deckerweb/bricks-quicknav/graphs/contributors)
-* Tags: bricks, bricks builder, quicknav, admin bar, toolbar, site builder, administrators
-* Requires at least: 6.7
-* Requires PHP: 7.4
-* Stable tag: [main](https://github.com/deckerweb/bricks-quicknav/releases/latest)
-* Donate link: https://paypal.me/deckerweb
-* License: GPL v2 or later
+Quick access to Bricks content, templates, settings, add-ons, and resources from the WordPress toolbar. Bricks QuickNav is an independent plugin.
 
----
+Version **2.0.0** · WordPress **6.7+** · PHP **7.4+**. Bricks must be the active parent theme for navigation. Library 0.9.0 needs PHP 8.0; Updater 2.1.0 needs PHP 8.1. On older PHP versions those components pause; navigation and settings remain available. Bricks itself has its own requirements.
 
-[Support Project](#support-the-project) | [Installation](#installation) | [Updates](#updates) | [Description](#description) | [FAQ](#frequently-asked-questions) | [Custom Tweaks](#custom-tweaks) | [Changelog](#changelog) | [Plugin Scope / Disclaimer](#plugin-scope--disclaimer)
+[GitHub Wiki](https://github.com/deckerweb/bricks-quicknav/wiki) · [FAQ](wiki/FAQ-by-topic.md)
 
----
+- [About](#about)
+- [At a Glance](#overview)
+- [Installation & first steps](#installation)
+- [Features](#features)
+- [FAQ](#faq)
+- [Changelog](#changelog)
+- [Project & support](#support)
 
-## Support the Project
+<a id="about"></a>
 
-If you find this project helpful, consider showing your support by buying me a coffee! Your contribution helps me keep developing and improving this plugin.
+## About
 
-Enjoying the plugin? Feel free to treat me to a cup of coffee ☕🙂 through the following options:
+Quick access to Bricks content, templates, settings, add-ons, and resources from the WordPress toolbar. Bricks QuickNav is an independent plugin.
 
-- [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W81BNTZE)
-- [Buy me a coffee](https://buymeacoffee.com/daveshine)
-- [PayPal donation](https://paypal.me/deckerweb)
-- [Join my **newsletter** for DECKERWEB WordPress Plugins](https://eepurl.com/gbAUUn)
+<a id="overview"></a>
 
----
+## At a Glance
 
-## Installation
+- Website and personal settings
+- Bricks content
+- Add-on shortcuts
+- Premium addon versions
+- SNN-BRX child theme
+- Native editors and resources
+- Updates and plugin discovery
+- Multisite and data
 
-#### **Quick Install – as Plugin**
-[![Download Plugin](https://raw.githubusercontent.com/deckerweb/bricks-quicknav/refs/heads/main/assets/button-download-plugin.png)](https://github.com/deckerweb/bricks-quicknav/releases/latest/download/bricks-quicknav.zip)
+<a id="installation"></a>
 
-1. **Download ZIP:** [**bricks-quicknav.zip**](https://github.com/deckerweb/bricks-quicknav/releases/latest/download/bricks-quicknav.zip)
-2. Upload via WordPress Plugins > Add New > Upload Plugin
-3. Once activated, you’ll see the **Bricks** menu item in the Admin Bar.
+## Installation & first steps
 
-#### **Alternative: Use as Code Snippet**
-[![Download Code Snippet](https://raw.githubusercontent.com/deckerweb/bricks-quicknav/refs/heads/main/assets/button-download-snippet.png)](https://github.com/deckerweb/bricks-quicknav/releases/latest/download/ddw-bricks-quicknav.code-snippets.json)  
-1. Below, download the appropriate snippet version
-2. Activate or deactivate in your snippets plugin
+Install the plugin ZIP through Plugins → Add Plugin → Upload Plugin. Activate it and open its settings page. Before upgrading from 1.0.0, review your constants and filters. Native toolbar visibility after the upgrade is controlled by WordPress and Bricks.
 
-[**Download .json**](https://github.com/deckerweb/bricks-quicknav/releases/latest/download/ddw-bricks-quicknav.code-snippets.json) version for: _Code Snippets_ (free & Pro), _Advanced Scripts_ (Premium), _Scripts Organizer_ (Premium)  
-➔ just use their elegant script import features 
-➔ in _Scripts Organizer_ use the "Code Snippets Import" 
+<a id="features"></a>
 
-For all other snippet manager plugins just use our plugin's main .php file [`bricks-quicknav.php`](https://github.com/deckerweb/bricks-quicknav/blob/master/bricks-quicknav.php) and use its content as snippet (bevor saving your snippet: please check for your plugin if the opening `<?php` tag needs to be removed or not!).
+## Features
 
-➔ Please decide for one of both alternatives!
+### Website and personal settings
 
-#### Minimum Requirements 
-* WordPress version 6.7 or higher
-* PHP version 7.4 or higher (better 8.3+)
-* MySQL version 8.0 or higher / OR MariaDB 10.1 or higher
-* Administrator user with capability `manage_options` and `activate_plugins`
+Open Bricks → QuickNav. Without active Bricks, open Settings → Bricks QuickNav. Set the toolbar label, icon, position, visibility, compact mode, list length, sorting, and navigation groups. Personal visibility and list-length preferences are in Users → Profile and apply to the current website.
 
-### Tested Compatibility
-- **Bricks**: 1.12.4 ... 2.0.0 Alpha
-- **WordPress**: 6.7.2 ... 6.8.1
-- **PHP**: 8.0 – 8.3
+### Bricks content
 
----
+Choose public post types enabled in Bricks. Only Bricks-edited content and posts you can edit are listed. Unpublished content is optional and off by default. WordPress permissions and Bricks permissions both apply. Template-type lists share the bounded template selection; increase Items per group to include more templates.
 
-## Updates 
+### Add-on shortcuts
 
-#### For Plugin Version:
+Existing framework, snippet manager, and Bricks addon integrations remain available. Enable each integration, place it directly in the main menu, and show or hide addon submenus. These controls change only QuickNav navigation. They do not install, activate, deactivate, or configure third-party plugins. Inactive integrations create no links. Registered admin-menu capabilities are checked; the frontend uses conservative management permissions. Active Bricks addons are grouped under a visible Add-ons menu, even when only one is available. An explicit direct-link choice moves that addon to the first menu level. Third-party adapters use the shared ddw/quicknav/bricks_integrations filter; see the addon registration guide. [Registration guide](docs/addon-registration.md).
 
-1) Alternative 1: Just download a new [ZIP file](https://github.com/deckerweb/bricks-quicknav/releases/latest/download/bricks-quicknav.zip) (see above), upload and override existing version. Done.
+### Premium addon versions
 
-2) Alternative 2: Use the (free) [**_Git Updater_ plugin**](https://git-updater.com/) and get updates automatically.
+GutenBricks 1.x and 2.x use their own settings and license destinations. BricksUltimate white-label menu names and slugs are respected. Bricksforge 4 navigation includes current tool routes and logs. Swiss Knife shortcuts respect license-dependent page availability. BricksExtras retains its native settings navigation.
 
-3) Alternative 3: Upcoming! – In future I will built-in our own deckerweb updater. This is currently being worked on for my plugins. Stay tuned!
+### SNN-BRX child theme
 
-#### For Code Snippet Version:
+The original SNN-BRX shortcuts support its current theme name and renamed folders. Enabled native admin pages, the media image optimization screen, legacy snippet tabs, error logs, and modern snippet edit links are available. Disabled SNN modules produce no dead shortcuts. QuickNav never enables or executes snippets. SNN-BRX is a child theme and appears separately before Add-ons, using its configured native name or SNN-BRX. Its main target is Code Snippets when enabled, otherwise SNN settings. Other child themes link to their functions.php only when the file editor and user permissions allow it. Child-theme visibility is under Toolbar & Content. Developers can use ddw/quicknav/bricks_child_theme; see the [registration guide](docs/child-theme-registration.md).
 
-Just manually: Download the latest Snippet version (see above) and import it in your favorite snippets manager plugin. – You can delete the old snippet; then just activate the new one. Done.
+### Native editors and resources
 
----
+QuickNav respects native toolbar visibility in Bricks, Gutenberg, and the Site Editor. It no longer forces toolbars or changes editor layout, and leaves the WordPress logo visible. Existing documentation, community, product-resource, and author links remain available by default. First-level navigation uses consistent bundled Lucide line icons; deeper submenus use text. Bricks AI setup is under Settings.
 
-## Description 
+### Updates and plugin discovery
 
-### How this Plugin Works 
+The bundled deckerweb Updater checks this public GitHub repository through the WordPress update workflow. No GitHub token is required. The deckerweb Library uses a bundled offline catalog. Its optional online catalog is off by default. External requests transfer the requested repository/package and standard HTTP connection information; there is no telemetry.
 
-1. **Pages and Bricks Templates (including all its types)**: Displays up to 20 items (by default), ordered by the last modified date (descending). The "Pages" menu only shows pages built with Bricks by checking the `_bricks_editor_mode` custom field.
-2. **Settings**: Direct links to all relevant Bricks settings & sections.
-3. **Child Themes functions.php** (if child is used), including the special "plugin-like" _SNN BRX_ child theme; plus support for 6 typical code snippets plugins (to organize custom code & scripts)
-4. Lots of typical & popular **Bricks-specific add-on plugins** with their settings or actions
-5. **Additional Links**: Includes links to lots of official resources like the Bricks website and Facebook group. Some may contain affiliate links.
-6. **Community Links**: Collected and hand-picked community links grouped by topic.
-7. **About**: Includes links to the plugin author.
-8. Optionally show **Admin Bar** also **within Bricks Builder** itself (Builder context)
-9. Show **Admin Bar** also **in Block Editor** full screen mode. (Not there in WP default but this plugin here changes that!)
+### Multisite and data
 
+Network activation applies navigation to individual websites; there is no QuickNav toolbar or settings page in Network Admin. Website settings and personal preferences remain separate. Deactivation keeps data. Uninstall keeps settings by default; an explicit website-scoped deletion choice removes only that website’s QuickNav option and user preferences. The shared Library cleans temporary data only when the last installed host is removed. Other plugins and all Bricks content remain untouched.
 
-### List of Integrations 
-* Child Themes:
-	- Bricks Child Themes in general
-	- [SNN BRX Child Theme (by Sinan Isler)](https://github.com/sinanisler/snn-brx-child-theme) (free)
-
-* Plugins:
-	- Bricksforge (Premium)
-	- BricksExtras (Premium)
-	- BricksUltimate (Premium)
-	- Bricksable (free)
-	- EasyDash (free)
-	- Bricks Admin Dashboard (Premium)
-	- Swiss Knife Bricks (Premium)
-	- Bricks Element Manager (free)
-	- Yabe Webfonts (free + Premium)
-	- [Builder List Pages](https://github.com/deckerweb/builder-list-pages) (free)
-	- Max Addons (free Version only, currently)
-	- [Bricks Remote Template Sync](https://github.com/tweschke/bricks-remote-template-sync) (free)
-	- [Flex Addons](https://github.com/TimpCreative/bricks-flex-addons) (free currently; dev/alpha)
-
-* Code Snippets:
-	- [MA Custom Fonts](https://www.altmann.de/en/blog-en/code-snippet-custom-fonts/) (free)
-
-* Frameworks:
-	- Automatic.CSS (Premium)
-	- Add-On: Frames (Premium)
-	- Add-On: ACSS Purger (free Plugin)
-	- Core Framework (free & Premium)
-	- Add-On: Brixies.co (Premium library)
-	- WindPress (free & Premium)
-
-* Other Plugins:
-	- System Dashboard (free)
-
-* Snippets Manager Plugins:
-	- Code Snippets (free & Premium)
-	- Advanced Scripts (Premium)
-	- Scripts Organizer (Premium)
-	- WPCodeBox (Premium)
-	- FluentSnippets (free)
-	- WPCode Lite (free)
-
----
-
-## Frequently Asked Questions 
-
-### How can I change / tweak things?
-Please see here under [**Custom Tweaks via Constants**](#custom-tweaks-via-constants) what is possible!
-
-### Why no settings page? 
-That overcomplicates things – setting up a few constants is easy and fast. Also, needed code for settings makes plugin more "bloated" and even less fitting for the alternative use as a code snippet. Use of code snippet is only possible with a "one-file-plugin"! And remember, this is a plugin geared towards Administrators who are normally able to add a little line of code if needed.
+<a id="faq"></a>
 
-### Why can't certain strings not be translated?
-To keep translation files as small and clean as possible not all strings need translations, especially those product names like "Automatic.CSS" or "Bricksforge" and so on. These product and/ or company names are as is and **not** declared with regular translation functions.
-
-### Why is this functionality not baked into _Bricks Builder_ itself?
-I don't know. Not everything needs to be built-in. That's what plugins are for: those who _need_ this functionality can install and use them. Also, _Bricks QuickNav_ just goes far and beyond, it adds the things, I wanted and/or needed _myself_. So, that's just what you get here for free.
-
-### Why did you create this plugin?
-Because I needed (and wanted!) it myself for the sites I maintain. [Read the backstory here ...](#plugins-backstory)
-
-### Why is this plugin not on wordpress.org plugin repository?
-Because the restrictions there for plugin authors are becoming more and more. It would be possible but I don't want that anymore. The same for limited support forums for plugin authors on .org. I have decided to leave this whole thing behind me.
+## FAQ
 
---- 
+### Where are the settings?
 
-## Custom Tweaks via Constants 
+Bricks → QuickNav, or Settings → Bricks QuickNav when Bricks is inactive. Personal preferences are in Users → Profile.
 
-### Default capability (aka permission) 
-The intended usage of this plugin is for Administrator users only. Therefore the default capability to see the new Admin Bar node is set to `activate_plugins`. You can change this via constant 
-in `wp-config.php` or via a Code Snippets plugin, for example:
-```
-define( 'BXQN_VIEW_CAPABILITY', 'edit_posts' );
-```
+### Why is the toolbar missing?
 
+Enable the native toolbar in WordPress or Bricks and check QuickNav visibility, the capability, the user-ID restriction, and personal preferences. QuickNav does not force the toolbar.
 
-### Restrict to defined user IDs only 
-You can define an array of user IDs (can also be only _one_ ID) and that way restrict showing the Bricks Admin Bar item only for those users. Define that via `wp-config.php` or via a Code Snippets plugin:
-```
-define( 'BXQN_ENABLED_USERS', [ 1, 500, 867 ] );
-```
-This would enable only for the users with the IDs 1, 500 and 867. Note the square brackets around, and no single quotes, just the ID numbers.
+### Can editors use QuickNav?
 
-For example you are one of many admin users (role `administrator`) but _only you_ want to show it _for yourself_. Given you have user ID 1:
-```
-define( 'BXQN_ENABLED_USERS', [ 1 ] );
-```
-That way only you can see it, the other admins can't!
+An administrator can choose a suitable toolbar capability. Each destination still requires its own WordPress and Bricks permissions. Allowing the toolbar does not grant administrative privileges.
 
+### What happens without Bricks?
 
-### Name of main menu item 
-The default is just "Bricks" – catchy and short. However, if you don't enjoy "Bricks" you can tweak that also via the constant `BXQN_NAME_IN_ADMINBAR` – define that also via `wp-config.php` or via a Code Snippets plugin:
-```
-define( 'BXQN_NAME_IN_ADMINBAR', 'BRX' );
-```
+Navigation pauses safely while settings remain available. Activate Bricks or a Bricks child theme to resume navigation.
 
+### Are resources and addon links removed?
 
-### Position of main menu item 
-You can define an integer value to adjust the menu position of the main menu item. Define that via `wp-config.php` or via a Code Snippets plugin:
-```
-define( 'BXQN_MENU_POSITION', 81 );
-```
-This example will place it somewhere after the default `+ New` item. Note: the default value is `999` which puts the item quite on the middle or right side of the Admin Bar.
+No. Existing resource collections and integrations remain. Addon links appear only for detected active integrations and can be configured individually.
 
+### Do configuration constants still work?
 
-### Default icon of main menu item 
-The bold "b" default logo icon is awesome but at the same time a bit too normal? Who knows. – At least within the Admin Bar? Therefore, I offer TWO alternative icons for you to use and be happy with: the yellow Bricks "b" icon and the bricked icon with the 3 brick stones. You can tweak that via a constant in `wp-config.php` or via a Code Snippets plugin:
-```
-/** Bricks yellow "b" icon */
-define( 'BXQN_ICON', 'yellow' );
+BXQN_NAME_IN_ADMINBAR, BXQN_ICON, BXQN_MENU_POSITION, BXQN_NUMBER_TEMPLATES, BXQN_COMPACT_MODE, BXQN_VIEW_CAPABILITY, BXQN_ENABLED_USERS, and BXQN_DISABLE_FOOTER override settings. Locked fields show the constant. BXQN_ADMINBAR_IN_BUILDER has no effect because toolbar forcing was removed.
 
-/** Bricks "bricked" icon (3 brick stones) */
-define( 'BXQN_ICON', 'brick' );
-```
+### Which data is deleted?
 
+By default, uninstall preserves website settings and personal preferences. If that website opts in, those QuickNav values are deleted. Bricks content, user accounts, other plugins, and Library-installed plugins are retained.
 
-### Adjust the number of displayed Templates/ Pages 
-The default number of displayed Templates/ Pages is 20. That means up to 20 items, starting from latest (newest) down to older ones. You can adjust that value via constant in `wp-config.php` or via a Code Snippets plugin:
-```
-define( 'BXQN_NUMBER_TEMPLATES', 5 );
-```
-In that example it would only display up to 5 items. NOTE: just add the number, no quotes around it.
+### How can addon and child-theme developers connect?
 
+Use ddw/quicknav/bricks_integrations for addon definitions, and ddw/quicknav/bricks_child_theme for the active child theme. Labels, native destinations and optional child pages are configurable. QuickNav still checks page registration and user permissions. See the [addon example](docs/addon-registration.md) and [child-theme example](docs/child-theme-registration.md).
 
-### Disable footer items (_Links_, _Community_ and _About_)
-To disable these menu items, just use another constant in `wp-config.php` or via a Code Snippets plugin:
-```
-define( 'BXQN_DISABLE_FOOTER', 'yes' );
-```
+<a id="changelog"></a>
 
+## Changelog
 
-### Use "Compact Mode"
-This mode just disables a few Admin Bar items to free up some precious space (for example, not displaying the link for "Sidebars").
-```
-define( 'BXQN_COMPACT_MODE', TRUE );
-```
-Note: Just use `TRUE` or `FALSE`, no quotes around it.
+### 2.0.0 · October 10, 2026
 
+- **Improved:** All displayed Bricks content types and template lists use muted Published/Unpublished headings; unpublished items show their specific status in parentheses.
+- **Improved:** New QuickNav series artwork with centered icon, German and English banners, and 512/1024-pixel icon exports.
+- **Improved:** Separate optional child-theme navigation before Add-ons, native SNN-BRX naming and feature destinations, and documented addon/child-theme extension filters.
+- **Improved:** Consistent Lucide icons on the first menu level, a visible Add-ons submenu, and shared addon registration. Bricks AI setup is grouped under Settings.
+- **Fixed:** Compact 16-pixel toolbar icons aligned with labels; stylesheet updates invalidate caches even when test packages share the same plugin version.
+- **New:** Website settings and personal toolbar preferences in user profiles.
+- **New:** Individual addon shortcuts, direct links, and optional addon submenus.
+- **New:** Additional Bricks content types, sorting, and optional unpublished content.
+- **New:** Navigation for twelve additional public Bricks addons with individually configurable links.
+- **Improved:** Version-specific GutenBricks 1/2 links, BricksUltimate white-label menus, Bricksforge 4 routes, and license-aware Swiss Knife shortcuts.
+- **Improved:** Navigation respects content permissions and reuses bounded content queries.
+- **Improved:** SNN-BRX supports the current theme, enabled admin modules, and modern snippet links.
+- **Fixed:** Query and settings filters work; All Fonts opens the overview; multiple framework and snippet menus coexist.
+- **Fixed:** Builder URLs retain existing query parameters; inactive Bricks does not interrupt WordPress.
+- **Misc:** Native toolbar visibility replaces forced toolbar and editor layout changes. The WordPress logo remains visible. Existing resources and links remain available.
+- **Misc:** Includes deckerweb Library 0.9.0 and deckerweb Updater 2.1.0.
 
-### Use the Admin Bar also _WITHIN_ the Builder itself 
-Yes, it's possible, just add this constant declaration in `wp-config.php` or via a Code Snippets plugin:
-```
-define( 'BXQN_ADMINBAR_IN_BUILDER', 'yes' );
-```
+### 1.0.0 · May 12, 2025
 
----
+- **New:** Initial release with Bricks content, settings, integrations, and resource navigation.
 
-## Changelog 
+<a id="support"></a>
 
-### [The Releases](https://github.com/deckerweb/bricks-quicknav/releases)
+## Project & support
 
-### 🎉 v1.0.0 – 2025-05-12
-* Initial release
-* Includes support for Bricks Builder 1.12.x as well as Bricks 2.0-alpha
-* Includes support for 13 Bricks specific plugins/ Add-Ons, plus 1 general plugin, plus 1 "plugin-like" Code Snippet
-* Includes support for 3 Frameworks, plus 3 "Add-Ons" (Libraries)
-* Includes support for Bricks Child Themes; specifically also for "SNN BRX Bricks Child Theme" (third-party)
-* Installable and updateable via [Git Updater plugin](https://git-updater.com/)
-* Includes `.pot` file, plus packaged German translations, including new `l10n.php` files!
+Developed and published by David Decker – DECKERWEB. QuickNav provides shortcuts to existing Bricks and WordPress functions. It does not replace the builder. Report ordinary problems through [Issues](https://github.com/deckerweb/bricks-quicknav/issues). Report vulnerabilities privately through [GitHub](https://github.com/deckerweb/bricks-quicknav/security/advisories/new). [Support development](https://ko-fi.com/deckerweb).
 
+GPL v2 or later. Settings presentation and lifecycle adapted from David Decker’s [Breakdance QuickNav 2.0.0](https://github.com/deckerweb/breakdance-quicknav/tree/v2.0.0) and its Oxygen QuickNav reference, GPL-2.0-or-later. Series artwork: original vector graphics by deckerweb. Inter typography is outlined; its SIL OFL 1.1 license is bundled in assets/INTER-LICENSE.txt. No fonts are loaded by this plugin. Bricks and addon trademarks belong to their respective owners. Toolbar icons: Lucide (ISC/MIT); bundled license and pinned source information are in assets/lucide.
 
----
-
-## Plugin's Backstory 
-
-_I needed and wanted this plugin (Bricks QuickNav) myself for a long time so I developed it. I work with Bricks Builder since summer of 2022 and there was the lovely BricksLabs Bricks Navigator already there. However, I wanted a lot of things differently so it became clear I needed to get active somehow. When I started coding and testing and playing around it became clear to me I wanted a full featured and full integrated "thing". So my take on this "Bricks Admin Bar Thing" is different than every other such plugin, in that way what it lists, integrates and supports. And since I like to share my stuff with the wider Bricks Community I decided to give it away for free. So my hope is, that you will enjoy it as well (the finished plugin)._
-
-–– David Decker, plugin developer, in May of 2025
-
----
-
-## Plugin Scope / Disclaimer
-
-This plugin comes as is. I have no intention to add support for every little detail / third-party plugin / library etc. Its main focus is support for the template types and Oxygen 6+ settings. Plugin support is added where it makes sense for the daily work of an Administrator and Site Builder.
-
-_Disclaimer 1:_ So far I will support the plugin for breaking errors to keep it working. Otherwise support will be very limited. Also, it will NEVER be released to WordPress.org Plugin Repository for a lot of reasons. Furthermore, I will ONLY add support for direct Oxygen 6+ add-on plugins. And I can only add support if I would own a license myself (for testing etc.). Therefore, if there might be Oxygen 6+ plugins you want me to add integration for, please open an issue on the plugin page on GitHub so we might discuss that. (Thanks in advance!)
-
-_Disclaimer 2:_ All of the above might change. I do all this stuff only in my spare time.
-
-_Most of all:_ Have fun building great Oxygen 6+ powered sites!!! ;-)
-
----
-
-Official _Bricks_ company / product logo icons: © bricksbuilder.io
-
-Icon used in promo graphics: [© Remix Icon](https://remixicon.com/)
-
-Readme & Plugin Copyright: © 2025, David Decker – DECKERWEB.de
+© 2025–2026 David Decker – DECKERWEB.

@@ -1,0 +1,204 @@
+{
+  "files": [
+    {
+      "path": ".DS_Store",
+      "sha256": "a740ee5edd59c02dcdb68e76faa20454d63ce87abb0c83aaa342619567bb479e"
+    },
+    {
+      "path": "A/banner-de.png",
+      "sha256": "a9ce57d9e6bdc220a0a3ad900d541f0d946e39d12c98e607acdbeb77f8407d49"
+    },
+    {
+      "path": "A/banner-de.svg",
+      "sha256": "3b403d56cde80eaf1777c07027d83d34777909a1e358070738b443cae0671888"
+    },
+    {
+      "path": "A/banner-en.png",
+      "sha256": "d4a701c1eff463332fab31ee57f95a47d9b338e45724302a2aabb7c81c2bd356"
+    },
+    {
+      "path": "A/banner-en.svg",
+      "sha256": "704445fe60d6859ab36c5942bd8228a2c5ec9f0e2313fabddddac0f42ef87e36"
+    },
+    {
+      "path": "A/icon-1024.png",
+      "sha256": "c7abb60feee534305c8faadaf3c9f3f927acdd3ec8676359e22ab5012a31b8a3"
+    },
+    {
+      "path": "A/icon-128.png",
+      "sha256": "46290bb949bcfc05a1d9df84d74122085ebf8143f910ad2788bd0cc43a799025"
+    },
+    {
+      "path": "A/icon-256.png",
+      "sha256": "555e5d1b51875a7fc4a86442ec93af6e4914bdfc3423632718bcee5a7b984240"
+    },
+    {
+      "path": "A/icon-512.png",
+      "sha256": "6fcf2da81e8ad7a5557f4343b56306c1a5a3728a4806e632602d8a87bc19d3f7"
+    },
+    {
+      "path": "A/icon.svg",
+      "sha256": "047598859111b5c83240d7cbe30f6b3d8da8e9b703c6e7a404748a172e3720aa"
+    },
+    {
+      "path": "A/wp-banner-de-1544x500.png",
+      "sha256": "dbff08350e51338d4f08e6f5b1ca86093fcaef4f28d865b8b2e3a1552c681007"
+    },
+    {
+      "path": "A/wp-banner-de-772x250.png",
+      "sha256": "a419f559835c9481091c9a00db1a61c9d91244f00d3330e1a69b1a72b2923787"
+    },
+    {
+      "path": "A/wp-banner-de.svg",
+      "sha256": "9f04e295c10183095b17e9d8b96efb6fbe96e8397c1dbda6ed7f35e5a3ab034e"
+    },
+    {
+      "path": "A/wp-banner-en-1544x500.png",
+      "sha256": "ebf717647cfb79cab455af672df2767376764d0c121cb92ab889c8194fdf908c"
+    },
+    {
+      "path": "A/wp-banner-en-772x250.png",
+      "sha256": "1a3809a443b9de1896e0f9cd01d0dd5ccb9fed0391eb63fed26b18e7971974a0"
+    },
+    {
+      "path": "A/wp-banner-en.svg",
+      "sha256": "9475fe14f760e677437ddd37ff50f53d86e9778c9503dc0cf1b7612d08238751"
+    },
+    {
+      "path": "B/banner-de.png",
+      "sha256": "959f0c94044d0390ffddd920b3cf989666f850e967242173ba4c083fffe47c87"
+    },
+    {
+      "path": "B/banner-de.svg",
+      "sha256": "5d20c797006dc1e37f198dfa71481f09f8d461ef037035b43765242acb6caa88"
+    },
+    {
+      "path": "B/banner-en.png",
+      "sha256": "4b19044c55013d32be45a239328e636001000ae8baf2a29afb3d50073496f1bd"
+    },
+    {
+      "path": "B/banner-en.svg",
+      "sha256": "7c1ba1898c940dc63a3312d33121c9f8a8f3c4a49ce1d7afbd79031970455b49"
+    },
+    {
+      "path": "B/icon-1024.png",
+      "sha256": "3b10efce3f5c19cd2181f5bc531aa431299b932d74662dfcfcedde02f6ba07a2"
+    },
+    {
+      "path": "B/icon-128.png",
+      "sha256": "e2776bbf42c5f560a6cb4709eb52035f2bc7ead938ff2194bf2fb85371ad6e4b"
+    },
+    {
+      "path": "B/icon-256.png",
+      "sha256": "a2b3b27949b572fd381f7cf68bf40a5932d79979e578597feba241fa4506edf8"
+    },
+    {
+      "path": "B/icon-512.png",
+      "sha256": "b28fef2b5559119d1c4d74c0c444f1f0947563dbc2ec5c87187285348b05e51a"
+    },
+    {
+      "path": "B/icon.svg",
+      "sha256": "d6eaccc9b6893d57b709dadc8676120a01fa709d1975695128d298fe8397d7a2"
+    },
+    {
+      "path": "B/wp-banner-de-1544x500.png",
+      "sha256": "fccdbc0c7e00afa0f9e13929957681d5e80f83fc9be596e2af0cfe56473ec30a"
+    },
+    {
+      "path": "B/wp-banner-de-772x250.png",
+      "sha256": "b8d32cb7b1ea1ba9e08a12be9b6973f3c604b8c02bfd1683b4188f8008920f75"
+    },
+    {
+      "path": "B/wp-banner-de.svg",
+      "sha256": "c957c81f087aab8a1cbc7d90b5c28443df9a2ee54f1477391cd6d61e23c75264"
+    },
+    {
+      "path": "B/wp-banner-en-1544x500.png",
+      "sha256": "d7eb8b015bc811037715b33b7ebb75d622ca1993861e63a5ce29ace622037c88"
+    },
+    {
+      "path": "B/wp-banner-en-772x250.png",
+      "sha256": "52f29463a9fcbf4ae36e7b2f4045eb4d188b42e9ebf2b2f9476c4151c80ae6b7"
+    },
+    {
+      "path": "B/wp-banner-en.svg",
+      "sha256": "d2dadb72a0ea768e674a4909ebd278b84cac11176168fb22bdcad95adca0f797"
+    },
+    {
+      "path": "C/banner-de.png",
+      "sha256": "69bacad583b2b7f45e2871de73320d6143d3f0ecb30a6de0256c636e7833a0f1"
+    },
+    {
+      "path": "C/banner-de.svg",
+      "sha256": "f42cd290cd01ad557bf69a2ea051c8e3e13ccd572e5c7fa803bbcff5ee80646f"
+    },
+    {
+      "path": "C/banner-en.png",
+      "sha256": "7a2d7b8d451e94998e0609a0c598b5a3f5fa309f5cfe44f9e3a1c4cac4865703"
+    },
+    {
+      "path": "C/banner-en.svg",
+      "sha256": "bc8619a4bfc336178088274798f8e1301ff1e16a68641a56c2ff02c2a4702aea"
+    },
+    {
+      "path": "C/icon-1024.png",
+      "sha256": "c7abb60feee534305c8faadaf3c9f3f927acdd3ec8676359e22ab5012a31b8a3"
+    },
+    {
+      "path": "C/icon-128.png",
+      "sha256": "46290bb949bcfc05a1d9df84d74122085ebf8143f910ad2788bd0cc43a799025"
+    },
+    {
+      "path": "C/icon-256.png",
+      "sha256": "555e5d1b51875a7fc4a86442ec93af6e4914bdfc3423632718bcee5a7b984240"
+    },
+    {
+      "path": "C/icon-512.png",
+      "sha256": "6fcf2da81e8ad7a5557f4343b56306c1a5a3728a4806e632602d8a87bc19d3f7"
+    },
+    {
+      "path": "C/icon.svg",
+      "sha256": "8f3a3e8b8488e13ee3965c895adc1ebbe23fcab6e0794d10ecc1deb80213c056"
+    },
+    {
+      "path": "C/wp-banner-de-1544x500.png",
+      "sha256": "e65280fcece6b0d55691de4515ebfbb20458afa315b74b988ff858d091d758b9"
+    },
+    {
+      "path": "C/wp-banner-de-772x250.png",
+      "sha256": "6f8cebf741bbbc04d4e652c7c49f1435bc68652cc3041979731542a0d39373d3"
+    },
+    {
+      "path": "C/wp-banner-de.svg",
+      "sha256": "93f38e6bd853b9ef7d54518649caee4b5f4a23b3a094b27261764355412ce2ef"
+    },
+    {
+      "path": "C/wp-banner-en-1544x500.png",
+      "sha256": "cc3a7680d4cb91243de65d01ba3bf433024009fc1fa3bbc92e990e9186e50387"
+    },
+    {
+      "path": "C/wp-banner-en-772x250.png",
+      "sha256": "113011c20937e86fcbfc409082447fe5e51c6003043cc3fae76052d850622360"
+    },
+    {
+      "path": "C/wp-banner-en.svg",
+      "sha256": "8f76e8642d05f44d918a0ad7e6d898c46ed9596985bc192e56787914538cb0eb"
+    },
+    {
+      "path": "INTER-LICENSE.txt",
+      "sha256": "6e6410f2892d61813f54654098dc9654d0a3af2e92172999bee07eec13b0a75a"
+    },
+    {
+      "path": "LIESMICH.md",
+      "sha256": "704f2f1515777f7d0d014db5ee15cea8365b303296dbe28ea2a6c8bd25591a31"
+    },
+    {
+      "path": "design.json",
+      "sha256": "607b4e5f93d16f0622d8bfc0f9d3c4f94f8f9fe61f4ffc314bdc272f67cc2293"
+    },
+    {
+      "path": "vergleich-de.png",
+      "sha256": "58c598872901ac5381765652670d7380f115c8b745bb875ab74b56d568b2b486"
+    }
+  ]
+}
