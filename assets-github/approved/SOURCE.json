@@ -27,5 +27,8 @@
   "group_translation": [
     87,
     5
-  ]
+  ],
+  "icon_corner_radius": 55,
+  "icon_corner_radius_viewbox": 256,
+  "icon_corner_update": "2026-10-15"
 }
