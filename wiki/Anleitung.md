@@ -157,4 +157,3 @@ Entwickelt und herausgegeben von David Decker – DECKERWEB. QuickNav bietet Ver
 GPL v2 oder höher. Einstellungsdarstellung und Lebenszyklus aus David Deckers [Breakdance QuickNav 2.0.0](https://github.com/deckerweb/breakdance-quicknav/tree/v2.0.0) und dessen Oxygen-QuickNav-Referenz übernommen, GPL-2.0-or-later. Seriengrafiken: eigene Vektorgrafiken von deckerweb. Inter-Schrift ist in Pfade umgewandelt; die SIL-OFL-1.1-Lizenz liegt unter assets/INTER-LICENSE.txt bei. Dieses Plugin lädt keine Schriften. Bricks- und Addon-Marken gehören ihren jeweiligen Eigentümern. Toolbar-Icons: Lucide (ISC/MIT); mitgelieferte Lizenz und festgehaltener Quellstand unter assets/lucide.
 
 © 2025–2026 David Decker – DECKERWEB.
-

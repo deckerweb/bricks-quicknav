@@ -34,7 +34,7 @@ for de in (False, True):
     body=re.sub(r'\]\(wiki/([^)]*)\.md\)', r'](\1)', body)
     body=re.sub(r'\]\((docs/[^)]+)\)', r'](https://github.com/deckerweb/bricks-quicknav/blob/main/\1)', body)
     body=body.replace('[English](Home)', '[English](User-Guide)') if de else body.replace('[Deutsch](Startseite)', '[Deutsch](Anleitung)')
-    (wiki/(guide+'.md')).write_text(body)
+    (wiki/(guide+'.md')).write_text(body.rstrip()+'\n')
     for page in ['Fragen-nach-Themen' if de else 'FAQ-by-topic', 'Aenderungsverlauf' if de else 'Changelog']:
         text=(wiki/(page+'.md')).read_text()
         text=re.sub(r'\]\((docs/[^)]+)\)', r'](https://github.com/deckerweb/bricks-quicknav/blob/main/\1)', text)

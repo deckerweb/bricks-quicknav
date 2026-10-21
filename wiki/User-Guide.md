@@ -157,4 +157,3 @@ Developed and published by David Decker – DECKERWEB. QuickNav provides shortcu
 GPL v2 or later. Settings presentation and lifecycle adapted from David Decker’s [Breakdance QuickNav 2.0.0](https://github.com/deckerweb/breakdance-quicknav/tree/v2.0.0) and its Oxygen QuickNav reference, GPL-2.0-or-later. Series artwork: original vector graphics by deckerweb. Inter typography is outlined; its SIL OFL 1.1 license is bundled in assets/INTER-LICENSE.txt. No fonts are loaded by this plugin. Bricks and addon trademarks belong to their respective owners. Toolbar icons: Lucide (ISC/MIT); bundled license and pinned source information are in assets/lucide.
 
 © 2025–2026 David Decker – DECKERWEB.
-
