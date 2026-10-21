@@ -157,8 +157,8 @@ final class Plugin {
 		$fields = array(
 			'version' => array( 'label' => __( 'Version', 'bricks-quicknav' ), 'value' => DDW_BXQN_VERSION ),
 			'builder' => array( 'label' => 'Bricks', 'value' => defined( 'BRICKS_VERSION' ) ? BRICKS_VERSION : __( 'Not active', 'bricks-quicknav' ) ),
-			'library' => array( 'label' => __( 'Bundled Library', 'bricks-quicknav' ), 'value' => '0.9.0' ),
-			'updater' => array( 'label' => 'deckerweb Updater', 'value' => Updates::$error ? __( 'Not loaded', 'bricks-quicknav' ) : '2.1.0' ),
+			'library' => array( 'label' => __( 'Bundled Library', 'bricks-quicknav' ), 'value' => '1.1.0' ),
+			'updater' => array( 'label' => 'deckerweb Updater', 'value' => Updates::$error ? __( 'Not loaded', 'bricks-quicknav' ) : '2.2.0' ),
 			'overrides' => array( 'label' => __( 'Configuration overrides', 'bricks-quicknav' ), 'value' => implode( ', ', array_filter( Settings::constant_map(), 'defined' ) ) ?: __( 'None', 'bricks-quicknav' ) ),
 		);
 		$info['bricks-quicknav'] = array( 'label' => 'Bricks QuickNav', 'fields' => $fields );
@@ -215,10 +215,10 @@ final class Plugin {
 		foreach ( $this->diagnostics( array() )['bricks-quicknav']['fields'] as $field ) { echo '<dt>' . esc_html( $field['label'] ) . '</dt><dd>' . esc_html( $field['value'] ) . '</dd>'; }
 		echo '</dl></section><div class="bxqn-savebar"><span id="bxqn-unsaved-status" role="status" aria-live="polite" data-saved="' . esc_attr__( 'All changes saved', 'bricks-quicknav' ) . '" data-dirty="' . esc_attr__( 'Unsaved changes', 'bricks-quicknav' ) . '">' . esc_html__( 'Save changes to apply your settings.', 'bricks-quicknav' ) . '</span>';
 		submit_button( __( 'Save Changes', 'bricks-quicknav' ), 'primary', 'submit', false );
-		echo '</div></form><footer class="bxqn-footer" aria-label="' . esc_attr__( 'Plugin information', 'bricks-quicknav' ) . '"><div><strong>Bricks QuickNav</strong> <span>' . esc_html__( 'Version', 'bricks-quicknav' ) . ' ' . esc_html( DDW_BXQN_VERSION ) . '</span> · <button type="button" class="button-link" data-bxqn-open="bxqn-history">' . esc_html__( 'Changelog', 'bricks-quicknav' ) . '</button> · <a href="https://github.com/deckerweb/bricks-quicknav">' . esc_html__( 'Documentation', 'bricks-quicknav' ) . '</a><p>' . esc_html__( 'Fewer clicks. More Bricks.', 'bricks-quicknav' ) . '</p></div><div><span>© 2025–2026 <a href="https://github.com/deckerweb" target="_blank" rel="noopener noreferrer">David Decker – DECKERWEB</a></span><a href="https://github.com/deckerweb/bricks-quicknav" target="_blank" rel="noopener noreferrer">' . esc_html__( 'Plugin website', 'bricks-quicknav' ) . '</a></div></footer>';
-		echo '<dialog id="bxqn-history" aria-labelledby="bxqn-history-title"><button type="button" class="button bxqn-close" data-bxqn-close>' . esc_html__( 'Close', 'bricks-quicknav' ) . '</button><h2 id="bxqn-history-title">' . esc_html__( 'Changelog', 'bricks-quicknav' ) . '</h2>';
+		echo '</div></form><footer class="bxqn-footer" aria-label="' . esc_attr__( 'Plugin information', 'bricks-quicknav' ) . '"><div><strong>Bricks QuickNav</strong> <span>' . esc_html__( 'Version', 'bricks-quicknav' ) . ' ' . esc_html( DDW_BXQN_VERSION ) . '</span> · <a href="' . esc_url( 'https://github.com/deckerweb/bricks-quicknav/wiki/' . ( 0 === strpos( determine_locale(), 'de' ) ? 'Aenderungsverlauf' : 'Changelog' ) ) . '" data-bxqn-open="bxqn-history">' . esc_html__( 'Changelog', 'bricks-quicknav' ) . '</a> · <a href="https://github.com/deckerweb/bricks-quicknav">' . esc_html__( 'Documentation', 'bricks-quicknav' ) . '</a><p>' . esc_html__( 'Fewer clicks. More Bricks.', 'bricks-quicknav' ) . '</p></div><div><span>© 2025–2026 <a href="https://github.com/deckerweb" target="_blank" rel="noopener noreferrer">David Decker – DECKERWEB</a></span><a href="https://github.com/deckerweb/bricks-quicknav" target="_blank" rel="noopener noreferrer">' . esc_html__( 'Plugin website', 'bricks-quicknav' ) . '</a></div></footer>';
+		echo '<dialog hidden id="bxqn-history" aria-labelledby="bxqn-history-title"><form method="dialog"><button type="submit" class="button bxqn-close" data-bxqn-close>' . esc_html__( 'Close', 'bricks-quicknav' ) . '</button></form><h2 id="bxqn-history-title">' . esc_html__( 'Changelog', 'bricks-quicknav' ) . '</h2>';
 		$history = require DDW_BXQN_DIR . '/includes/plugin-history.php';
-		echo $history( 0 === strpos( determine_locale(), 'de' ) ); // All source values escaped in the renderer.
+		echo wp_kses_post( $history( 0 === strpos( determine_locale(), 'de' ) ) ); // All source values escaped in the renderer.
 		echo '</dialog></div>';
 	}
 
@@ -323,7 +323,7 @@ final class Plugin {
 	 */
 	public function save_profile( $id ) {
 		if ( is_network_admin() || is_user_admin() || ! current_user_can( 'edit_user', $id ) || ! isset( $_POST['bxqn_profile_nonce'] ) || ! is_string( $_POST['bxqn_profile_nonce'] ) || ! wp_verify_nonce( sanitize_text_field( wp_unslash( $_POST['bxqn_profile_nonce'] ) ), 'bxqn-profile-' . $id ) ) { return; }
-		$input = isset( $_POST['bxqn_preferences'] ) && is_array( $_POST['bxqn_preferences'] ) ? wp_unslash( $_POST['bxqn_preferences'] ) : array();
+		$input = isset( $_POST['bxqn_preferences'] ) && is_array( $_POST['bxqn_preferences'] ) ? map_deep( wp_unslash( $_POST['bxqn_preferences'] ), 'sanitize_text_field' ) : array();
 		$prefs = array( 'limit' => is_scalar( $input['limit'] ?? null ) ? min( 100, absint( $input['limit'] ) ) : 0 );
 		foreach ( array( 'backend', 'frontend' ) as $key ) { $prefs[ $key ] = 'hide' === ( $input[ $key ] ?? '' ) ? 'hide' : 'inherit'; }
 		update_user_option( $id, Settings::USER_OPTION, $prefs, false );

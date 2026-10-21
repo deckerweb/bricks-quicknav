@@ -3,15 +3,15 @@ Contributors: deckerweb
 Tags: bricks, toolbar, navigation
 Requires at least: 6.7
 Tested up to: 7.1
-Requires PHP: 7.4
-Stable tag: 2.0.0
+Requires PHP: 8.1
+Stable tag: 2.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Quick access to Bricks content, templates, settings, add-ons, and resources from the WordPress toolbar. Bricks QuickNav is an independent plugin.
 
 == Description ==
-Version **2.0.0** · WordPress **6.7+** · PHP **7.4+**. Bricks must be the active parent theme for navigation. Library 0.9.0 needs PHP 8.0; Updater 2.1.0 needs PHP 8.1. On older PHP versions those components pause; navigation and settings remain available. Bricks itself has its own requirements.
+Version **2.0.1** · WordPress **6.7+** · PHP **8.1+**. Bricks must be the active parent theme for navigation. Includes deckerweb Library 1.1.0 and Updater 2.2.0. Without Bricks, navigation pauses safely and settings remain available. Bricks itself has its own requirements.
 
 = Website and personal settings =
 Open Bricks → QuickNav. Without active Bricks, open Settings → Bricks QuickNav. Set the toolbar label, icon, position, visibility, compact mode, list length, sorting, and navigation groups. Personal visibility and list-length preferences are in Users → Profile and apply to the current website.
@@ -66,6 +66,11 @@ By default, uninstall preserves website settings and personal preferences. If th
 Use ddw/quicknav/bricks_integrations for addon definitions, and ddw/quicknav/bricks_child_theme for the active child theme. Labels, native destinations and optional child pages are configurable. QuickNav still checks page registration and user permissions. See the [addon example](docs/addon-registration.md) and [child-theme example](docs/child-theme-registration.md).
 
 == Changelog ==
+= 2.0.1 =
+* Improved: Updated deckerweb Library 1.1.0 and Updater 2.2.0 with verified catalog packages and Git Updater conflict notices.
+* Fixed: Changelog dialogs remain closed under foreign dialog styles and retain native closing and documentation fallbacks.
+* Misc: Requires PHP 8.1 or newer; WordPress 6.7 remains supported.
+
 = 2.0.0 =
 * Improved: All displayed Bricks content types and template lists use muted Published/Unpublished headings; unpublished items show their specific status in parentheses.
 * Improved: New QuickNav series artwork with centered icon, German and English banners, and 512/1024-pixel icon exports.
@@ -88,5 +93,7 @@ Use ddw/quicknav/bricks_integrations for addon definitions, and ddw/quicknav/bri
 * New: Initial release with Bricks content, settings, integrations, and resource navigation.
 
 == Upgrade Notice ==
+= 2.0.1 =
+Requires PHP 8.1 or newer. Updates deckerweb Library and Updater.
 = 2.0.0 =
 Uses native toolbar visibility. Existing constants, resources, and integrations remain supported.

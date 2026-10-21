@@ -5,7 +5,7 @@ root=Path(__file__).resolve().parents[1]
 output=Path(sys.argv[1]).resolve();output.parent.mkdir(parents=True,exist_ok=True)
 paths=[root/'bricks-quicknav.php',root/'uninstall.php',root/'index.php',root/'README.md',root/'README-de.md',root/'readme.txt',root/'SECURITY.md',root/'SECURITY-de.md',root/'docs/addon-registration.md',root/'docs/addon-registration-de.md',root/'docs/child-theme-registration.md',root/'docs/child-theme-registration-de.md']
 for folder in ['includes','assets','languages']:
- paths.extend(p for p in (root/folder).rglob('*') if p.is_file() and p.name!='dictionary.json' and not p.name.startswith('.'))
+ paths.extend(p for p in (root/folder).rglob('*') if p.is_file() and p.name not in {'dictionary.json','icon-512x512.png','icon-1024x1024.png','banner-de-1280x640.png','banner-en-1280x640.png','banner-de.svg','banner-en.svg','button-download-plugin.png','button-download-snippet.png','style.scss'} and not p.name.startswith('.'))
 for name in ['LICENSE','LICENSE.txt','license.txt']:
  if (root/name).is_file():paths.append(root/name)
 with zipfile.ZipFile(output,'w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:

@@ -1,5 +1,13 @@
 # Änderungsverlauf
 
+[English](Changelog)
+
+### 2.0.1 · 21. Oktober 2026
+
+- **Verbessert:** Aktualisierte deckerweb Library 1.1.0 und Updater 2.2.0 mit geprüften Katalogpaketen und Hinweisen auf Git-Updater-Konflikte.
+- **Behoben:** Änderungsverlauf-Dialoge bleiben bei fremden Dialog-Styles geschlossen und behalten native Schließ- und Dokumentations-Fallbacks.
+- **Sonstiges:** Benötigt PHP 8.1 oder neuer; WordPress 6.7 bleibt unterstützt.
+
 ### 2.0.0 · 10. Oktober 2026
 
 - **Verbessert:** Alle angezeigten Bricks-Inhaltstypen und Template-Listen erhalten dezente Überschriften für veröffentlichten und nicht veröffentlichten Inhalt; unveröffentlichte Einträge zeigen ihren konkreten Status in Klammern.

@@ -27,3 +27,5 @@
 #wpadminbar #wp-admin-bar-ddw-bricks-quicknav .bxqn-menu-icon svg rect[width="7"]{width:7px;height:7px}
 
 #wpadminbar .bxqn-status-heading>.ab-empty-item{font-size:11px;font-weight:600;color:#a7aaad;letter-spacing:.03em;cursor:default}#wpadminbar .bxqn-status-label{font-size:11px;color:#a7aaad;margin-inline-start:5px}#wpadminbar .bxqn-status-heading:hover>.ab-empty-item{background:transparent;color:#a7aaad}
+/* Keep a closed host dialog out of normal admin flow even under foreign resets. */
+.bxqn-settings dialog[hidden]:not([open]),.bxqn-settings dialog#bxqn-history:not([open]){display:none!important}.bxqn-settings dialog form[method="dialog"]{margin:0}

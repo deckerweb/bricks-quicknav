@@ -1,5 +1,7 @@
 # Fragen nach Themen
 
+[English](FAQ-by-topic)
+
 ### Wo sind die Einstellungen?
 
 Unter Bricks → QuickNav oder ohne aktives Bricks unter Einstellungen → Bricks QuickNav. Persönliche Vorlieben findest du unter Benutzer → Profil.
@@ -30,7 +32,7 @@ Standardmäßig bleiben Website-Einstellungen und persönliche Vorlieben bei der
 
 ### Wie können Addon- und Child-Theme-Entwickler ihre Navigation ergänzen?
 
-Addon-Definitionen verwenden ddw/quicknav/bricks_integrations, das aktive Child Theme verwendet ddw/quicknav/bricks_child_theme. Bezeichnungen, native Ziele und optionale Unterseiten lassen sich angeben. QuickNav prüft weiterhin die Seitenregistrierung und Benutzerrechte. Siehe [Addon-Beispiel](docs/addon-registration-de.md) und [Child-Theme-Beispiel](docs/child-theme-registration-de.md).
+Addon-Definitionen verwenden ddw/quicknav/bricks_integrations, das aktive Child Theme verwendet ddw/quicknav/bricks_child_theme. Bezeichnungen, native Ziele und optionale Unterseiten lassen sich angeben. QuickNav prüft weiterhin die Seitenregistrierung und Benutzerrechte. Siehe [Addon-Beispiel](https://github.com/deckerweb/bricks-quicknav/blob/main/docs/addon-registration-de.md) und [Child-Theme-Beispiel](https://github.com/deckerweb/bricks-quicknav/blob/main/docs/child-theme-registration-de.md).
 
 ### Website-Einstellungen und persönliche Vorlieben
 
@@ -42,7 +44,7 @@ Wähle öffentliche Inhaltstypen, die in Bricks aktiviert sind. Angezeigt werden
 
 ### Addon-Verknüpfungen
 
-Bestehende Framework-, Snippet-Manager- und Bricks-Addon-Integrationen bleiben verfügbar. Schalte jede Integration einzeln ein, zeige sie direkt im Hauptmenü und wähle, ob Untereinträge erscheinen. Die Schalter ändern ausschließlich die QuickNav-Navigation. Sie installieren, aktivieren, deaktivieren oder konfigurieren keine anderen Plugins. Inaktive Integrationen erzeugen keine Links. Registrierte Menüberechtigungen werden geprüft; im Frontend gelten konservative Verwaltungsrechte. Aktive Bricks-Addons erscheinen unter einem sichtbaren Add-ons-Menü, auch wenn nur eines verfügbar ist. Ein ausdrücklich gewählter Direktlink verschiebt das Addon auf die erste Menüebene. Drittanbieter-Adapter verwenden den gemeinsamen Filter ddw/quicknav/bricks_integrations; siehe Anleitung zur Addon-Registrierung. [Registrierungsanleitung](docs/addon-registration-de.md).
+Bestehende Framework-, Snippet-Manager- und Bricks-Addon-Integrationen bleiben verfügbar. Schalte jede Integration einzeln ein, zeige sie direkt im Hauptmenü und wähle, ob Untereinträge erscheinen. Die Schalter ändern ausschließlich die QuickNav-Navigation. Sie installieren, aktivieren, deaktivieren oder konfigurieren keine anderen Plugins. Inaktive Integrationen erzeugen keine Links. Registrierte Menüberechtigungen werden geprüft; im Frontend gelten konservative Verwaltungsrechte. Aktive Bricks-Addons erscheinen unter einem sichtbaren Add-ons-Menü, auch wenn nur eines verfügbar ist. Ein ausdrücklich gewählter Direktlink verschiebt das Addon auf die erste Menüebene. Drittanbieter-Adapter verwenden den gemeinsamen Filter ddw/quicknav/bricks_integrations; siehe Anleitung zur Addon-Registrierung. [Registrierungsanleitung](https://github.com/deckerweb/bricks-quicknav/blob/main/docs/addon-registration-de.md).
 
 ### Premium-Addon-Versionen
 
@@ -50,7 +52,7 @@ GutenBricks 1.x und 2.x verwenden ihre jeweiligen Einstellungs- und Lizenzziele.
 
 ### SNN-BRX Child Theme
 
-Die bisherigen SNN-BRX-Verknüpfungen unterstützen den aktuellen Theme-Namen und umbenannte Ordner. Aktivierte native Admin-Seiten, die Bildoptimierung unter Medien, bestehende Snippet-Tabs, Fehlerprotokolle und Bearbeitungslinks für moderne Snippets sind erreichbar. Ausgeschaltete SNN-Module erzeugen keine toten Links. QuickNav aktiviert oder führt keine Snippets aus. SNN-BRX ist ein Child Theme und erscheint separat vor Add-ons, mit seinem angepassten nativen Namen oder SNN-BRX. Hauptziel sind die Code-Snippets, wenn aktiv, sonst die SNN-Einstellungen. Andere Child Themes verlinken auf ihre functions.php, sofern Datei-Editor und Benutzerrechte dies erlauben. Die Child-Theme-Sichtbarkeit liegt unter Toolbar & Inhalte. Entwickler verwenden ddw/quicknav/bricks_child_theme; siehe [Registrierungsanleitung](docs/child-theme-registration-de.md).
+Die bisherigen SNN-BRX-Verknüpfungen unterstützen den aktuellen Theme-Namen und umbenannte Ordner. Aktivierte native Admin-Seiten, die Bildoptimierung unter Medien, bestehende Snippet-Tabs, Fehlerprotokolle und Bearbeitungslinks für moderne Snippets sind erreichbar. Ausgeschaltete SNN-Module erzeugen keine toten Links. QuickNav aktiviert oder führt keine Snippets aus. SNN-BRX ist ein Child Theme und erscheint separat vor Add-ons, mit seinem angepassten nativen Namen oder SNN-BRX. Hauptziel sind die Code-Snippets, wenn aktiv, sonst die SNN-Einstellungen. Andere Child Themes verlinken auf ihre functions.php, sofern Datei-Editor und Benutzerrechte dies erlauben. Die Child-Theme-Sichtbarkeit liegt unter Toolbar & Inhalte. Entwickler verwenden ddw/quicknav/bricks_child_theme; siehe [Registrierungsanleitung](https://github.com/deckerweb/bricks-quicknav/blob/main/docs/child-theme-registration-de.md).
 
 ### Native Editoren und Ressourcen
 

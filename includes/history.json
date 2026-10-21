@@ -1,5 +1,29 @@
 [
   {
+    "version": "2.0.1",
+    "date": {
+      "en": "October 21, 2026",
+      "de": "21. Oktober 2026"
+    },
+    "items": [
+      {
+        "category": "improved",
+        "en": "Updated deckerweb Library 1.1.0 and Updater 2.2.0 with verified catalog packages and Git Updater conflict notices.",
+        "de": "Aktualisierte deckerweb Library 1.1.0 und Updater 2.2.0 mit geprüften Katalogpaketen und Hinweisen auf Git-Updater-Konflikte."
+      },
+      {
+        "category": "fixed",
+        "en": "Changelog dialogs remain closed under foreign dialog styles and retain native closing and documentation fallbacks.",
+        "de": "Änderungsverlauf-Dialoge bleiben bei fremden Dialog-Styles geschlossen und behalten native Schließ- und Dokumentations-Fallbacks."
+      },
+      {
+        "category": "misc",
+        "en": "Requires PHP 8.1 or newer; WordPress 6.7 remains supported.",
+        "de": "Benötigt PHP 8.1 oder neuer; WordPress 6.7 bleibt unterstützt."
+      }
+    ]
+  },
+  {
     "version": "2.0.0",
     "date": {
       "en": "October 10, 2026",

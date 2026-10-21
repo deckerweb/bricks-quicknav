@@ -1,7 +1,7 @@
 {
   "en": {
     "about": "Quick access to Bricks content, templates, settings, add-ons, and resources from the WordPress toolbar. Bricks QuickNav is an independent plugin.",
-    "requirements": "Version **2.0.0** · WordPress **6.7+** · PHP **7.4+**. Bricks must be the active parent theme for navigation. Library 0.9.0 needs PHP 8.0; Updater 2.1.0 needs PHP 8.1. On older PHP versions those components pause; navigation and settings remain available. Bricks itself has its own requirements.",
+    "requirements": "Version **2.0.1** · WordPress **6.7+** · PHP **8.1+**. Bricks must be the active parent theme for navigation. Includes deckerweb Library 1.1.0 and Updater 2.2.0. Without Bricks, navigation pauses safely and settings remain available. Bricks itself has its own requirements.",
     "titles": [
       "About",
       "At a Glance",
@@ -84,7 +84,7 @@
   },
   "de": {
     "about": "Schneller Zugriff auf Bricks-Inhalte, Templates, Einstellungen, Addons und Ressourcen über die WordPress-Toolbar. Bricks QuickNav ist ein eigenständiges Plugin.",
-    "requirements": "Version **2.0.0** · WordPress **6.7+** · PHP **7.4+**. Für die Navigation muss Bricks als übergeordnetes Theme aktiv sein. Library 0.9.0 benötigt PHP 8.0; Updater 2.1.0 benötigt PHP 8.1. Auf älteren PHP-Versionen pausieren diese Komponenten; Navigation und Einstellungen bleiben verfügbar. Bricks hat eigene Mindestanforderungen.",
+    "requirements": "Version **2.0.1** · WordPress **6.7+** · PHP **8.1+**. Für die Navigation muss Bricks als übergeordnetes Theme aktiv sein. Enthält deckerweb Library 1.1.0 und Updater 2.2.0. Ohne Bricks pausiert die Navigation sicher; die Einstellungen bleiben erreichbar. Bricks hat eigene Mindestanforderungen.",
     "titles": [
       "Über das Plugin",
       "Auf einen Blick",

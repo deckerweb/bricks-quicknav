@@ -1,5 +1,13 @@
 # Changelog
 
+[Deutsch](Aenderungsverlauf)
+
+### 2.0.1 · October 21, 2026
+
+- **Improved:** Updated deckerweb Library 1.1.0 and Updater 2.2.0 with verified catalog packages and Git Updater conflict notices.
+- **Fixed:** Changelog dialogs remain closed under foreign dialog styles and retain native closing and documentation fallbacks.
+- **Misc:** Requires PHP 8.1 or newer; WordPress 6.7 remains supported.
+
 ### 2.0.0 · October 10, 2026
 
 - **Improved:** All displayed Bricks content types and template lists use muted Published/Unpublished headings; unpublished items show their specific status in parentheses.

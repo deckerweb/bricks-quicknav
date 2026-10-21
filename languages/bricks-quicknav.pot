@@ -67,6 +67,9 @@ msgstr ""
 msgid "Active"
 msgstr ""
 
+msgid "Active filters: "
+msgstr ""
+
 msgid "Add New"
 msgstr ""
 
@@ -110,6 +113,9 @@ msgid "Already up to date."
 msgstr ""
 
 msgid "Another action for this plugin is running. Please wait."
+msgstr ""
+
+msgid "Another component interrupted the request. If Git Updater is active, temporarily deactivate it and retry."
 msgstr ""
 
 msgid "Another updater provides a different release. Refresh updates before continuing."
@@ -235,7 +241,13 @@ msgstr ""
 msgid "Bundled Library"
 msgstr ""
 
+msgid "Bundled catalog"
+msgstr ""
+
 msgid "Buy Me a Coffee"
+msgstr ""
+
+msgid "Cached or bundled catalog"
 msgstr ""
 
 msgid "Cannot create temporary file."
@@ -334,6 +346,12 @@ msgstr ""
 msgid "Cookie Settings"
 msgstr ""
 
+msgid "Copied."
+msgstr ""
+
+msgid "Copy diagnostic information"
+msgstr ""
+
 msgid "Core Framework"
 msgstr ""
 
@@ -388,7 +406,13 @@ msgstr ""
 msgid "Discover more plugins by deckerweb"
 msgstr ""
 
+msgid "Discover randomly"
+msgstr ""
+
 msgid "Dismiss permanently"
+msgstr ""
+
+msgid "Dismiss this notice"
 msgstr ""
 
 msgid "Display & Content"
@@ -526,6 +550,9 @@ msgstr ""
 msgid "Getting Started"
 msgstr ""
 
+msgid "Git Updater is active. If a deckerweb installation or update fails, temporarily deactivate Git Updater and retry. Reactivate it afterwards if other plugins or themes need it. Only leave it disabled when those extensions have another reliable update provider."
+msgstr ""
+
 msgid "GitHub Discussions"
 msgstr ""
 
@@ -590,6 +617,9 @@ msgid "Installed add-ons"
 msgstr ""
 
 msgid "Installed but inactive"
+msgstr ""
+
+msgid "Installed · inactive"
 msgstr ""
 
 msgid "Installed: "
@@ -661,6 +691,9 @@ msgstr ""
 msgid "Invalid plugin series."
 msgstr ""
 
+msgid "Invalid sort order."
+msgstr ""
+
 msgid "Invalid star count."
 msgstr ""
 
@@ -686,6 +719,9 @@ msgid "Jun"
 msgstr ""
 
 msgid "June"
+msgstr ""
+
+msgid "Last successful check: "
 msgstr ""
 
 msgid "Layouts"
@@ -787,6 +823,12 @@ msgstr ""
 msgid "Multisite"
 msgstr ""
 
+msgid "Name A–Z"
+msgstr ""
+
+msgid "Name Z–A"
+msgstr ""
+
 msgid "Navigation groups"
 msgstr ""
 
@@ -794,6 +836,9 @@ msgid "Navigation remains available. The bundled Library needs PHP 8.0; the upda
 msgstr ""
 
 msgid "Network activate"
+msgstr ""
+
+msgid "Network active"
 msgstr ""
 
 msgid "Network permission denied."
@@ -901,6 +946,9 @@ msgstr ""
 msgid "Permission denied."
 msgstr ""
 
+msgid "Permission denied. Reload the page and check your permissions."
+msgstr ""
+
 msgid "Personal preferences for this website. Website permissions and configuration overrides still apply."
 msgstr ""
 
@@ -940,6 +988,9 @@ msgstr ""
 msgid "Product website"
 msgstr ""
 
+msgid "Public catalog callbacks require both providers and cannot be used in private mode."
+msgstr ""
+
 msgid "Published"
 msgstr ""
 
@@ -950,6 +1001,9 @@ msgid "QuickNav Settings"
 msgstr ""
 
 msgid "Recently modified"
+msgstr ""
+
+msgid "Recently updated"
 msgstr ""
 
 msgid "Refresh catalog"
@@ -968,6 +1022,9 @@ msgid "Release must contain exactly the approved plugin directory."
 msgstr ""
 
 msgid "Remote Template Sync"
+msgstr ""
+
+msgid "Remove filter: "
 msgstr ""
 
 msgid "Repository & documentation"
@@ -989,6 +1046,9 @@ msgid "Requires a WordPress Multisite network."
 msgstr ""
 
 msgid "Reset filters"
+msgstr ""
+
+msgid "Reset view"
 msgstr ""
 
 msgid "Resources"
@@ -1066,6 +1126,9 @@ msgstr ""
 msgid "See the release on GitHub."
 msgstr ""
 
+msgid "Select and copy the text."
+msgstr ""
+
 msgid "Selected by deckerweb · Installed from GitHub releases"
 msgstr ""
 
@@ -1120,6 +1183,9 @@ msgstr ""
 msgid "Shows plugins whose platform and dependency requirements are met in this site or network. Without this filter, plugins with missing requirements remain visible."
 msgstr ""
 
+msgid "Shuffle again"
+msgstr ""
+
 msgid "Sidebars"
 msgstr ""
 
@@ -1133,6 +1199,9 @@ msgid "Sort by"
 msgstr ""
 
 msgid "Source: GitHub"
+msgstr ""
+
+msgid "Standard"
 msgstr ""
 
 msgid "Sun"
@@ -1157,6 +1226,9 @@ msgid "System information"
 msgstr ""
 
 msgid "Taxonomies"
+msgstr ""
+
+msgid "Technical information"
 msgstr ""
 
 msgid "Template (Bricks)"
@@ -1258,6 +1330,9 @@ msgstr ""
 msgid "These defaults apply to this website. Personal toolbar preferences are available in your user profile."
 msgstr ""
 
+msgid "These details contain component versions and catalog status, without credentials or site content."
+msgstr ""
+
 msgid "Third-party integrations"
 msgstr ""
 
@@ -1316,6 +1391,9 @@ msgid "Untrusted release URL."
 msgstr ""
 
 msgid "Update %1$s to version %2$s or newer."
+msgstr ""
+
+msgid "Update available"
 msgstr ""
 
 msgid "Update failed."
