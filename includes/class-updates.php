@@ -18,13 +18,13 @@ final class Updates {
 		static $registered = false;
 		if ( $registered ) { return; }
 		if ( version_compare( PHP_VERSION, '8.1', '<' ) ) { self::$error = true; return; }
-		if ( ! class_exists( '\\Deckerweb\\GitHubReleaseUpdater\\V2\\Updater' ) ) { require_once DDW_BXQN_DIR . '/includes/deckerweb-github-release-updater-v2.php'; }
-		if ( ! defined( '\\Deckerweb\\GitHubReleaseUpdater\\V2\\Updater::IMPLEMENTATION_VERSION' ) || version_compare( \Deckerweb\GitHubReleaseUpdater\V2\Updater::IMPLEMENTATION_VERSION, '2.2.0', '<' ) || ! defined( '\\Deckerweb\\GitHubReleaseUpdater\\V2\\Updater::SUPPORTS_HOST_TRANSLATIONS' ) || ! \Deckerweb\GitHubReleaseUpdater\V2\Updater::SUPPORTS_HOST_TRANSLATIONS ) { self::$error = true; return; }
-		if ( ! defined( '\\Deckerweb\\GitHubReleaseUpdater\\V2\\Updater::SUPPORTS_CATALOG_PROVIDER' ) || ! \Deckerweb\GitHubReleaseUpdater\V2\Updater::SUPPORTS_CATALOG_PROVIDER || ! function_exists( 'deckerweb_library_updater_options_v1' ) ) { self::$error = true; return; }
+		$updater_class = require DDW_BXQN_DIR . '/includes/deckerweb-github-release-updater-v2.php';
+		if ( ! is_string( $updater_class ) || ! class_exists( $updater_class, false ) || ! defined( $updater_class . '::IMPLEMENTATION_VERSION' ) || version_compare( constant( $updater_class . '::IMPLEMENTATION_VERSION' ), '2.2.1', '<' ) || ! defined( $updater_class . '::SUPPORTS_HOST_TRANSLATIONS' ) || ! constant( $updater_class . '::SUPPORTS_HOST_TRANSLATIONS' ) ) { self::$error = true; return; }
+		if ( ! defined( $updater_class . '::SUPPORTS_CATALOG_PROVIDER' ) || ! constant( $updater_class . '::SUPPORTS_CATALOG_PROVIDER' ) || ! function_exists( 'deckerweb_library_updater_options_v1' ) ) { self::$error = true; return; }
 		$artwork_version = substr( hash( 'sha256', hash_file( 'sha256', DDW_BXQN_DIR . '/assets/icon.svg' ) . hash_file( 'sha256', DDW_BXQN_DIR . '/assets/banner-en-1544x500.png' ) ), 0, 10 );
 		$banner_language = strpos( get_user_locale(), 'de' ) === 0 ? 'de' : 'en';
 		try {
-			$updater = new \Deckerweb\GitHubReleaseUpdater\V2\Updater(
+			$updater = new $updater_class(
 				DDW_BXQN_FILE, 'https://github.com/deckerweb/bricks-quicknav', 'Bricks QuickNav',
 				__( 'Quick access to Bricks content, templates, settings, add-ons, and resources from the WordPress toolbar.', 'bricks-quicknav' ),
 				array( 'icons' => array( 'default' => add_query_arg( 'ver', $artwork_version, plugins_url( 'assets/icon-256x256.png', DDW_BXQN_FILE ) ) ), 'banners' => array( 'low' => add_query_arg( 'ver', $artwork_version, plugins_url( 'assets/banner-' . $banner_language . '-772x250.png', DDW_BXQN_FILE ) ), 'high' => add_query_arg( 'ver', $artwork_version, plugins_url( 'assets/banner-' . $banner_language . '-1544x500.png', DDW_BXQN_FILE ) ) ) ),

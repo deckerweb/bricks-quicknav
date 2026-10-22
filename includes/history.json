@@ -1,5 +1,19 @@
 [
   {
+    "version": "2.0.2",
+    "date": {
+      "en": "October 22, 2026",
+      "de": "22. Oktober 2026"
+    },
+    "items": [
+      {
+        "category": "fixed",
+        "en": "Updated deckerweb Updater to 2.2.1 so QuickNav uses its bundled implementation even when another plugin loads an older updater first.",
+        "de": "deckerweb Updater auf 2.2.1 aktualisiert: QuickNav verwendet seine mitgelieferte Implementierung auch dann, wenn ein anderes Plugin zuvor einen älteren Updater lädt."
+      }
+    ]
+  },
+  {
     "version": "2.0.1",
     "date": {
       "en": "October 21, 2026",

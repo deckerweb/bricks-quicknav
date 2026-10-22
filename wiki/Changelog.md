@@ -2,6 +2,10 @@
 
 [Deutsch](Aenderungsverlauf)
 
+### 2.0.2 · October 22, 2026
+
+- **Fixed:** Updated deckerweb Updater to 2.2.1 so QuickNav uses its bundled implementation even when another plugin loads an older updater first.
+
 ### 2.0.1 · October 21, 2026
 
 - **Improved:** Updated deckerweb Library 1.1.0 and Updater 2.2.0 with verified catalog packages and Git Updater conflict notices.

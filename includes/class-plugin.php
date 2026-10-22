@@ -158,7 +158,7 @@ final class Plugin {
 			'version' => array( 'label' => __( 'Version', 'bricks-quicknav' ), 'value' => DDW_BXQN_VERSION ),
 			'builder' => array( 'label' => 'Bricks', 'value' => defined( 'BRICKS_VERSION' ) ? BRICKS_VERSION : __( 'Not active', 'bricks-quicknav' ) ),
 			'library' => array( 'label' => __( 'Bundled Library', 'bricks-quicknav' ), 'value' => '1.1.0' ),
-			'updater' => array( 'label' => 'deckerweb Updater', 'value' => Updates::$error ? __( 'Not loaded', 'bricks-quicknav' ) : '2.2.0' ),
+			'updater' => array( 'label' => 'deckerweb Updater', 'value' => Updates::$error ? __( 'Not loaded', 'bricks-quicknav' ) : '2.2.1' ),
 			'overrides' => array( 'label' => __( 'Configuration overrides', 'bricks-quicknav' ), 'value' => implode( ', ', array_filter( Settings::constant_map(), 'defined' ) ) ?: __( 'None', 'bricks-quicknav' ) ),
 		);
 		$info['bricks-quicknav'] = array( 'label' => 'Bricks QuickNav', 'fields' => $fields );

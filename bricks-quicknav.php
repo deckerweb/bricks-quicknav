@@ -3,7 +3,7 @@
  * Plugin Name: Bricks QuickNav
  * Plugin URI: https://github.com/deckerweb/bricks-quicknav
  * Description: Quick access to Bricks content, templates, settings, add-ons, and resources from the WordPress toolbar.
- * Version: 2.0.1
+ * Version: 2.0.2
  * Requires at least: 6.7
  * Requires PHP: 8.1
  * Author: David Decker – DECKERWEB
@@ -24,7 +24,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'DDW_BXQN_VERSION', '2.0.1' );
+define( 'DDW_BXQN_VERSION', '2.0.2' );
 define( 'DDW_BXQN_FILE', __FILE__ );
 define( 'DDW_BXQN_DIR', __DIR__ );
 

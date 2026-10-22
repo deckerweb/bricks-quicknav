@@ -2,6 +2,10 @@
 
 [English](Changelog)
 
+### 2.0.2 · 22. Oktober 2026
+
+- **Behoben:** deckerweb Updater auf 2.2.1 aktualisiert: QuickNav verwendet seine mitgelieferte Implementierung auch dann, wenn ein anderes Plugin zuvor einen älteren Updater lädt.
+
 ### 2.0.1 · 21. Oktober 2026
 
 - **Verbessert:** Aktualisierte deckerweb Library 1.1.0 und Updater 2.2.0 mit geprüften Katalogpaketen und Hinweisen auf Git-Updater-Konflikte.
