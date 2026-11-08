@@ -6,7 +6,7 @@
 
 Quick access to Bricks content, templates, settings, add-ons, and resources from the WordPress toolbar. Bricks QuickNav is an independent plugin.
 
-Version **2.0.2** · WordPress **6.7+** · PHP **8.1+**. Bricks must be the active parent theme for navigation. Includes deckerweb Library 1.1.0 and Updater 2.2.1. Without Bricks, navigation pauses safely and settings remain available. Bricks itself has its own requirements.
+Version **2.0.3** · WordPress **6.7+** · PHP **8.1+**. Bricks must be the active parent theme for navigation. Includes deckerweb Library 1.3.0 and Updater 2.4.0. Without Bricks, navigation pauses safely and settings remain available. Bricks itself has its own requirements.
 
 [GitHub Wiki](https://github.com/deckerweb/bricks-quicknav/wiki) · [FAQ](wiki/FAQ-by-topic.md)
 
@@ -118,6 +118,11 @@ Use ddw/quicknav/bricks_integrations for addon definitions, and ddw/quicknav/bri
 <a id="changelog"></a>
 
 ## Changelog
+
+### 2.0.3 · November 8, 2026
+
+- **Fixed:** Update deckerweb Library to 1.3.0 and Updater to 2.4.0, with catalog-independent updates, bounded downloads and stricter package checks.
+- **Fixed:** Reduce excess spacing beside the top-level toolbar icon by 6 pixels.
 
 ### 2.0.2 · October 22, 2026
 

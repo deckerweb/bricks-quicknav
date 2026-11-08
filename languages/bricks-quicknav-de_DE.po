@@ -1,6 +1,9 @@
 msgid ""
 msgstr "Project-Id-Version: Bricks QuickNav 2.0.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nMIME-Version: 1.0\nLanguage: de_DE\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
 
+msgid "%1$s of %2$s plugins"
+msgstr "%1$s von %2$s Plugins"
+
 msgid "%s is installed but inactive. Activate it first."
 msgstr "%s ist installiert, aber inaktiv. Bitte zuerst aktivieren."
 
@@ -132,6 +135,9 @@ msgstr "Das Archiv enthält zu viele Dateien."
 
 msgid "Archive symlinks are not permitted."
 msgstr "Symbolische Verknüpfungen sind im Archiv nicht erlaubt."
+
+msgid "Archive verification"
+msgstr "Archivprüfung"
 
 msgid "As of "
 msgstr "Stand: "
@@ -268,8 +274,20 @@ msgstr "Archiveintrag konnte nicht gelesen werden."
 msgid "Catalog URL"
 msgstr "Katalog-URL"
 
+msgid "Catalog approval"
+msgstr "Katalogfreigabe"
+
+msgid "Catalog diagnostics require a public catalog provider."
+msgstr "Die Katalogdiagnose benötigt einen öffentlichen Kataloganbieter."
+
 msgid "Catalog refreshed."
 msgstr "Katalog aktualisiert."
+
+msgid "Catalog retrieval does not limit updates of installed plugins. Those use their normal WordPress update provider."
+msgstr "Der Katalogabruf begrenzt keine Updates installierter Plugins. Diese verwenden ihren normalen WordPress-Updater."
+
+msgid "Catalog verification"
+msgstr "Katalogprüfung"
 
 msgid "Changelog"
 msgstr "Änderungsverlauf"
@@ -282,6 +300,9 @@ msgstr "Status prüfen"
 
 msgid "Checking status…"
 msgstr "Status wird geprüft…"
+
+msgid "Checksum verification"
+msgstr "Prüfsummenprüfung"
 
 msgid "Child Theme"
 msgstr "Child Theme"
@@ -333,6 +354,9 @@ msgstr "Bedingungen"
 
 msgid "Configuration overrides"
 msgstr "Konfigurationsvorgaben"
+
+msgid "Connection failed. Please try again later."
+msgstr "Die Verbindung ist fehlgeschlagen. Bitte später erneut versuchen."
 
 msgid "Content"
 msgstr "Inhalte"
@@ -568,6 +592,9 @@ msgstr "Globale Klassen"
 msgid "Gutenberg Settings"
 msgstr "Gutenberg-Einstellungen"
 
+msgid "HTTP status: %d."
+msgstr "HTTP-Status: %d."
+
 msgid "Hide catalog"
 msgstr "Katalog ausblenden"
 
@@ -591,6 +618,9 @@ msgstr "Import/ Export"
 
 msgid "Improved"
 msgstr "Verbessert"
+
+msgid "Inactive"
+msgstr "Inaktiv"
 
 msgid "Include unpublished content you can edit"
 msgstr "Bearbeitbare unveröffentlichte Inhalte einschließen"
@@ -618,6 +648,12 @@ msgstr "Installierte Add-ons"
 
 msgid "Installed but inactive"
 msgstr "Installiert, aber inaktiv"
+
+msgid "Installed plugin identity does not match the approved release."
+msgstr "Die Identität des installierten Plugins stimmt nicht mit dem freigegebenen Release überein."
+
+msgid "Installed plugins use their normal update provider. Reload the update information and try again."
+msgstr "Installierte Plugins verwenden ihren normalen Updater. Aktualisiere die Updateinformationen und versuche es erneut."
 
 msgid "Installed · inactive"
 msgstr "Installiert · inaktiv"
@@ -685,11 +721,17 @@ msgstr "Ungültige Netzwerkregel."
 msgid "Invalid network requirement."
 msgstr "Ungültige Netzwerkanforderung."
 
+msgid "Invalid package cleanup provider."
+msgstr "Ungültiger Anbieter für die Paketbereinigung."
+
 msgid "Invalid platform version."
 msgstr "Ungültige Plattformversion."
 
 msgid "Invalid plugin series."
 msgstr "Ungültige Plugin-Serie."
+
+msgid "Invalid private download limits."
+msgstr "Ungültige Grenzen für private Downloads."
 
 msgid "Invalid sort order."
 msgstr "Ungültige Sortierung."
@@ -699,6 +741,9 @@ msgstr "Ungültige Anzahl der GitHub-Sterne."
 
 msgid "Invalid stars date."
 msgstr "Ungültiges Datum der GitHub-Sterne."
+
+msgid "Invalid status filter."
+msgstr "Ungültiger Statusfilter."
 
 msgid "Items per group"
 msgstr "Einträge pro Gruppe"
@@ -862,6 +907,9 @@ msgstr "Keine freigegebenen Plugins passen zu dieser Auswahl."
 msgid "No icon"
 msgstr "Kein Icon"
 
+msgid "No update reported."
+msgstr "Kein Update gemeldet."
+
 msgid "None"
 msgstr "Keine"
 
@@ -928,6 +976,9 @@ msgstr "PHP-ZIP-Unterstützung wird benötigt."
 msgid "POST required."
 msgstr "Eine POST-Anfrage ist erforderlich."
 
+msgid "Package download"
+msgstr "Paketdownload"
+
 msgid "Package verification pending"
 msgstr "Paketprüfung ausstehend"
 
@@ -972,6 +1023,9 @@ msgstr "Plugin auf GitHub"
 
 msgid "Plugin series"
 msgstr "Plugin-Serien"
+
+msgid "Plugin status"
+msgstr "Plugin-Status"
 
 msgid "Plugin website"
 msgstr "Plugin-Website"
@@ -1065,6 +1119,9 @@ msgstr "Straßenkarte"
 
 msgid "SNN BRX Child Theme"
 msgstr "SNN BRX Child Theme"
+
+msgid "Safe package cleanup is unavailable for this update provider."
+msgstr "Für diesen Updateanbieter ist keine sichere Paketbereinigung verfügbar."
 
 msgid "Sat"
 msgstr "Sa"
@@ -1201,6 +1258,9 @@ msgstr "Sortieren nach"
 msgid "Source: GitHub"
 msgstr "Quelle: GitHub"
 
+msgid "Stage: %1$s. %2$s"
+msgstr "Fehlerstufe: %1$s. %2$s"
+
 msgid "Standard"
 msgstr "Standard"
 
@@ -1267,6 +1327,9 @@ msgstr "Das freigegebene Release hat sich geändert. Bitte zuerst die Updates ak
 msgid "The approved release could not be verified."
 msgstr "Der freigegebene Release konnte nicht geprüft werden."
 
+msgid "The archive or plugin identity could not be verified. Installation was stopped."
+msgstr "Das Archiv oder die Pluginidentität konnte nicht geprüft werden. Die Installation wurde gestoppt."
+
 msgid "The catalog URL is not an allowed first-party HTTPS endpoint."
 msgstr "Die Katalog-URL ist keine erlaubte eigene HTTPS-Quelle."
 
@@ -1279,17 +1342,35 @@ msgstr "Der Katalog ist deaktiviert."
 msgid "The catalog is hidden."
 msgstr "Der Katalog ist ausgeblendet."
 
+msgid "The catalog response is invalid, incompatible or too large."
+msgstr "Die Katalogantwort ist ungültig, inkompatibel oder zu groß."
+
+msgid "The connection timed out. Please try again later."
+msgstr "Die Zeit für die Verbindung wurde überschritten. Bitte später erneut versuchen."
+
 msgid "The deckerweb catalog could not load. Check platform requirements and the complete Library integration in the host plugin."
 msgstr "Der deckerweb-Katalog konnte nicht geladen werden. Bitte PHP-/WordPress-Anforderungen und die vollständige Library-Einbindung im Host-Plugin prüfen."
 
 msgid "The installed plugin identity could not be verified for this catalog update."
 msgstr "Die Identität des installierten Plugins konnte für dieses Katalogupdate nicht bestätigt werden."
 
+msgid "The installed plugin identity could not be verified. Use the Plugins screen to review it."
+msgstr "Die Identität des installierten Plugins konnte nicht geprüft werden. Prüfe es auf der Plugins-Seite."
+
 msgid "The online catalog is unavailable. Showing cached or bundled entries; online approval is checked again before installation."
 msgstr "Der Online-Katalog ist nicht erreichbar. Angezeigt wird der gespeicherte oder mitgelieferte Katalog; vor der Installation wird die Online-Freigabe erneut geprüft."
 
 msgid "The online catalog source is not trusted."
 msgstr "Die Online-Katalogquelle ist nicht vertrauenswürdig."
+
+msgid "The package checksum does not match the approved release. Installation was stopped."
+msgstr "Die Paketprüfsumme stimmt nicht mit der freigegebenen Version überein. Die Installation wurde gestoppt."
+
+msgid "The package did not pass the archive or plugin identity checks. Installation was stopped."
+msgstr "Das Paket hat die Archiv- oder Plugin-Identitätsprüfung nicht bestanden. Die Installation wurde gestoppt."
+
+msgid "The package does not match the approved checksum. Installation was stopped."
+msgstr "Das Paket entspricht nicht der freigegebenen Prüfsumme. Die Installation wurde gestoppt."
 
 msgid "The plugin must be installed in a stable slug directory."
 msgstr "Das Plugin muss in einem Verzeichnis mit einem festen Slug installiert sein."
@@ -1306,14 +1387,32 @@ msgstr "Die Prüfsumme des Releases stimmt nicht überein. Installation gestoppt
 msgid "The request could not be completed. Check the plugin status before trying again."
 msgstr "Die Anfrage konnte nicht abgeschlossen werden. Vor einem erneuten Versuch den Plugin-Status prüfen."
 
+msgid "The requirements below describe the catalog version for first installation, not an installed-plugin update."
+msgstr "Die folgenden Voraussetzungen beschreiben die Katalogversion für die Erstinstallation, nicht ein Bestandsupdate."
+
 msgid "The requirements below describe the offered release."
 msgstr "Die folgenden Voraussetzungen beziehen sich auf den angebotenen Release."
+
+msgid "The secure connection could not be verified."
+msgstr "Die sichere Verbindung konnte nicht bestätigt werden."
+
+msgid "The secure connection to the update server failed."
+msgstr "Die sichere Verbindung zum Updateserver ist fehlgeschlagen."
+
+msgid "The server address could not be resolved."
+msgstr "Die Serveradresse konnte nicht aufgelöst werden."
+
+msgid "The server returned HTTP %d. Please try again later."
+msgstr "Der Server hat HTTP %d zurückgegeben. Bitte später erneut versuchen."
 
 msgid "The update has not been confirmed. You can try again."
 msgstr "Die Aktualisierung wurde nicht bestätigt. Du kannst es erneut versuchen."
 
 msgid "The update package does not match the offered newer version."
 msgstr "Das Updatepaket stimmt nicht mit der angebotenen neueren Version überein."
+
+msgid "The update package identity, version or requirements could not be verified."
+msgstr "Identität, Version oder Anforderungen des Updatepakets konnten nicht bestätigt werden."
 
 msgid "The update package is missing required plugin files."
 msgstr "Im Updatepaket fehlen erforderliche Plugin-Dateien."
@@ -1326,6 +1425,21 @@ msgstr "Das Updatepaket benötigt eine neuere ClassicPress-Version."
 
 msgid "The update package requires a newer WordPress or PHP version."
 msgstr "Das Updatepaket benötigt eine neuere WordPress- oder PHP-Version."
+
+msgid "The update provider did not return valid update data."
+msgstr "Der Updateanbieter hat keine gültigen Updatedaten geliefert."
+
+msgid "The update request timed out. Try again later."
+msgstr "Die Updateanfrage hat zu lange gedauert. Versuche es später erneut."
+
+msgid "The update server address could not be resolved."
+msgstr "Die Adresse des Updateservers konnte nicht aufgelöst werden."
+
+msgid "The update server could not be reached. Try again later."
+msgstr "Der Updateserver ist nicht erreichbar. Versuche es später erneut."
+
+msgid "The update server returned an unsuccessful HTTP response."
+msgstr "Der Updateserver hat eine HTTP-Fehlerantwort zurückgegeben."
 
 msgid "These defaults apply to this website. Personal toolbar preferences are available in your user profile."
 msgstr "Diese Standardwerte gelten für diese Website. Persönliche Toolbar-Vorlieben findest Du in Deinem Benutzerprofil."
@@ -1396,8 +1510,17 @@ msgstr "%1$s bitte auf Version %2$s oder neuer aktualisieren."
 msgid "Update available"
 msgstr "Update verfügbar"
 
+msgid "Update available: %s"
+msgstr "Update verfügbar: %s"
+
 msgid "Update failed."
 msgstr "Aktualisierung fehlgeschlagen."
+
+msgid "Update information changed. Reload the page and try again."
+msgstr "Die Updateinformationen haben sich geändert. Lade die Seite neu und versuche es erneut."
+
+msgid "Update stopped at %1$s: %2$s"
+msgstr "Update gestoppt bei %1$s: %2$s"
 
 msgid "Update to %s"
 msgstr "Auf %s aktualisieren"
@@ -1408,8 +1531,14 @@ msgstr "Aktualisiert"
 msgid "Updating…"
 msgstr "Wird aktualisiert…"
 
+msgid "Use the Plugins screen to manage this installed plugin."
+msgstr "Verwalte dieses installierte Plugin auf der Plugins-Seite."
+
 msgid "Use website default"
 msgstr "Website-Standard verwenden"
+
+msgid "Verified first installations · Independent plugin updates"
+msgstr "Geprüfte Erstinstallationen · Unabhängige Pluginupdates"
 
 msgid "Version"
 msgstr "Version"

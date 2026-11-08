@@ -4,7 +4,7 @@ if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) { exit; }
 
 delete_site_transient( 'ddw_ghru_' . substr( md5( 'https://github.com/deckerweb/bricks-quicknav' ), 0, 24 ) );
 require_once __DIR__ . '/includes/deckerweb-plugin-library/lifecycle.php';
-deckerweb_library_uninstall_v3( __DIR__ . '/bricks-quicknav.php' );
+deckerweb_library_uninstall_v4( __DIR__ . '/bricks-quicknav.php' );
 
 /**
  * Remove opted-in website data with all helper state confined to this operation.

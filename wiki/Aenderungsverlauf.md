@@ -2,6 +2,11 @@
 
 [English](Changelog)
 
+### 2.0.3 · 8. November 2026
+
+- **Behoben:** deckerweb Library auf 1.3.0 und Updater auf 2.4.0 aktualisiert: Updates unabhängig vom Katalog, begrenzte Downloads und strengere Paketprüfung.
+- **Behoben:** Überflüssigen Abstand am obersten Toolbar-Icon um 6 Pixel reduziert.
+
 ### 2.0.2 · 22. Oktober 2026
 
 - **Behoben:** deckerweb Updater auf 2.2.1 aktualisiert: QuickNav verwendet seine mitgelieferte Implementierung auch dann, wenn ein anderes Plugin zuvor einen älteren Updater lädt.

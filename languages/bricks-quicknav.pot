@@ -1,6 +1,9 @@
 msgid ""
 msgstr "Project-Id-Version: Bricks QuickNav 2.0.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nMIME-Version: 1.0\nLanguage: de_DE_formal\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
 
+msgid "%1$s of %2$s plugins"
+msgstr ""
+
 msgid "%s is installed but inactive. Activate it first."
 msgstr ""
 
@@ -131,6 +134,9 @@ msgid "Archive contains too many files."
 msgstr ""
 
 msgid "Archive symlinks are not permitted."
+msgstr ""
+
+msgid "Archive verification"
 msgstr ""
 
 msgid "As of "
@@ -268,7 +274,19 @@ msgstr ""
 msgid "Catalog URL"
 msgstr ""
 
+msgid "Catalog approval"
+msgstr ""
+
+msgid "Catalog diagnostics require a public catalog provider."
+msgstr ""
+
 msgid "Catalog refreshed."
+msgstr ""
+
+msgid "Catalog retrieval does not limit updates of installed plugins. Those use their normal WordPress update provider."
+msgstr ""
+
+msgid "Catalog verification"
 msgstr ""
 
 msgid "Changelog"
@@ -281,6 +299,9 @@ msgid "Check status"
 msgstr ""
 
 msgid "Checking status…"
+msgstr ""
+
+msgid "Checksum verification"
 msgstr ""
 
 msgid "Child Theme"
@@ -332,6 +353,9 @@ msgid "Conditions"
 msgstr ""
 
 msgid "Configuration overrides"
+msgstr ""
+
+msgid "Connection failed. Please try again later."
 msgstr ""
 
 msgid "Content"
@@ -568,6 +592,9 @@ msgstr ""
 msgid "Gutenberg Settings"
 msgstr ""
 
+msgid "HTTP status: %d."
+msgstr ""
+
 msgid "Hide catalog"
 msgstr ""
 
@@ -590,6 +617,9 @@ msgid "Import/ Export"
 msgstr ""
 
 msgid "Improved"
+msgstr ""
+
+msgid "Inactive"
 msgstr ""
 
 msgid "Include unpublished content you can edit"
@@ -617,6 +647,12 @@ msgid "Installed add-ons"
 msgstr ""
 
 msgid "Installed but inactive"
+msgstr ""
+
+msgid "Installed plugin identity does not match the approved release."
+msgstr ""
+
+msgid "Installed plugins use their normal update provider. Reload the update information and try again."
 msgstr ""
 
 msgid "Installed · inactive"
@@ -685,10 +721,16 @@ msgstr ""
 msgid "Invalid network requirement."
 msgstr ""
 
+msgid "Invalid package cleanup provider."
+msgstr ""
+
 msgid "Invalid platform version."
 msgstr ""
 
 msgid "Invalid plugin series."
+msgstr ""
+
+msgid "Invalid private download limits."
 msgstr ""
 
 msgid "Invalid sort order."
@@ -698,6 +740,9 @@ msgid "Invalid star count."
 msgstr ""
 
 msgid "Invalid stars date."
+msgstr ""
+
+msgid "Invalid status filter."
 msgstr ""
 
 msgid "Items per group"
@@ -862,6 +907,9 @@ msgstr ""
 msgid "No icon"
 msgstr ""
 
+msgid "No update reported."
+msgstr ""
+
 msgid "None"
 msgstr ""
 
@@ -928,6 +976,9 @@ msgstr ""
 msgid "POST required."
 msgstr ""
 
+msgid "Package download"
+msgstr ""
+
 msgid "Package verification pending"
 msgstr ""
 
@@ -971,6 +1022,9 @@ msgid "Plugin on GitHub"
 msgstr ""
 
 msgid "Plugin series"
+msgstr ""
+
+msgid "Plugin status"
 msgstr ""
 
 msgid "Plugin website"
@@ -1064,6 +1118,9 @@ msgid "Roadmap"
 msgstr ""
 
 msgid "SNN BRX Child Theme"
+msgstr ""
+
+msgid "Safe package cleanup is unavailable for this update provider."
 msgstr ""
 
 msgid "Sat"
@@ -1201,6 +1258,9 @@ msgstr ""
 msgid "Source: GitHub"
 msgstr ""
 
+msgid "Stage: %1$s. %2$s"
+msgstr ""
+
 msgid "Standard"
 msgstr ""
 
@@ -1267,6 +1327,9 @@ msgstr ""
 msgid "The approved release could not be verified."
 msgstr ""
 
+msgid "The archive or plugin identity could not be verified. Installation was stopped."
+msgstr ""
+
 msgid "The catalog URL is not an allowed first-party HTTPS endpoint."
 msgstr ""
 
@@ -1279,16 +1342,34 @@ msgstr ""
 msgid "The catalog is hidden."
 msgstr ""
 
+msgid "The catalog response is invalid, incompatible or too large."
+msgstr ""
+
+msgid "The connection timed out. Please try again later."
+msgstr ""
+
 msgid "The deckerweb catalog could not load. Check platform requirements and the complete Library integration in the host plugin."
 msgstr ""
 
 msgid "The installed plugin identity could not be verified for this catalog update."
 msgstr ""
 
+msgid "The installed plugin identity could not be verified. Use the Plugins screen to review it."
+msgstr ""
+
 msgid "The online catalog is unavailable. Showing cached or bundled entries; online approval is checked again before installation."
 msgstr ""
 
 msgid "The online catalog source is not trusted."
+msgstr ""
+
+msgid "The package checksum does not match the approved release. Installation was stopped."
+msgstr ""
+
+msgid "The package did not pass the archive or plugin identity checks. Installation was stopped."
+msgstr ""
+
+msgid "The package does not match the approved checksum. Installation was stopped."
 msgstr ""
 
 msgid "The plugin must be installed in a stable slug directory."
@@ -1306,13 +1387,31 @@ msgstr ""
 msgid "The request could not be completed. Check the plugin status before trying again."
 msgstr ""
 
+msgid "The requirements below describe the catalog version for first installation, not an installed-plugin update."
+msgstr ""
+
 msgid "The requirements below describe the offered release."
+msgstr ""
+
+msgid "The secure connection could not be verified."
+msgstr ""
+
+msgid "The secure connection to the update server failed."
+msgstr ""
+
+msgid "The server address could not be resolved."
+msgstr ""
+
+msgid "The server returned HTTP %d. Please try again later."
 msgstr ""
 
 msgid "The update has not been confirmed. You can try again."
 msgstr ""
 
 msgid "The update package does not match the offered newer version."
+msgstr ""
+
+msgid "The update package identity, version or requirements could not be verified."
 msgstr ""
 
 msgid "The update package is missing required plugin files."
@@ -1325,6 +1424,21 @@ msgid "The update package requires a newer ClassicPress version."
 msgstr ""
 
 msgid "The update package requires a newer WordPress or PHP version."
+msgstr ""
+
+msgid "The update provider did not return valid update data."
+msgstr ""
+
+msgid "The update request timed out. Try again later."
+msgstr ""
+
+msgid "The update server address could not be resolved."
+msgstr ""
+
+msgid "The update server could not be reached. Try again later."
+msgstr ""
+
+msgid "The update server returned an unsuccessful HTTP response."
 msgstr ""
 
 msgid "These defaults apply to this website. Personal toolbar preferences are available in your user profile."
@@ -1396,7 +1510,16 @@ msgstr ""
 msgid "Update available"
 msgstr ""
 
+msgid "Update available: %s"
+msgstr ""
+
 msgid "Update failed."
+msgstr ""
+
+msgid "Update information changed. Reload the page and try again."
+msgstr ""
+
+msgid "Update stopped at %1$s: %2$s"
 msgstr ""
 
 msgid "Update to %s"
@@ -1408,7 +1531,13 @@ msgstr ""
 msgid "Updating…"
 msgstr ""
 
+msgid "Use the Plugins screen to manage this installed plugin."
+msgstr ""
+
 msgid "Use website default"
+msgstr ""
+
+msgid "Verified first installations · Independent plugin updates"
 msgstr ""
 
 msgid "Version"
